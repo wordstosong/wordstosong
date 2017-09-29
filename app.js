@@ -13,7 +13,7 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-var title = 'Speak Louder!';
+var title = 'Toons for Days';
 
 app.get('/', function (req, res) {
     res.render('home', { title: title });

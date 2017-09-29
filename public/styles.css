@@ -1,27 +1,114 @@
+@font-face {
+  font-family: 'Action Man';
+  src: url('Action_Man-webfont.eot');
+  src: url('Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Action_Man-webfont.woff2') format('woff2'),
+       url('Action_Man-webfont.woff') format('woff'),
+       url('Action_Man-webfont.ttf') format('truetype'),
+       url('Action_Man-webfont.svg#action_manregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  background: linear-gradient(45deg, #304d83, #667c92);
+  background: #5353a0;
   margin: 0;
 }
 
+h2, p {
+  font-family: "PT Sans";
+}
+
+.logo a {
+  display: block;
+  width: 40%;
+  max-width: 350px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 nav {
-  width: 100%;
-  max-width: 440px;
-  height: 70px;
-  margin-left: auto;
+  /* width: 100%; */
+  /* max-width: 440px; */
+  font-family: 'Action Man';
+  /* margin-left: auto;
   margin-right: auto;
   font-family: 'PT Sans';
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   position: relative;
-  background: #333;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  background: #333; */
 }
 
-.logo {
-  display: none;
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-.logo-small {
+li {
+  display: inline-block;
+  width: 25%;
+  max-width: 150px;
+  margin: 0 .5%;
+}
+
+.date-nav {
+  text-transform: uppercase;
+  font-family: "PT Sans";
+  font-size: small;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.date-nav-button {
+  display: inline-block;
+}
+.date-nav-button img {
+  height: 10px;
+  width: 30px;
+}
+
+.nav-date {
+  display: inline-block;
+}
+
+/* li {
+  float: left;
+  padding:10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+  background: #000;
+} */
+
+/* .menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 82px;
+  padding: 22px;
+  text-decoration: none;
+  background: #000;
+} */
+
+/* .logo-small {
   background-image: url(images/header/logo-brick-small.png);
   background-repeat: no-repeat;
   position: absolute;
@@ -31,11 +118,49 @@ nav {
   height: 114px;
   width: calc(334px / 2);
   background-position-x: center;
+} */
+
+/* Pages */
+.header-title {
+  font-family: "Action Man";
+  text-align: center;
+  letter-spacing: 4px;
+  color: #fff;
+  /* border-bottom: 1px solid #d9d9d9; */
+  background-color: #000;
 }
 
-@media only screen and (min-width: 440px) {
+.page-header {
+  padding: 24px;
 }
-.social-headers {
+
+.page-text {
+  /* margin: 20px; */
+  padding: 20px;
+  background-color: #fff;
+}
+
+.page-text h2 {
+  margin: 0;
+}
+
+@media only screen and (min-width: 700px) {
+
+
+  .page-text {
+    margin: 20px;
+  }
+
+  .date-nav {
+    font-size: x-large;
+  }
+
+  .date-nav-button img {
+    height: 15px;
+    width: 60px;
+  }
+  
+  /* .social-headers {
   display: none;
 }
 
@@ -54,15 +179,7 @@ li {
   float: left;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  letter-spacing: 3px;
-  width: 82px;
-  padding: 22px;
-  text-decoration: none;
-}
+
 
 li a:hover {
   background-color: #111;
@@ -266,19 +383,19 @@ p {
 
 /* Pages CSS */
 
-.header-image {
+/* .header-image {
   width: 100%;
   max-width: 440px;
   margin: auto;
   margin-top: 50px;
-}
+} */
 
-.header-image img {
+/* .header-image img {
   width: 100%;
   margin: auto;
-}
+} */
 
-.page-text {
+/* .page-text {
   max-width: 400px;
   margin: 20px auto;
   background-color: #F8EBD1;
@@ -286,18 +403,18 @@ p {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
   padding: 20px;
   overflow: auto;
-}
+} */
 
 
 /* About */
 
-.question {
+/* .question {
   font-weight: bold;
 }
 
 /* Cast */
 
-.characters-container {
+/* .characters-container {
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -312,10 +429,11 @@ p {
 }
 
 .character h1 {
-    margin: 5 0 16.75px 0;
+    margin: 5 0 16.75px 0; }*/
+  
 }
 
-@media only screen and (min-width: 650px) {
+/* @media only screen and (min-width: 650px) {
   nav {
     width: 85%;
     max-width: 850px;
@@ -531,4 +649,4 @@ p {
     width: 65%;
     max-width: none;
   }
-}
+} */
