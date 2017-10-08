@@ -132,10 +132,11 @@ li a {
   color: #fff;
   /* border-bottom: 1px solid #d9d9d9; */
   background-color: #000;
+  margin: 20px 0;
 }
 
 .page-header {
-  padding: 24px;
+  height: 100px;
 }
 
 .page-text {
