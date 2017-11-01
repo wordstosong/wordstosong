@@ -13,22 +13,10 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-var title = 'Toons for Days';
+var title = 'Words To Song - Jacob Kim Johnson\'s Porfolio';
 
 app.get('/', function (req, res) {
     res.render('home', { title: title });
-});
-
-app.get('/about', function (req, res) {
-    res.render('about', { title: title + ' | About' });
-});
-
-app.get('/archive', function (req, res) {
-    res.render('archive', { title: title + ' | Archive' });
-});
-
-app.get('/cast', function (req, res) {
-    res.render('cast', { title: title + ' | Cast' });
 });
 
 app.use(expressServer.static('public'));
