@@ -9,7 +9,7 @@ body {
 }
 
 #toTop {
-  font-family: 'forum';
+  font-family: 'forum', 'courier new';
   font-size: 30px;
   height: 25px;
   display: none;
