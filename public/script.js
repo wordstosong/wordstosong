@@ -179,17 +179,17 @@ function openIllModal() {
   }
   
   function illShowSlides(n) {
-    var l;
+    var i;
     var illSlides = document.getElementsByClassName("myIllSlides");
     var illDots = document.getElementsByClassName("ill-demo");
     var illCaptionText = document.getElementById("ill-caption");
     if (n > illSlides.length) {illSlideIndex = 1}
     if (n < 1) {illSlideIndex = illSlides.length}
-    for (l = 0; l < illSlides.length; l++) {
-        illSlides[l].style.display = "none";
+    for (i = 0; i < illSlides.length; i++) {
+        illSlides[i].style.display = "none";
     }
-    for (l = 0; l < illDots.length; l++) {
-        illDots[l].className = illDots[l].className.replace(" active", "");
+    for (i = 0; i < illDots.length; i++) {
+        illDots[i].className = illDots[i].className.replace(" active", "");
     }
     illSlides[illSlideIndex-1].style.display = "block";
     illDots[illSlideIndex-1].className += " active";
