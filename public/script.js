@@ -218,3 +218,7 @@ function openIllModal() {
     illDots[illSlideIndex-1].className += " active";
     illCaptionText.innerHTML = illDots[illSlideIndex-1].alt;
   };
+
+//   var date = new Date()
+//   document.write(date.getFullYear())
+//   document.getElementById('date').innerHTML = date;
