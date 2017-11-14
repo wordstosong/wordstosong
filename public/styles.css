@@ -508,6 +508,8 @@ img.hover-shadow {
   background: #000;
   margin: 0;
   padding: 10px 60px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -527,6 +529,10 @@ img.hover-shadow {
 
   .about-container, .resume-container, .portfolio-container, .contact-container {
     padding: 60px 20px;
+  }
+
+  .contact-container {
+    padding-bottom: 20px;
   }
 
   .name {
