@@ -19,6 +19,18 @@ app.get('/', function (req, res) {
     res.render('home', { title: title });
 });
 
+app.get('/sl-process', function (req, res) {
+    res.render('sl-process', { title: title + ' | Speak Louder Process' });
+});
+
+app.get('/werdzahn-process', function (req, res) {
+    res.render('werdzahn-process', { title: title + ' | Werdzahn Process' });
+});
+
+app.get('/wts-process', function (req, res) {
+    res.render('wts-process', { title: title + ' | Words to Song Process' });
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;

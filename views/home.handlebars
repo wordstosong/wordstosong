@@ -1,4 +1,12 @@
 <a id="toTop" title="Go to top" class="smoothScroll" href="#top-anchor">&#94;</a>
+<nav>
+    <ul>
+        <li><a class="smoothScroll" href='#resume-anchor'>resume</a></li>
+        <li><a class="smoothScroll" href='#portfolio-anchor'>portfolio</a></li>
+        <li><a class="smoothScroll" href='#contact-anchor'>contact</a></li>
+    </ul>
+        {{!-- <div class="burger"><a href="#nav">&equiv;</a></div> --}}
+</nav>
 <div class='content'>
     <div class='about-container'>
         <div class='about'>
@@ -95,24 +103,24 @@
                     <div class="dev-menu" id="myDevMenu">
                         <a href="javascript:void(0);" class="dev-burger" onclick="devMenu()">web development</a>
                         <div class="dev-port">
-                            <p class='overview'>Overview: These websites I have designed from scratch are in various stages of early development and contain either limited or dummy content. 
+                            <p class='overview'>Overview: These websites I have designed from scratch are in various stages of development and contain either limited or dummy content (excluding my portfolio site). 
                                 With constraints for time to actually produce the content, I thought it would be beneficial to demonstrate my abilities with HTML, CSS and JavaScript, with intentions of producing genuine content in the future.</p>
                             <div class='site-list'>
                                 <div class='speak-louder-container'>
                                     <a href="http://www.speak-louder.com" target='_blank'><img class='web-image' src='/images/web-dev/sl-image.png' alt='Speak Louder! logo image'></a>
-                                    <p class='cap'><i>Speak Louder!</i> is a webcomic with responsive design.</p>
+                                    <p class='cap'><i>Speak Louder!</i> is a webcomic with responsive design.<br /> <a href='sl-process'>The Process</a></p>
                                 </div>
-                                <div class='toons-for-days-container'>
+                                {{!-- <div class='toons-for-days-container'>
                                     <a href="http://toonsfordays.herokuapp.com" target='_blank'><img class='web-image' src='/images/web-dev/tfd-image.png' alt='Toons for Days logo image'></a>
                                     <p class='cap'><i>Toons for Days</i> is a place for cartoonists to post single-panel comics.</p>
-                                </div>
+                                </div> --}}
                                 <div class='werdzahn-container'>
                                     <a href="http://werdzahn.herokuapp.com" target='_blank'><img class='web-image' src='/images/web-dev/werdzahn-image.png' alt='werdzahn logo image'></a>
-                                    <p class='cap'><i>Werdzahn</i> is an entertainment and culture blog.</p>
+                                    <p class='cap'><i>Werdzahn</i> is an entertainment and culture blog.<br /> <a href='werdzahn-process'>The Process</a></p>
                                 </div>
                                 <div class='words-to-song-container'>
                                     <a href="http://www.wordstosong.me" target='_blank'><img class='web-image' src='/images/web-dev/wts-image.png' alt='Words to song logo image'></a>
-                                    <p class='cap'><i>Words to Song</i> is the portfolio site that you are currently exploring!</p>
+                                    <p class='cap'><i>Words to Song</i> is the portfolio site that you are currently exploring!<br /> <a href='wts-process'>The Process</a></p>
                                 </div>
                             </div>
                         </div>
@@ -392,12 +400,12 @@
                                             <img src="/images/graph-des/print/glaser-spread-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(7)" class="hover-shadow cursor">
                                             <p class='cap'>Magazine spread project of Milton Glaser</p>
                                         </div>
-                                        <div class="column">
+                                        {{!-- <div class="column">
                                             <img src="/images/graph-des/print/luther-rockapella-poster-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(8)" class="hover-shadow cursor">
                                             <p class='cap'>Rockapella promotional poster for Luther College</p>
-                                        </div>
+                                        </div> --}}
                                         <div class="column">
-                                            <img src="/images/graph-des/print/ollymoss-poster-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(9)" class="hover-shadow cursor">
+                                            <img src="/images/graph-des/print/ollymoss-poster-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(8)" class="hover-shadow cursor">
                                             <p class='cap'>Poster for artist Olly Moss event</p>
                                         </div>
                                     </div>
@@ -434,9 +442,9 @@
                                                 <img src="/images/graph-des/print/glaser-spread.png" style="width:100%">
                                             </div>
 
-                                            <div class="myPrintSlides">
+                                            {{!-- <div class="myPrintSlides">
                                                 <img src="/images/graph-des/print/luther-rockapella-poster.png" style="width:100%">
-                                            </div>
+                                            </div> --}}
 
                                             <div class="myPrintSlides">
                                                 <img src="/images/graph-des/print/ollymoss-poster.png" style="width:100%">
@@ -472,11 +480,11 @@
                                             <div class="column">
                                                 <img class="print-demo cursor" src="/images/graph-des/print/glaser-spread-prev.png" style="width:100%" onclick="printCurrentSlide(7)" alt="Milton Glaser magazine spread">
                                             </div>
-                                            <div class="column">
+                                            {{!-- <div class="column">
                                                 <img class="print-demo cursor" src="/images/graph-des/print/luther-rockapella-poster-prev.png" style="width:100%" onclick="printCurrentSlide(8)" alt="Luther College Rockapella poster">
-                                            </div>
+                                            </div> --}}
                                             <div class="column">
-                                                <img class="print-demo cursor" src="/images/graph-des/print/ollymoss-poster-prev.png" style="width:100%" onclick="printCurrentSlide(9)" alt="Olly Moss poster">
+                                                <img class="print-demo cursor" src="/images/graph-des/print/ollymoss-poster-prev.png" style="width:100%" onclick="printCurrentSlide(8)" alt="Olly Moss poster">
                                             </div>                                               
                                         </div>
                                     </div>

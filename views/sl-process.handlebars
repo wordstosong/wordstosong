@@ -1,0 +1,134 @@
+<a id="toTop" title="Go to top" class="smoothScroll" href="#top-anchor">&#94;</a>
+<div class='process-body'>
+    <div class='process-content'>
+        <h2><i>Speak Louder</i> Process</h2>
+        <h3>The Proposal</h3>
+        <p>
+            I have been conceptualizing a multi-panel webcomic that breaks the standardized format that many webcomics use (largely because of the popular WordPress template, ComicPress). 
+            While it is meant to have the familiar multi-panel look, there are key aspects that distinguish itself from the static format. 
+            My comic will have interactivity based on clicking designated panels to change the perspective of characters (namely, their thoughts). Initially, I had attempted to customize the ComicPress template, but found it limiting for my ideas. 
+            Thus, it led me to design the website from scratch.
+        </p>
+        <p>
+            Another aspect I want to incorporate in my design is mobile-responsiveness. 
+            A chronic issue with the vast majority of webcomics is a lack of really any friendliness to mobile devices (again, partially due to many using ComicPress), so I want to distinguish my comic as one that can be easily experienced on any device.
+        </p>
+        <h3>The Process</h3>
+        <p>
+            The first mockup of the desktop design closely resembled what I had in mind with the customized ComicPress template. 
+            This included the comic container itself, the comic info space below, and a right sidebar that connects with social media (specifically, my Twitter feed). 
+            On top of the full desktop mockup, I decided to include two breaking points for mobile-responsiveness.
+        </p>
+        <p>
+            Collaborating with a developer friend via GitHub, we built the site on the Express framework for Node.js and used Handlebars for templating. 
+        </p>
+        <p> 
+            While development was running pretty smoothly, I wasn’t completely satisfied with design choices I had made and stuck with. 
+            I decided to simplify things by redoing the header and tweaking the logo, cleaning up color choices, and removing the sidebar to bring ultimate focus to the comic content and nothing else. 
+        </p>
+        <h3>The Progress</h3>
+        <p>
+            In terms of web design and development, the site is virtually in working order. 
+            The only thing holding me back is content creation. 
+            There are also some content-related features that will need to be implemented, as well (e.g. social share buttons, comic navigation, comments).
+        </p>
+        <h3>The Presentation</h3>
+        <div class='sl-list'>
+            <div class="row">
+                <div class="column">
+                    <img src="/images/web-dev/process/mock1-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(1)" class="hover-shadow cursor">
+                    <p class='cap'>First wireframe/mock-up of desktop version</p>
+                </div>
+                <div class="column">
+                    <img src="/images/web-dev/process/mock1-color-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(2)" class="hover-shadow cursor">
+                    <p class='cap'>First mock-up in color</p>
+                </div>
+                <div class="column">
+                    <img src="/images/web-dev/process/mock2-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(3)" class="hover-shadow cursor">
+                    <p class='cap'>Revised mock-up of desktop version</p>
+                </div>
+                <div class="column">
+                    <img src="/images/web-dev/process/midbreak-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(4)" class="hover-shadow cursor">
+                    <p class='cap'>Mock-up of mid-break version of mobile responsive design</p>
+                </div>
+                <div class="column">
+                    <img src="/images/web-dev/process/mobile-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(5)" class="hover-shadow cursor">
+                    <p class='cap'>Mock-up of mobile version of mobile responsive design</p>
+                </div>
+                <div class="column">
+                    <img src="/images/web-dev/process/live-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(6)" class="hover-shadow cursor">
+                    <p class='cap'>Screenshot of desktop version of live site</p>
+                </div>
+                <div class="column">
+                    <img src="/images/web-dev/process/live-mobile-prev.png" style="width:100%" onclick="openSLModal();slCurrentSlide(7)" class="hover-shadow cursor">
+                    <p class='cap'>Screenshot of mobile version of live site</p>
+                </div>
+            </div>
+
+            <div id="mySLModal" class="modal">
+                <span class="close cursor" onclick="closeSLModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/mock1.png" style="width:100%">
+                    </div>
+
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/mock1-color.png" style="width:100%">
+                    </div>
+
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/mock2.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/midbreak.png" style="width:100%">
+                    </div>
+
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/mobile.png" style="width:100%">
+                    </div>
+
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/live.png" style="width:100%">
+                    </div>
+
+                    <div class="mySLSlides">
+                        <img src="/images/web-dev/process/live-mobile.png" style="width:100%">
+                    </div>
+
+                    
+                    <a class="prev" onclick="slPlusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="slPlusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                        <p id="sl-caption"></p>
+                    </div>
+
+
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/mock1-prev.png" style="width:100%" onclick="slCurrentSlide(1)" alt="Speak Louder first wireframe">
+                    </div>
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/mock1-color-prev.png" style="width:100%" onclick="slCurrentSlide(2)" alt="Speak Louder first mock-up color">
+                    </div>
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/mock2-prev.png" style="width:100%" onclick="slCurrentSlide(3)" alt="Speak Louder revised mock-up">
+                    </div>
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/midbreak-prev.png" style="width:100%" onclick="slCurrentSlide(4)" alt="Speak Louder midbreak mock-up">
+                    </div>
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/mobile-prev.png" style="width:100%" onclick="slCurrentSlide(5)" alt="Speak Louder mobile mock-up">
+                    </div>
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/live-prev.png" style="width:100%" onclick="slCurrentSlide(6)" alt="Speak Louder desktop screenshot">
+                    </div>
+                    <div class="column">
+                        <img class="sl-demo cursor" src="/images/web-dev/process/live-mobile-prev.png" style="width:100%" onclick="slCurrentSlide(7)" alt="Speak Louder mobile screenshot">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>

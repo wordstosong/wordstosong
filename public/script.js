@@ -219,6 +219,124 @@ function openIllModal() {
     illCaptionText.innerHTML = illDots[illSlideIndex-1].alt;
   };
 
+  //   SPEAK LOUDER LIGHTBOX
+
+  function openSLModal() {
+    document.getElementById('mySLModal').style.display = "block";
+  }
+  
+  function closeSLModal() {
+    document.getElementById('mySLModal').style.display = "none";
+  }
+  
+  var slSlideIndex = 1;
+  slShowSlides(slSlideIndex);
+  
+  function slPlusSlides(n) {
+    slShowSlides(slSlideIndex += n);
+  }
+  
+  function slCurrentSlide(n) {
+    slShowSlides(slSlideIndex = n);
+  }
+  
+  function slShowSlides(n) {
+    var i;
+    var slSlides = document.getElementsByClassName("mySLSlides");
+    var slDots = document.getElementsByClassName("sl-demo");
+    var slCaptionText = document.getElementById("sl-caption");
+    if (n > slSlides.length) {slSlideIndex = 1}
+    if (n < 1) {slSlideIndex = slSlides.length}
+    for (i = 0; i < slSlides.length; i++) {
+        slSlides[i].style.display = "none";
+    }
+    for (i = 0; i < slDots.length; i++) {
+        slDots[i].className = slDots[i].className.replace(" active", "");
+    }
+    slSlides[slSlideIndex-1].style.display = "block";
+    slDots[slSlideIndex-1].className += " active";
+    slCaptionText.innerHTML = slDots[slSlideIndex-1].alt;
+  };
+
+  //   WERDZAHN LIGHTBOX
+
+  function openWerdzahnModal() {
+    document.getElementById('myWerdzahnModal').style.display = "block";
+  }
+  
+  function closeWerdzahnModal() {
+    document.getElementById('myWerdzahnModal').style.display = "none";
+  }
+  
+  var werdzahnSlideIndex = 1;
+  werdzahnShowSlides(werdzahnSlideIndex);
+  
+  function werdzahnPlusSlides(n) {
+    werdzahnShowSlides(werdzahnSlideIndex += n);
+  }
+  
+  function werdzahnCurrentSlide(n) {
+    werdzahnShowSlides(werdzahnSlideIndex = n);
+  }
+  
+  function werdzahnShowSlides(n) {
+    var i;
+    var werdzahnSlides = document.getElementsByClassName("myWerdzahnSlides");
+    var werdzahnDots = document.getElementsByClassName("werdzahn-demo");
+    var werdzahnCaptionText = document.getElementById("werdzahn-caption");
+    if (n > werdzahnSlides.length) {werdzahnSlideIndex = 1}
+    if (n < 1) {werdzahnSlideIndex = werdzahnSlides.length}
+    for (i = 0; i < werdzahnSlides.length; i++) {
+      werdzahnSlides[i].style.display = "none";
+    }
+    for (i = 0; i < werdzahnDots.length; i++) {
+      werdzahnDots[i].className = werdzahnDots[i].className.replace(" active", "");
+    }
+    werdzahnSlides[werdzahnSlideIndex-1].style.display = "block";
+    werdzahnDots[werdzahnSlideIndex-1].className += " active";
+    werdzahnCaptionText.innerHTML = werdzahnDots[werdzahnSlideIndex-1].alt;
+  };
+
+  //   WORDS TO SONG LIGHTBOX
+
+  function openWTSModal() {
+    document.getElementById('myWTSModal').style.display = "block";
+  }
+  
+  function closeWTSModal() {
+    document.getElementById('myWTSModal').style.display = "none";
+  }
+  
+  var wtsSlideIndex = 1;
+  wtsShowSlides(wtsSlideIndex);
+  
+  function wtsPlusSlides(n) {
+    wtsShowSlides(wtsSlideIndex += n);
+  }
+  
+  function wtsCurrentSlide(n) {
+    wtsShowSlides(wtsSlideIndex = n);
+  }
+  
+  function wtsShowSlides(n) {
+    var i;
+    var wtsSlides = document.getElementsByClassName("myWTSSlides");
+    var wtsDots = document.getElementsByClassName("wts-demo");
+    var wtsCaptionText = document.getElementById("wts-caption");
+    if (n > wtsSlides.length) {wtsSlideIndex = 1}
+    if (n < 1) {wtsSlideIndex = wtsSlides.length}
+    for (i = 0; i < wtsSlides.length; i++) {
+      wtsSlides[i].style.display = "none";
+    }
+    for (i = 0; i < wtsDots.length; i++) {
+      wtsDots[i].className = wtsDots[i].className.replace(" active", "");
+    }
+    wtsSlides[wtsSlideIndex-1].style.display = "block";
+    wtsDots[wtsSlideIndex-1].className += " active";
+    wtsCaptionText.innerHTML = wtsDots[wtsSlideIndex-1].alt;
+  };
+
+
 //   var date = new Date()
 //   document.write(date.getFullYear())
 //   document.getElementById('date').innerHTML = date;

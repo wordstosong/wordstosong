@@ -1,0 +1,137 @@
+<a id="toTop" title="Go to top" class="smoothScroll" href="#top-anchor">&#94;</a>
+<div class='process-body'>
+    <div class='process-content'>
+        <h2><i>werdzahn</i> Process</h2>
+        <h3>The Proposal</h3>
+        <p>
+           I consume and discuss pop culture on a regular basis, so I wanted to create a platform to record and share my thoughts (words) on any given subject I want to talk about -- hence “werdzahn.” 
+           It will feature the topics of movies, television, music, and culture (which conveniently includes anything else I feel compelled to write about).  
+           Unlike a lot of entertainment magazines and blogs, where there’s an underlying “brand” voice (and includes a lot of news), the intention of this one will be fully in my personality (or the personality of other writers if I have guest writers). 
+           There will be no news, just feelings and opinions.
+        </p>
+        <p>
+            Ultimately, I will incorporate my own illustrations and designs as header images, to fully put my stamp on the content (and hopefully makes it stand out a bit).
+        </p>
+        <h3>The Process</h3>
+        <p>
+            I wanted a clean design. Many entertainment blogs and online magazines I read are so busy with content, that it can get overwhelming. 
+            Granted, they operate on such a large scale compared to my perceived coverage, but I think many content-focused sites compromise design to maximize content real estate.
+        </p>
+        <p>
+            Keeping it simple, I dedicated three featured articles and split the rest of the content into two categories in columns (latest regular posts and latest reviews) with a column designated for favorites. 
+            I haven’t decided how that designation will happen -- whether automated by most read or handpicked by me.
+        </p>
+        <p>
+            Content is color-coded by category, in order to help the user experience. 
+            Time will tell how much the color palette will stretch in order to accommodate for the list of important categories I want to designate.
+        </p>
+        <p>
+            I decided one breakpoint was sufficient for mobile-responsiveness. 
+            Other factors to note is that it is built with Express for Node.js and uses Handlebars for templating.
+        </p>
+        <h3>The Progress</h3>
+        <p>
+            The site is mostly built to my desired design. However, it is exclusively using “dummy” content while under construction. 
+            I have yet to add a system of automatically listing new articles in their designated places on the site, so it’s currently done manually. 
+            Additionally, I would like to include some social media share buttons, as well as some other interactive JavaScript (like a return to top button).
+        </p>
+        <h3>The Presentation</h3>
+            <div class='werdzahn-list'>
+                <div class="row">
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-wireframe-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(1)" class="hover-shadow cursor">
+                        <p class='cap'>Wireframe of desktop version</p>
+                    </div>
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-desktop-mock-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(2)" class="hover-shadow cursor">
+                        <p class='cap'>Desktop mock-up</p>
+                    </div>
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-mobile-mock-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(3)" class="hover-shadow cursor">
+                        <p class='cap'>Mobile mock-up</p>
+                    </div>
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-article-mock-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(4)" class="hover-shadow cursor">
+                        <p class='cap'>Article mock-up</p>
+                    </div>
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-desktop-live-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(5)" class="hover-shadow cursor">
+                        <p class='cap'>Screenshot of desktop version of live site</p>
+                    </div>
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-mobile-live-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(6)" class="hover-shadow cursor">
+                        <p class='cap'>Screenshot of mobile version of live site</p>
+                    </div>
+                    <div class="column">
+                        <img src="/images/web-dev/process/werdzahn-article-live-prev.png" style="width:100%" onclick="openWerdzahnModal();werdzahnCurrentSlide(7)" class="hover-shadow cursor">
+                        <p class='cap'>Screenshot of article example of live site</p>
+                    </div>
+            </div>
+
+            <div id="myWerdzahnModal" class="modal">
+                <span class="close cursor" onclick="closeWerdzahnModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-wireframe.png" style="width:100%">
+                    </div>
+
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-desktop-mock.png" style="width:100%">
+                    </div>
+
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-mobile-mock.png" style="width:100%">
+                    </div>
+                    
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-article-mock.png" style="width:100%">
+                    </div>
+
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-desktop-live.png" style="width:100%">
+                    </div>
+
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-mobile-live.png" style="width:100%">
+                    </div>
+
+                    <div class="myWerdzahnSlides">
+                        <img src="/images/web-dev/process/werdzahn-article-live.png" style="width:100%">
+                    </div>
+
+                    
+                    <a class="prev" onclick="werdzahnPlusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="werdzahnPlusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                        <p id="werdzahn-caption"></p>
+                    </div>
+
+
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-wireframe-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(1)" alt="Werdzahn desktop wireframe">
+                    </div>
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-desktop-mock-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(2)" alt="Werdzahn desktop mock-up">
+                    </div>
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-mobile-mock-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(3)" alt="Werdzahn mobile mock-up">
+                    </div>
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-article-mock-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(4)" alt="Werdzahn article mock-up">
+                    </div>
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-desktop-live-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(5)" alt="Werdzahn desktop screenshot">
+                    </div>
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-mobile-live-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(6)" alt="Werdzahn mobile screenshot">
+                    </div>
+                    <div class="column">
+                        <img class="werdzahn-demo cursor" src="/images/web-dev/process/werdzahn-article-live-prev.png" style="width:100%" onclick="werdzahnCurrentSlide(7)" alt="Werdzahn article screenshot">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
