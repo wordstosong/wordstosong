@@ -13,31 +13,57 @@
             <h1 class='name'>Jacob Kim Johnson</h1>
             <img class='headshot' src='/images/headshot.png' alt='Jacob picture'>
             <div class='bio'>
-                <p>I’m a programming, design and creative marketing professional with a passion for all parts of the creative process. With a strong affinity for problem-solving, my creativity, critical thinking and collaborative nature have been very beneficial as personal strengths. Having worked for organizations including nonprofits and start-ups, as well as in the media and arts/entertainment, I have gained a distinct ability to examine situations from all kinds of perspectives. It has helped me work on figuring out details while staying focused on the big picture.</p>
-                <p id='last'>In my free time, there’s a strong chance I’m either indulging in live music and film or discussing music, film and television with friends. You are also likely to catch me trying to improve and enrich myself physically and mentally by listening to podcasts, reading, drawing, strumming on the guitar or exercising. I like to keep my mind active in thought, to say the least.</p>
+                <p>
+                    I’m a design, programming, and creative marketing professional with a passion for all things creative. 
+                    Having a strong desire for problem-solving, my creativity, thoughtfulness, critical thinking, and collaborative nature have been beneficial as strengths, both personally and professionally. 
+                    I have worked for organizations that include nonprofits and start-ups, as well as in the media and arts/entertainment, which have given me the distinct ability to examine situations and consider strategies from different perspectives. 
+                    It has helped me be more open-minded as I figure out the details, while focusing on the big picture.
+                </p>
+                <p>
+                    In my free time, there’s a strong chance I’m trying to improve myself physically and mentally in some capacity. 
+                    Whether it’s by binging on podcasts, consuming (and discussing) music and film, strumming on the guitar, or going for a jog with my dog, it’s important for me to always keep enriching my life. 
+                    I also have creative projects keeping me busy and helping me continue to build my professional skills. 
+                </p>
+                <p>
+                    So, how does “Words to Song” relate to all of this?  
+                    It may come as a surprise, but the name “Jacob Johnson” isn’t particularly unique. 
+                    In the digital landscape, it is helpful to have a distinct identity for the likes of SEO and social media, so relying on my name wasn't going to cut it in setting me apart. 
+                    Several years ago, I came across lyrics from the song “Jacob” by Sufjan Stevens (my favorite musician):
+                </p>
+                <blockquote>
+                    He took his mother’s <b>words to song</b>
+                </blockquote>
+                <p id='last'>
+                    It really resonated with me, not only because of my namesake, but because I feel it exemplifies the creative process in three words. 
+                    Because of those factors, it felt clever and poetic, without being overly obvious.
+                    Thus, “Words to Song” became my internet handle. 
+                    </p>
             </div>
-        </div> 
+        </div>
+        {{!-- <a name='resume-anchor'></a> --}}
     </div>    
     <div class='resume-container'>
         <div class='resume'>
-            <a name='resume-anchor'><h2>resume</h2></a>
+            <a name='resume-anchor'class='resume-anchor1'></a>
+            <h2>resume</h2>
             <p class='linkedin'><a href='https://www.linkedin.com/in/jacobkimjohnson' target='_blank'>LinkedIn Profile</a></p>
             <div class='highlights'>
-                <p>Experience in a variety of industries, including start-ups, nonprofits, media and arts/entertainment.</p>
-                <p>Achievement highlights:</p>
+                <p class='resume-p'>I have experience in industries including start-ups, nonprofits, media, and arts/entertainment.</p>
+                <p class='resume-p'>Achievement highlights:</p>
                     <ul>
-                        <li>Under my direction, an organization's Facebook Page Likes increased by 70% and average weekly reach increased by a factor of 10</li>
-                        <li>Twitter Followers increased by 161%</li>
-                        <li>Yearly website traffic increased by 110%, largely by featuring content to better suit readership</li>
+                        <li>Helped plan, research, test, and implement website functionality to help improve user experience</li>
+                        <li>Designed visual mockups of web pages for a website updates and redesigns</li>
+                        <li>Under my coordination, the organization's Facebook Page Likes increased by 70% and average weekly reach increased by a factor of 10</li>
+                        <li>The organization's Twitter Followers increased by 161%</li>
+                        <li>Yearly traffic to the organization's website increased by 110%, largely by adjusting strategies to feature content to better suit readership</li>
                         <li>Brought more focus to the organization's social media presence, making it the primary entry point for the website's content</li>
                         <li>Changed social media and website strategies to better suit audience interests and increase interaction</li>
                         <li>Designed logo concepts for an organization's main brand and blog</li>
-                        <li>Designed visual compositions of web pages for a website redesign</li>
-                        <li>Implemented website upgrades to help improve user-experience and site navigation</li>
-                        <li>Wrote blog articles and illustrated companion cartoons</li>
+                        <li>Wrote industry-focused blog articles and illustrated companion cartoons</li>
                     </ul>
             </div>
             <div class='skills'>
+                <h3 class='skills-title'>skills &amp; experience with:</h3>
                 <div class='skills-cat'>
                     <h3 class='skills-head'>web development</h3>
                     <h4 class='skills-subhead'>HTML</h4>
@@ -50,7 +76,7 @@
                     <p class='skills-details'>GitHub</p>
                 </div>
                 <div class='skills-cat'>
-                    <h3 class='skills-head'>design</h3>
+                    <h3 class='skills-head'>design / ux / ui</h3>
                     <h4 class='skills-subhead'>Photoshop</h4>
                     <p class='skills-details'>Graphic Creating/Editing</p>
                     <p class='skills-details'>Illustration</p>
@@ -93,18 +119,21 @@
                     <p class='skills-details'>Tumblr</p>
                 </div>
             </div>
+            {{!-- <a name='portfolio-anchor'></a> --}}
         </div>    
     </div>
     <div class='portfolio-container'>
         <div class='portfolio'>
-            <a name='portfolio-anchor'><h2>portfolio</h2></a>
+            <a name ='portfolio-anchor' class='portfolio-anchor1'></a>
+            <h2>portfolio</h2>
                 <p class='port-sub'>Click on any of the following categories for examples of work</p>
                 <div class='port-menus'>
                     <div class="dev-menu" id="myDevMenu">
-                        <a href="javascript:void(0);" class="dev-burger" onclick="devMenu()">web development</a>
+                        <a href="javascript:void(0);" class="dev-burger" onclick="devMenu()">web dev / ux / ui</a>
                         <div class="dev-port">
-                            <p class='overview'>Overview: These websites I have designed from scratch are in various stages of development and contain either limited or dummy content (excluding my portfolio site). 
-                                With constraints for time to actually produce the content, I thought it would be beneficial to demonstrate my abilities with HTML, CSS and JavaScript, with intentions of producing genuine content in the future.</p>
+                            <p class='overview'>Overview: Most of these websites I have designed from scratch are in various stages of development and contain either limited or dummy content (excluding my portfolio site). 
+                                With constraints for time to actually produce the content, I thought it would be beneficial to demonstrate my abilities with HTML, CSS and JavaScript, with intentions of producing genuine content in the future. 
+                                The exception is CBE International, which only demonstrates my UX/UI process of the website. </p>
                             <div class='site-list'>
                                 <div class='speak-louder-container'>
                                     <a href="http://www.speak-louder.com" target='_blank'><img class='web-image' src='/images/web-dev/sl-image.png' alt='Speak Louder! logo image'></a>
@@ -119,8 +148,12 @@
                                     <p class='cap'><i>Werdzahn</i> is an entertainment and culture blog.<br /> <a href='werdzahn-process'>The Process</a></p>
                                 </div>
                                 <div class='words-to-song-container'>
-                                    <a href="http://www.wordstosong.me" target='_blank'><img class='web-image' src='/images/web-dev/wts-image.png' alt='Words to song logo image'></a>
+                                    <a href="http://www.wordstosong.me" target='_blank'><img class='web-image' src='/images/web-dev/wts-logo-update.png' alt='Words to song logo image'></a>
                                     <p class='cap'><i>Words to Song</i> is the portfolio site that you are currently exploring!<br /> <a href='wts-process'>The Process</a></p>
+                                </div>
+                                <div class='cbe-container'>
+                                    <a href="/cbe-process" target='_blank'><img class='web-image' src='/images/web-dev/cbe-image.png' alt='CBE logo image'></a>
+                                    <p class='cap'>CBE International is a nonprofit organization where I worked as its designer <br /><a href='cbe-process'>The Process</a></p>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +166,7 @@
                                 <div class='logo-designs'>
                                     <h3 class='des-subhead'>logo designs</h3>
                                     <p class='sub-overview'>Working as the graphic designer and web content coordinator for CBE International, 
-                                        I assisted with the rebranding process and created concepts for both the main logo and the organization’s blog, Arise.</p>
+                                        I assisted with the rebranding process and created concepts for both the main logo and the organization’s blog, <i>Arise.</i></p>
                                     <div class='logo-list'>
                                     <div class="row">
                                         <div class="column">
@@ -150,15 +183,15 @@
                                         </div>
                                         <div class="column">
                                             <img src="/images/graph-des/logos/arise-logo1-prev.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(4)" class="hover-shadow cursor">
-                                            <p class='cap'>Arise blog concepts utilizing whitespace</p>
+                                            <p class='cap'><i>Arise</i> blog concepts utilizing whitespace</p>
                                         </div>
                                         <div class="column">
                                             <img src="/images/graph-des/logos/arise-logo2-prev.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(5)" class="hover-shadow cursor">
-                                            <p class='cap'>Arise blog concepts to convey its "broadcasting" nature</p>
+                                            <p class='cap'><i>Arise</i> blog concepts to convey its "broadcasting" nature</p>
                                         </div>
                                         <div class="column">
                                             <img src="/images/graph-des/logos/arise-logo3-prev.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(6)" class="hover-shadow cursor">
-                                            <p class='cap'>More minimalist Arise blog concepts</p>
+                                            <p class='cap'>More minimalist <i>Arise</i> blog concepts</p>
                                         </div>
                                         <div class="column">
                                             <img src="/images/graph-des/logos/sl-logo-prev.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(7)" class="hover-shadow cursor">
@@ -169,8 +202,12 @@
                                             <p class='cap'>Logo for my blog, <i>Werdzahn</i></p>
                                         </div>
                                         <div class="column">
-                                            <img src="/images/graph-des/logos/wts-logo.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(9)" class="hover-shadow cursor">
+                                            <img src="/images/graph-des/logos/wts-logo-update.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(9)" class="hover-shadow cursor">
                                             <p class='cap'>Logo for my porfolio site</p>
+                                        </div>
+                                        <div class="column">
+                                            <img src="/images/graph-des/logos/dofp-logo-prev.png" style="width:100%" onclick="openLogoModal();logoCurrentSlide(10)" class="hover-shadow cursor">
+                                            <p class='cap'>Logo for podcast concept</p>
                                         </div>
                                     </div>
 
@@ -211,7 +248,11 @@
                                             </div>
 
                                             <div class="myLogoSlides">
-                                                <img src="/images/graph-des/logos/wts-logo.png" style="width:100%">
+                                                <img src="/images/graph-des/logos/wts-logo-update.png" style="width:100%">
+                                            </div>
+
+                                            <div class="myLogoSlides">
+                                                <img src="/images/graph-des/logos/dofp-logo.png" style="width:100%">
                                             </div>
                                             
                                             <a class="prev" onclick="logoPlusSlides(-1)">&#10094;</a>
@@ -247,7 +288,10 @@
                                                 <img class="logo-demo cursor" src="/images/graph-des/logos/werdzahn-logo.png" style="width:100%" onclick="logoCurrentSlide(8)" alt="Werdzahn blog logo">
                                             </div>
                                             <div class="column">
-                                                <img class="logo-demo cursor" src="/images/graph-des/logos/wts-logo.png" style="width:100%" onclick="logoCurrentSlide(9)" alt="Portfolio site logo">
+                                                <img class="logo-demo cursor" src="/images/graph-des/logos/wts-logo-update.png" style="width:100%" onclick="logoCurrentSlide(9)" alt="Portfolio site logo">
+                                            </div>
+                                            <div class="column">
+                                                <img class="logo-demo cursor" src="/images/graph-des/logos/dofp-logo-prev.png" style="width:100%" onclick="logoCurrentSlide(10)" alt="Days of Feature Past podcast logo">
                                             </div>
                                         </div>
                                     </div>
@@ -259,7 +303,7 @@
                                     <div class='digital-list'>
                                     <div class="row">
                                         <div class="column">
-                                            <img src="/images/graph-des/digital/cbe-30-prev.png" style="width:100%" onclick="openDigitalModal();digitalCurrentSlide(1)" class="hover-shadow cursor">
+                                            <img src="/images/graph-des/digital/cbe-30-prev-alt.png" style="width:100%" onclick="openDigitalModal();digitalCurrentSlide(1)" class="hover-shadow cursor">
                                             <p class='cap'>Social media graphic as a lead-up to the 2015 annual conference</p>
                                         </div>
                                         <div class="column">
@@ -279,7 +323,7 @@
                                             <p class='cap'>Social media graphic for Minnesota's "Give to the Max Day"</p>
                                         </div>
                                         <div class="column">
-                                            <img src="/images/graph-des/digital/cbe-sale-prev.png" style="width:100%" onclick="openDigitalModal();digitalCurrentSlide(6)" class="hover-shadow cursor">
+                                            <img src="/images/graph-des/digital/cbe-sale-prev-alt.png" style="width:100%" onclick="openDigitalModal();digitalCurrentSlide(6)" class="hover-shadow cursor">
                                             <p class='cap'>Black History Month book sale advertisement</p>
                                         </div>
                                         <div class="column">
@@ -289,6 +333,10 @@
                                         <div class="column">
                                             <img src="/images/graph-des/digital/newsletter-pie-prev.png" style="width:100%" onclick="openDigitalModal();digitalCurrentSlide(8)" class="hover-shadow cursor">
                                             <p class='cap'>Email graphic for monthly newsletter</p>
+                                        </div>
+                                        <div class="column">
+                                            <img src="/images/graph-des/digital/cbe-finland-ad-prev.png" style="width:100%" onclick="openDigitalModal();digitalCurrentSlide(9)" class="hover-shadow cursor">
+                                            <p class='cap'>"Save the Date" ad for 2018 conference in Finland</p>
                                         </div>
                                     </div>
 
@@ -327,6 +375,9 @@
                                             <div class="myDigitalSlides">
                                                 <img src="/images/graph-des/digital/newsletter-pie.png" style="width:100%">
                                             </div>
+                                            <div class="myDigitalSlides">
+                                                <img src="/images/graph-des/digital/cbe-finland-ad.png" style="width:100%">
+                                            </div>
     
                                             
                                             <a class="prev" onclick="digitalPlusSlides(-1)">&#10094;</a>
@@ -338,7 +389,7 @@
 
 
                                             <div class="column">
-                                                <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-30-prev.png" style="width:100%" onclick="digitalCurrentSlide(1)" alt="2015 conference graphic">
+                                                <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-30-prev-alt.png" style="width:100%" onclick="digitalCurrentSlide(1)" alt="2015 conference graphic">
                                             </div>
                                             <div class="column">
                                                 <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-con-quote-prev.png" style="width:100%" onclick="digitalCurrentSlide(2)" alt="2015 conference theme graphic">
@@ -353,13 +404,16 @@
                                                 <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-gtmd-prev.png" style="width:100%" onclick="digitalCurrentSlide(5)" alt="Give to the Max Day graphic">
                                             </div>
                                             <div class="column">
-                                                <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-sale-prev.png" style="width:100%" onclick="digitalCurrentSlide(6)" alt="Black History Month sale advertisement">
+                                                <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-sale-prev-alt.png" style="width:100%" onclick="digitalCurrentSlide(6)" alt="Black History Month sale advertisement">
                                             </div>
                                             <div class="column">
                                                 <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-twit-prev.png" style="width:100%" onclick="digitalCurrentSlide(7)" alt="Blog quote graphic">
                                             </div>
                                             <div class="column">
                                                 <img class="digital-demo cursor" src="/images/graph-des/digital/newsletter-pie-prev.png" style="width:100%" onclick="digitalCurrentSlide(8)" alt="Newsletter graphic">
+                                            </div> 
+                                            <div class="column">
+                                                <img class="digital-demo cursor" src="/images/graph-des/digital/cbe-finland-ad-prev.png" style="width:100%" onclick="digitalCurrentSlide(9)" alt="Finland conference Save the Date ad">
                                             </div>                                            
                                         </div>
                                     </div>
@@ -367,7 +421,7 @@
                                 </div>
                                 <div class='print-designs'>
                                     <h3 class='des-subhead'>print designs</h3>
-                                    <p class='sub-overview'>Much of my experience with print design comes from creating marketing collateral (including posters, ads and brochures).
+                                    <p class='sub-overview'>Much of my experience with print design comes from creating marketing collateral (including posters, ads, and brochures).
                                         I have also had extensive experience with book and journal layouts, as well.
                                     </p>
                                     <div class='print-list'>
@@ -389,18 +443,22 @@
                                             <p class='cap'>Magazine spread for 2017 CBE conference and speakers</p>
                                         </div>
                                         <div class="column">
-                                            <img src="/images/graph-des/print/cbe-dvd-ad-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(5)" class="hover-shadow cursor">
+                                            <img src="/images/graph-des/print/cbe-orlando-brochure-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(5)" class="hover-shadow cursor">
+                                            <p class='cap'>Brochure for 2017 CBE conference</p>
+                                        </div>
+                                        <div class="column">
+                                            <img src="/images/graph-des/print/cbe-dvd-ad-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(6)" class="hover-shadow cursor">
                                             <p class='cap'>Full-page magazine ad for CBE DVD series</p>
                                         </div>
                                         <div class="column">
-                                            <img src="/images/graph-des/print/cbe-xmas-sale-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(6)" class="hover-shadow cursor">
+                                            <img src="/images/graph-des/print/cbe-xmas-sale-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(7)" class="hover-shadow cursor">
                                             <p class='cap'>CBE Christmas sale flyer</p>
                                         </div>
-                                        <div class="column">
+                                        {{!-- <div class="column">
                                             <img src="/images/graph-des/print/glaser-spread-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(7)" class="hover-shadow cursor">
                                             <p class='cap'>Magazine spread project of Milton Glaser</p>
                                         </div>
-                                        {{!-- <div class="column">
+                                        <div class="column">
                                             <img src="/images/graph-des/print/luther-rockapella-poster-prev.png" style="width:100%" onclick="openPrintModal();printCurrentSlide(8)" class="hover-shadow cursor">
                                             <p class='cap'>Rockapella promotional poster for Luther College</p>
                                         </div> --}}
@@ -431,6 +489,10 @@
                                             </div>
 
                                             <div class="myPrintSlides">
+                                                <img src="/images/graph-des/print/cbe-orlando-brochure.png" style="width:100%">
+                                            </div>
+
+                                            <div class="myPrintSlides">
                                                 <img src="/images/graph-des/print/cbe-dvd-ad.png" style="width:100%">
                                             </div>
 
@@ -438,11 +500,11 @@
                                                 <img src="/images/graph-des/print/cbe-xmas-sale.png" style="width:100%">
                                             </div>
 
-                                            <div class="myPrintSlides">
+                                            {{!-- <div class="myPrintSlides">
                                                 <img src="/images/graph-des/print/glaser-spread.png" style="width:100%">
                                             </div>
 
-                                            {{!-- <div class="myPrintSlides">
+                                             <div class="myPrintSlides">
                                                 <img src="/images/graph-des/print/luther-rockapella-poster.png" style="width:100%">
                                             </div> --}}
 
@@ -463,7 +525,7 @@
                                                 <img class="print-demo cursor" src="/images/graph-des/print/cbe-book-cover-spread-prev.png" style="width:100%" onclick="printCurrentSlide(1)" alt="CBE book covers and spread">
                                             </div>
                                             <div class="column">
-                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-con-booklet-prev.png" style="width:100%" onclick="printCurrentSlide(2)" alt="2015 CBE conference cover and spread">
+                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-con-booklet-prev.png" style="width:100%" onclick="printCurrentSlide(2)" alt="2015 CBE conference work book cover and spread">
                                             </div>
                                             <div class="column">
                                                 <img class="print-demo cursor" src="/images/graph-des/print/cbe-con-full-prev.png" style="width:100%" onclick="printCurrentSlide(3)" alt="2017 CBE conference poster">
@@ -472,15 +534,18 @@
                                                 <img class="print-demo cursor" src="/images/graph-des/print/cbe-con-spread-prev.png" style="width:100%" onclick="printCurrentSlide(4)" alt="2017 CBE conference magazine spread">
                                             </div>
                                             <div class="column">
-                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-dvd-ad-prev.png" style="width:100%" onclick="printCurrentSlide(5)" alt="CBE DVD series advertisement">
+                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-orlando-brochure-prev.png" style="width:100%" onclick="printCurrentSlide(5)" alt="2017 CBE conference brochure">
                                             </div>
                                             <div class="column">
-                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-xmas-sale-prev.png" style="width:100%" onclick="printCurrentSlide(6)" alt="CBE Christmas sale">
+                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-dvd-ad-prev.png" style="width:100%" onclick="printCurrentSlide(6)" alt="CBE DVD series advertisement">
                                             </div>
                                             <div class="column">
-                                                <img class="print-demo cursor" src="/images/graph-des/print/glaser-spread-prev.png" style="width:100%" onclick="printCurrentSlide(7)" alt="Milton Glaser magazine spread">
+                                                <img class="print-demo cursor" src="/images/graph-des/print/cbe-xmas-sale-prev.png" style="width:100%" onclick="printCurrentSlide(7)" alt="CBE Christmas sale">
                                             </div>
                                             {{!-- <div class="column">
+                                                <img class="print-demo cursor" src="/images/graph-des/print/glaser-spread-prev.png" style="width:100%" onclick="printCurrentSlide(7)" alt="Milton Glaser magazine spread">
+                                            </div>
+                                             <div class="column">
                                                 <img class="print-demo cursor" src="/images/graph-des/print/luther-rockapella-poster-prev.png" style="width:100%" onclick="printCurrentSlide(8)" alt="Luther College Rockapella poster">
                                             </div> --}}
                                             <div class="column">

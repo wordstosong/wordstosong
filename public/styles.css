@@ -1,6 +1,13 @@
-header {
-  background: #000;
+.header-image {
+  z-index: 100;
+  position:fixed;
+  width:100%;
+  background: #1b3449;
   padding: 20px;
+}
+
+.hidden-head {
+  padding:20px;
 }
 
 body {
@@ -54,6 +61,12 @@ p {
   line-height: 1.5;
 }
 
+blockquote {
+  font-family: 'lato';
+  line-height: 1.5;
+  color: #888;
+}
+
 #last {
   margin-bottom: 0;
 }
@@ -66,7 +79,7 @@ p {
 }
 
 nav {
-  background: #000
+  background: #1b3449;
 } 
 
 
@@ -136,7 +149,7 @@ nav li a:hover {
   font-family: 'lato';
   padding: 20px;
   clear:left;
-  background: #00aeef;
+  background: #99e5ff;
   line-height: 1.5;
 }
 
@@ -146,9 +159,16 @@ nav li a:hover {
   max-width: 1200px;
 }
 
-/* .resume h2 {
-  color: #fff;
-} */
+a.resume-anchor1, a.portfolio-anchor1 {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
+.resume-container h2, .resume-container h3, .resume-container h4, .resume-container ul, .resume-p {
+  color: #1b3449;
+}
 
 .linkedin {
   margin: 0;
@@ -163,12 +183,19 @@ nav li a:hover {
 }
 
 .linkedin a:hover {
-  color: #bfefff;
+  color: #fff;
   transition: 0.3s;
 }
 
 .highlights {
   margin-bottom: 20px;
+}
+
+.skills-title {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .skills {
@@ -202,7 +229,7 @@ nav li a:hover {
   margin: 0;
   font-size: 12px;
   font-weight: 400;
-  color: #d8d8d8
+  color: #888
 }
 
 .portfolio-container {
@@ -217,6 +244,7 @@ nav li a:hover {
 
 .port-sub {
   margin:0;
+  padding-top:20px;
   text-align: center;
 }
 
@@ -249,7 +277,8 @@ nav li a:hover {
 }
 
 .dev-menu a.dev-burger:hover, .des-menu a.des-burger:hover, .ill-menu a.ill-burger:hover {
-  background-color: #f8f8f8;
+  background-color: #ffebd2;
+  color:#1b3449;
   transition: 0.3s;
 }
 
@@ -286,7 +315,12 @@ nav li a:hover {
   margin: 5px;
 }
 
-.speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container {
+.cap a:hover {
+  color: #99e5ff;
+  transition: 0.3s;
+}
+
+.speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
   display: inline-block;
   vertical-align: top;
   padding: 10px;
@@ -311,7 +345,7 @@ nav li a:hover {
   letter-spacing: 2px;
 }
 
-.logo-list, .digital-list, .print-list, .ill-list, .sl-list, .werdzahn-list, .wts-list {
+.logo-list, .digital-list, .print-list, .ill-list, .sl-list, .werdzahn-list, .wts-list, .cbe-list {
   text-align: center;
 }
 
@@ -319,7 +353,7 @@ nav li a:hover {
   text-align: center;
   color: #fff;
   padding: 20px; 
-  background: #000;
+  background: #1b3449;
 }
 
 .contact {
@@ -327,8 +361,12 @@ nav li a:hover {
   width: 90%;
   max-width: 1200px;
 }
+.contact h2 {
+  color: #ffebd2;
+}
 
 .contact-text {
+  color: #ffebd2;
   font-family: 'lato';
   font-size: 16px;
   font-weight: 400;
@@ -336,7 +374,7 @@ nav li a:hover {
 }
 
 .contact-link {
-  color: #00aeef;
+  color: #99e5ff;
   text-decoration: none;
 }
 
@@ -369,14 +407,14 @@ nav li a:hover {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: #1b3449;
 }
 
 /* Modal Content */
@@ -391,7 +429,7 @@ nav li a:hover {
 
 /* The Close Button */
 .close {
-  color: #fff;
+  color: #ffebd2;
   position: fixed;
   width: 40px;
   top: 10px;
@@ -406,7 +444,8 @@ nav li a:hover {
 .close:hover,
 .close:focus {
   /* color: #00aeef; */
-  background-color: #00aeef; 
+  background-color: #99e5ff; 
+  color: #1b3449;
   text-decoration: none;
   cursor: pointer;
 }
@@ -440,7 +479,7 @@ nav li a:hover {
   /* width: auto; */
   padding: 16px;
   /* margin-top: -50px; */
-  color: #fff;
+  color: #ffebd2;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -458,7 +497,8 @@ nav li a:hover {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #00aeef
+  background-color: #99e5ff;
+  color: #1b3449;
 }
 
 /* Number text (1/3 etc) */
@@ -476,17 +516,17 @@ nav li a:hover {
 
 .caption-container {
   text-align: center;
-  background-color: black;
+  background-color: #1b3449;
   padding: 2px 16px;
   color: white;
 }
 
-.logo-demo, .digital-demo, .print-demo, .sl-demo, .werdzahn-demo, .wts-demo {
+.logo-demo, .digital-demo, .print-demo, .sl-demo, .werdzahn-demo, .wts-demo, .cbe-demo {
   opacity: 0.6;
 }
 
 .active,
-.logo-demo:hover, .digital-demo:hover, .print-demo:hover, .ill-demo:hover, .sl-demo:hover, .werdzahn-demo:hover, .wts-demo:hover {
+.logo-demo:hover, .digital-demo:hover, .print-demo:hover, .ill-demo:hover, .sl-demo:hover, .werdzahn-demo:hover, .wts-demo:hover, .cbe-demo:hover {
   opacity: 1;
   transition: 0.3s;
 }
@@ -501,8 +541,8 @@ img.hover-shadow {
 }
 
 .footer p {
-  color: #fff;
-  background: #000;
+  color: #ffebd2;
+  background: #1b3449;
   font-size: 12px;
   margin: 0;
   padding: 10px 60px;
@@ -540,6 +580,10 @@ img.hover-shadow {
 
   .contact-container {
     padding-bottom: 20px;
+  }
+
+  a.resume-anchor1, a.portfolio-anchor1 {
+    top: -155.75px;
   }
 
   .name {
@@ -590,9 +634,9 @@ img.hover-shadow {
   }
   /* Process Pages */
 
-  .process-body {
-    background: #00aeef;
-  }
+  /* .process-body {
+    background: #99e5ff;
+  } */
   .process-content {
     background: #fff;
     width: 80%;

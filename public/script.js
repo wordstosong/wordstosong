@@ -335,6 +335,45 @@ function openIllModal() {
     wtsDots[wtsSlideIndex-1].className += " active";
     wtsCaptionText.innerHTML = wtsDots[wtsSlideIndex-1].alt;
   };
+  
+    //   CBE LIGHTBOX
+
+    function openCBEModal() {
+      document.getElementById('myCBEModal').style.display = "block";
+    }
+    
+    function closeCBEModal() {
+      document.getElementById('myCBEModal').style.display = "none";
+    }
+    
+    var cbeSlideIndex = 1;
+    cbeShowSlides(cbeSlideIndex);
+    
+    function cbePlusSlides(n) {
+      cbeShowSlides(cbeSlideIndex += n);
+    }
+    
+    function cbeCurrentSlide(n) {
+      cbeShowSlides(cbeSlideIndex = n);
+    }
+    
+    function cbeShowSlides(n) {
+      var i;
+      var cbeSlides = document.getElementsByClassName("myCBESlides");
+      var cbeDots = document.getElementsByClassName("cbe-demo");
+      var cbeCaptionText = document.getElementById("cbe-caption");
+      if (n > cbeSlides.length) {cbeSlideIndex = 1}
+      if (n < 1) {cbeSlideIndex = cbeSlides.length}
+      for (i = 0; i < cbeSlides.length; i++) {
+        cbeSlides[i].style.display = "none";
+      }
+      for (i = 0; i < cbeDots.length; i++) {
+        cbeDots[i].className = cbeDots[i].className.replace(" active", "");
+      }
+      cbeSlides[cbeSlideIndex-1].style.display = "block";
+      cbeDots[cbeSlideIndex-1].className += " active";
+      cbeCaptionText.innerHTML = cbeDots[cbeSlideIndex-1].alt;
+    };
 
 
 //   var date = new Date()

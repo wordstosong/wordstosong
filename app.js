@@ -31,6 +31,10 @@ app.get('/wts-process', function (req, res) {
     res.render('wts-process', { title: title + ' | Words to Song Process' });
 });
 
+app.get('/cbe-process', function (req, res) {
+    res.render('cbe-process', { title: title + ' | CBE Process' });
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;
