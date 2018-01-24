@@ -177,7 +177,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   letter-spacing: 1px;
 }
 
-.linkedin a {
+.linkedin a, .cap a {
   color: #0000ff;
   text-decoration: none;
 }
@@ -186,6 +186,8 @@ a.resume-anchor1, a.portfolio-anchor1 {
   color: #fff;
   transition: 0.3s;
 }
+
+.
 
 .highlights {
   margin-bottom: 20px;
@@ -314,6 +316,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   font-size: 14px;
   margin: 5px;
 }
+
 
 .cap a:hover {
   color: #99e5ff;
@@ -521,7 +524,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   color: white;
 }
 
-.logo-demo, .digital-demo, .print-demo, .sl-demo, .werdzahn-demo, .wts-demo, .cbe-demo {
+.logo-demo, .digital-demo, .print-demo, .ill-demo, .sl-demo, .werdzahn-demo, .wts-demo, .cbe-demo {
   opacity: 0.6;
 }
 
