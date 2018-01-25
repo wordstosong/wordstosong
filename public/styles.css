@@ -41,7 +41,7 @@ body {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -192,7 +192,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 }
 
 .skills-title {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -569,7 +569,7 @@ img.hover-shadow {
     right: 15px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   h3 {
     font-size: 30px
@@ -608,6 +608,10 @@ img.hover-shadow {
 
   .highlights {
     margin-bottom: 30px;
+  }
+
+  .skills-title {
+    font-size: 25px;
   }
 
   .skills-cat {
