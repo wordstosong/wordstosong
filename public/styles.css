@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'lato';
   font-weight: 400;
 }
@@ -269,7 +269,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   font-family: arial;
   /* font-weight: 500; */
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   letter-spacing: 2px;
   color: #000;
@@ -572,7 +572,7 @@ img.hover-shadow {
     font-size: 40px;
   }
   h3 {
-    font-size: 30px
+    font-size: 25px
   }
 
   .about-container, .resume-container, .portfolio-container, .contact-container {
@@ -602,7 +602,7 @@ img.hover-shadow {
   }
 
   .dev-menu a.dev-burger, .des-menu a.des-burger, .ill-menu a.ill-burger {
-    font-size: 35px;
+    font-size: 30px;
     padding: 20px 50px;
   }
 
