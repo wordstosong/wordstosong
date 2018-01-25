@@ -41,7 +41,7 @@ body {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 35px;
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 25px;
   font-family: 'lato';
   font-weight: 400;
 }
@@ -133,7 +133,7 @@ nav li a:hover {
   font-family: 'futura';
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 35px;
   text-align: center;
   margin: 0;
 }
@@ -192,7 +192,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 }
 
 .skills-title {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -269,7 +269,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   font-family: arial;
   /* font-weight: 500; */
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 30px;
   text-decoration: none;
   letter-spacing: 2px;
   color: #000;
@@ -569,7 +569,7 @@ img.hover-shadow {
     right: 15px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
   h3 {
     font-size: 30px
@@ -588,7 +588,7 @@ img.hover-shadow {
   }
 
   .name {
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     padding-bottom: 20px;
   }
@@ -602,7 +602,7 @@ img.hover-shadow {
   }
 
   .dev-menu a.dev-burger, .des-menu a.des-burger, .ill-menu a.ill-burger {
-    font-size: 25px;
+    font-size: 35px;
     padding: 20px 50px;
   }
 
