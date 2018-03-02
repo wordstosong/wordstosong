@@ -19,6 +19,9 @@
     "repository": "ssh://git@github.com:wordstosong/wordstosong.git",
     "devDependencies": {
         "browser-sync": "^2.18.12",
-        "nodemon": "^1.11.0"
+        "faker": "^4.1.0",
+        "jest": "^22.2.2",
+        "nodemon": "^1.11.0",
+        "puppeteer": "^1.0.0"
     }
 }

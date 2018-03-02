@@ -97,7 +97,7 @@ nav li {
 }
 
 nav li a {
-  color: #d8d8d8;
+  color: #99e5ff;
   text-align: center;
   letter-spacing: 4px;
   text-decoration: none;
@@ -229,7 +229,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   margin: 0;
   font-size: 12px;
   font-weight: 400;
-  color: #888
+  color: #517d8c;
 }
 
 .portfolio-container {

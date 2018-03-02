@@ -1,6 +1,6 @@
-# JacobScript
+# Words to Song
 
-This is the repository for the site [**Speak Louder!**][1]
+This is the repository for the portfolio site [**Words to Song**][1] 
 
 ## Installation
 
@@ -16,6 +16,6 @@ This is the repository for the site [**Speak Louder!**][1]
     npm start
     ```
 
-[1]: http://www.speak-louder.com/
+[1]: http://www.wordstosong.me/
 [2]: https://github.com/creationix/nvm
 [3]: https://github.com/wbyoung/avn
