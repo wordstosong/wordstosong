@@ -170,19 +170,23 @@ a.resume-anchor1, a.portfolio-anchor1 {
   color: #1b3449;
 }
 
-.linkedin {
+.linkedin, .resumepdf {
   margin: 0;
   text-align: center;
   line-height: 1;
   letter-spacing: 1px;
 }
 
-.linkedin a, .cap a {
+.resumepdf {
+  padding-top: 5px;
+}
+
+.linkedin a, .resumepdf a, .cap a {
   color: #0000ff;
   text-decoration: none;
 }
 
-.linkedin a:hover {
+.linkedin a:hover, .resumepdf a:hover {
   color: #fff;
   transition: 0.3s;
 }
