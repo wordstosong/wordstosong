@@ -131,17 +131,63 @@ nav li a:hover {
 
 .name {
   font-family: 'futura';
+  font-weight: bold;
+  color:#1b3449;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 2px;
   font-size: 35px;
-  text-align: center;
   margin: 0;
 }
+
+.name-sub{
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: 'lato';
+  font-weight: 400;
+  margin: 0;
+}
+
 
 .headshot {
   width: 150px;
   float: left;
   margin: 20px 20px 20px 0;
+}
+
+.wts-title, .act-title {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.freetime-activities {
+  font-family: 'lato';
+  text-align: center;
+}
+.activity {
+  width:200px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.act-icon {
+  display:block;
+  margin: auto;
+  margin-bottom: 20px;
+  width:50px;
+}
+
+.act-name {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .resume-container {
@@ -593,12 +639,27 @@ img.hover-shadow {
 
   .name {
     font-size: 40px;
-    text-align: left;
-    padding-bottom: 20px;
   }
 
   .headshot {
     width: 200px;
+  }
+  
+  .wts-title {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .act-title {
+    font-size: 25px;
+  }
+
+  .activity {
+    margin: 20px 10px;
+  }
+
+  .act-icon {
+    width: 75px;
   }
   
   .dev-menu, .des-menu, .ill-menu {
