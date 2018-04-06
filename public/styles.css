@@ -217,15 +217,21 @@ a.resume-anchor1, a.portfolio-anchor1 {
   color: #1b3449;
 }
 
+.resume-p {
+  text-align: center;
+}
+
 .linkedin, .resumepdf {
+  padding-top: 20px;
   margin: 0;
   text-align: center;
   line-height: 1;
   letter-spacing: 1px;
+  font-size:20px;
 }
 
 .resumepdf {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .linkedin a, .resumepdf a, .cap a {
