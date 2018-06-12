@@ -395,7 +395,6 @@ a.resume-anchor1, a.portfolio-anchor1 {
 .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
   display: inline-block;
   vertical-align: top;
-  margin: 20px 40px;
   padding: 10px;
   max-width: 300px;
 }
@@ -471,7 +470,6 @@ a.resume-anchor1, a.portfolio-anchor1 {
   display: inline-block;
   width: 100%;
   max-width: 300px;
-  margin: 20px 40px;
   padding: 10px;
   vertical-align: top;
 }
@@ -752,5 +750,13 @@ img.hover-shadow {
     width: 80%;
     max-width: 1000px;
     margin: auto;
+  }
+
+  .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
+    margin: 20px 40px;
+  }
+
+  .column {
+    margin: 20px 40px;
   }
 }
