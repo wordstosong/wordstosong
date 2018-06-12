@@ -126,7 +126,7 @@ nav li a:hover {
 .about {
   margin: auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 .name {
@@ -147,7 +147,7 @@ nav li a:hover {
   font-family: 'lato';
   font-weight: 400;
   margin: 0;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 
@@ -203,7 +203,7 @@ nav li a:hover {
 .resume {
   margin: auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 a.resume-anchor1, a.portfolio-anchor1 {
@@ -261,7 +261,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 }
 
 .skills-cat {
-  width:225px;
+  width:200px;
   letter-spacing: 2px;
   margin-bottom: 20px;
   display: inline-block;
@@ -296,7 +296,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 .portfolio {
   margin: auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 .port-sub {
@@ -417,7 +417,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 .contact {
   margin: auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 .contact h2 {
   color: #ffebd2;
@@ -482,7 +482,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 /* The Close Button */
@@ -629,7 +629,12 @@ img.hover-shadow {
     font-size: 40px;
   }
   h3 {
-    font-size: 25px
+    font-size: 27px
+  }
+
+  p, li {
+    font-size: 20px;
+    line-height: 2;
   }
 
   .about-container, .resume-container, .portfolio-container, .contact-container {
@@ -645,7 +650,7 @@ img.hover-shadow {
   }
 
   .name {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .headshot {
