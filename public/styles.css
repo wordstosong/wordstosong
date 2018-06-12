@@ -454,9 +454,9 @@ a.resume-anchor1, a.portfolio-anchor1 {
 
 .column {
   display: inline-block;
-  /* float: left; */
   width: 100%;
   max-width: 300px;
+  margin: 20px 40px;
   padding: 10px;
   vertical-align: top;
 }
