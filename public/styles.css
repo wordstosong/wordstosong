@@ -152,9 +152,12 @@ nav li a:hover {
 
 
 .headshot {
-  width: 150px;
-  float: left;
-  margin: 20px 20px 20px 0;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  /* float: left; */
+  /* margin: 20px 20px 20px 0; */
 }
 
 .wts-title, .act-title {
@@ -381,6 +384,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
   display: inline-block;
   vertical-align: top;
+  margin: 20px 40px;
   padding: 10px;
   max-width: 300px;
 }
@@ -653,13 +657,26 @@ img.hover-shadow {
     font-size: 45px;
   }
 
+  .head-overview {
+    position: relative;
+  }
+
   .headshot {
-    width: 200px;
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    margin-top: -150px;
+  }
+
+  .bio-overview {
+    margin-left: 330px;
+    padding-left: 30px;
+    padding-top:0;
+    border-left: 3px solid #1b3449;
   }
   
   .wts-title {
     font-size: 25px;
-    text-align: left;
   }
 
   .act-title {
