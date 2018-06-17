@@ -162,6 +162,7 @@ function openLogoModal() {
   function logoShowSlides(n) {
     var i;
     var logoSlides = document.getElementsByClassName("myLogoSlides");
+    if(logoSlides.length === 0) return;
     var logoDots = document.getElementsByClassName("logo-demo");
     var logoCaptionText = document.getElementById("logo-caption");
     if (n > logoSlides.length) {logoSlideIndex = 1}
@@ -201,6 +202,7 @@ function openDigitalModal() {
   function digitalShowSlides(n) {
     var j;
     var digitalSlides = document.getElementsByClassName("myDigitalSlides");
+    if(digitalSlides.length === 0) return;
     var digitalDots = document.getElementsByClassName("digital-demo");
     var digitalCaptionText = document.getElementById("digital-caption");
     if (n > digitalSlides.length) {digitalSlideIndex = 1}
@@ -240,6 +242,7 @@ function openPrintModal() {
   function printShowSlides(n) {
     var k;
     var printSlides = document.getElementsByClassName("myPrintSlides");
+    if(printSlides.length === 0) return;
     var printDots = document.getElementsByClassName("print-demo");
     var printCaptionText = document.getElementById("print-caption");
     if (n > printSlides.length) {printSlideIndex = 1}
@@ -279,6 +282,7 @@ function openIllModal() {
   function illShowSlides(n) {
     var i;
     var illSlides = document.getElementsByClassName("myIllSlides");
+    if(illSlides.length === 0) return;
     var illDots = document.getElementsByClassName("ill-demo");
     var illCaptionText = document.getElementById("ill-caption");
     if (n > illSlides.length) {illSlideIndex = 1}
@@ -318,6 +322,7 @@ function openIllModal() {
   function slShowSlides(n) {
     var i;
     var slSlides = document.getElementsByClassName("mySLSlides");
+    if(slSlides.length === 0) return;
     var slDots = document.getElementsByClassName("sl-demo");
     var slCaptionText = document.getElementById("sl-caption");
     if (n > slSlides.length) {slSlideIndex = 1}
@@ -357,6 +362,7 @@ function openIllModal() {
   function werdzahnShowSlides(n) {
     var i;
     var werdzahnSlides = document.getElementsByClassName("myWerdzahnSlides");
+    if(werdzahnSlides.length === 0) return;
     var werdzahnDots = document.getElementsByClassName("werdzahn-demo");
     var werdzahnCaptionText = document.getElementById("werdzahn-caption");
     if (n > werdzahnSlides.length) {werdzahnSlideIndex = 1}
@@ -396,6 +402,7 @@ function openIllModal() {
   function wtsShowSlides(n) {
     var i;
     var wtsSlides = document.getElementsByClassName("myWTSSlides");
+    if(wtsSlides.length === 0) return;
     var wtsDots = document.getElementsByClassName("wts-demo");
     var wtsCaptionText = document.getElementById("wts-caption");
     if (n > wtsSlides.length) {wtsSlideIndex = 1}
@@ -435,6 +442,7 @@ function openIllModal() {
     function cbeShowSlides(n) {
       var i;
       var cbeSlides = document.getElementsByClassName("myCBESlides");
+      if(cbeSlides.length === 0) return;
       var cbeDots = document.getElementsByClassName("cbe-demo");
       var cbeCaptionText = document.getElementById("cbe-caption");
       if (n > cbeSlides.length) {cbeSlideIndex = 1}
