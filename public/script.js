@@ -108,7 +108,7 @@ window.onload = function() {
 //ANIMATE ON SCROLL
 
 AOS.init({
-  duration: 1200,
+  duration: 2400,
 });
 
 //Portfolio
