@@ -2,11 +2,11 @@
 
 <head>
     <title>{{title}}</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="/script.js"></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,900|Lato:400,700,900|Open+Sans:400,700,900" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    
 
     {{> shared/favicons }}
 </head>
@@ -15,6 +15,9 @@
     {{> shared/header }}
     {{{body}}}
     {{> shared/footer }}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

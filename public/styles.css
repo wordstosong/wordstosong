@@ -1,9 +1,14 @@
+html, body {
+  height: 100%;
+}
+
 .header-image {
   z-index: 100;
   position:fixed;
   width:100%;
   background: #1b3449;
   padding: 20px;
+  border-bottom: 1px solid rgb(94, 94, 94, 0.5)
 }
 
 .hidden-head {
@@ -13,7 +18,10 @@
 body {
   background: #fff;
   margin: 0;
+  padding:0;
 }
+
+
 
 #toTop {
   font-family: 'forum', 'courier new';
@@ -23,7 +31,7 @@ body {
   position: fixed;
   bottom: 0;
   right: 8px;
-  z-index: 1;
+  z-index: 100;
   border: none;
   outline: none;
   background-color: transparent;
@@ -84,10 +92,6 @@ blockquote {
   margin: auto;
 }
 
-nav {
-  background: #1b3449;
-} 
-
 
 nav ul {
   margin: 0;
@@ -96,13 +100,11 @@ nav ul {
 }
 
 nav li {
-  margin-bottom: 20px;
+  background: #1b3449;
+  margin: 10px 5px 5px 5px;
   text-align: center;
   display: inline-block;
   padding: 0 20px;
-}
-
-nav li a {
   color: #99e5ff;
   text-align: center;
   letter-spacing: 4px;
@@ -111,29 +113,44 @@ nav li a {
   font-family: 'lato';
   font-weight: 900;
   font-size: 20px;
+  box-shadow:rgba(0,0,0,.1) 4px 8px 17px;;
 }
 
-nav li a:hover {
-  color: #fff;
+/* nav li a {
+  color: #99e5ff;
+  text-align: center;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'lato';
+  font-weight: 900;
+  font-size: 20px;
+} */
+
+nav li:hover {
+  background: #99e5ff;
+  color: #1b3449;
   transition: 0.3s;
 }
 
-/* .content {
-  margin: auto;
-  width: 90%;
-  max-width: 1200px;
+/* #about-container {
+  padding: 20px;
 } */
 
-.about-container {
-  padding: 20px;
-  overflow: hidden;
+#home-container{
+  height: 100vh;
+  width:100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-.about {
+.home-content {
   margin: auto;
   width: 90%;
   max-width: 900px;
 }
+
 
 .name {
   font-family: 'futura';
@@ -178,6 +195,22 @@ nav li a:hover {
   letter-spacing: 3px;
 }
 
+#about-container {
+      background: #ffebd2;
+  font-family: 'lato';
+  padding: 20px;
+  clear:left;
+  line-height: 1.5;
+  z-index:2;
+  
+}
+
+.about {
+  margin: auto;
+  width: 90%;
+  max-width: 900px;
+}
+
 .freetime-activities {
   font-family: 'lato';
   text-align: center;
@@ -205,13 +238,14 @@ nav li a:hover {
   padding-bottom: 10px;
 }
 
-.resume-container {
-  color: #fff;
+#resume-container {
+  /* color: #fff; */
   font-family: 'lato';
   padding: 20px;
   clear:left;
   background: #99e5ff;
   line-height: 1.5;
+  /* z-index:2; */
 }
 
 .resume {
@@ -220,43 +254,76 @@ nav li a:hover {
   max-width: 900px;
 }
 
-a.resume-anchor1, a.portfolio-anchor1 {
+a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   display: block;
   position: relative;
   top: -90px;
   visibility: hidden;
 }
 
-.resume-container h2, .resume-container h3, .resume-container h4, .resume-container ul, .resume-p {
+#resume-container h2, #resume-container h3, #resume-container h4, #resume-container ul, .resume-p {
   color: #1b3449;
+  text-align: center;
 }
 
 .resume-p {
   text-align: center;
 }
 
-.linkedin, .resumepdf {
+.background {
+  font-size: 20px;
+  text-align: center;
+}
+.linkedpdf {
+  text-align: center;
+  max-width:300px;
+  margin:auto;
+}
+.resume-btn{
+  background: #1b3449;
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'lato';
+    font-weight: 900;
+    font-size: 20px;
+    box-shadow: rgba(0,0,0,.1) 4px 8px 17px;
+}
+
+.resume-btn:hover {
+  background: #fff;
+  color: #1b3449;
+  transition: 0.3s;
+}
+
+/* .linkedin, .resumepdf {
   padding-top: 20px;
   margin: 0;
   text-align: center;
   line-height: 1;
   letter-spacing: 1px;
   font-size:20px;
-}
+} */
 
-.resumepdf {
+/* .resumepdf {
   padding-top: 10px;
-}
+} */
 
-.linkedin a, .resumepdf a, .cap a {
+/* .linkedin a, .resumepdf a, .cap a {
   color: #0000ff;
   text-decoration: none;
-}
+} */
 
-.linkedin a:hover, .resumepdf a:hover {
+/* .linkedin a:hover, .resumepdf a:hover {
   color: #fff;
   transition: 0.3s;
-}
+} */
 
 .highlights {
   margin-bottom: 20px;
@@ -280,7 +347,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   margin-bottom: 20px;
   display: inline-block;
   vertical-align: top;
-  text-align: left;
+  text-align: center;
 }
 
 .skills-head {
@@ -303,8 +370,9 @@ a.resume-anchor1, a.portfolio-anchor1 {
   color: #517d8c;
 }
 
-.portfolio-container {
+#portfolio-container {
   padding: 20px;
+  background: #fff;
 }
 
 .portfolio {
@@ -383,6 +451,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
 
 .cap {
   font-size: 16px;
+  line-height: 1.5;
   margin: 5px;
 }
 
@@ -421,7 +490,7 @@ a.resume-anchor1, a.portfolio-anchor1 {
   text-align: center;
 }
 
-.contact-container {
+#contact-container {
   text-align: center;
   color: #fff;
   padding: 20px; 
@@ -650,15 +719,15 @@ img.hover-shadow {
     line-height: 2;
   }
 
-  .about-container, .resume-container, .portfolio-container, .contact-container {
+  #about-container, #resume-container, #portfolio-container, #contact-container {
     padding: 60px 20px;
   }
 
-  .contact-container {
+  #contact-container {
     padding-bottom: 20px;
   }
 
-  a.resume-anchor1, a.portfolio-anchor1 {
+  a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
     top: -155.75px;
   }
 
@@ -759,4 +828,18 @@ img.hover-shadow {
   .column {
     margin: 20px 40px;
   }
+}
+
+/************************************
+BACKGROUND
+************************************/
+.bg {
+  background: url(/images/dots-connected.png);
+  position: fixed;
+  width: 100%;
+  height: 1000%;
+  top:100;
+  left:0;
+  z-index: -1;
+  opacity: 0.5;
 }
