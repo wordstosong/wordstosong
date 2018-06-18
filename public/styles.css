@@ -388,6 +388,73 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   text-align: center;
 }
 
+/* PORTFOLIO MENU */
+
+
+.port-menu{
+  padding: 0;
+  list-style-type:none;
+	margin: 20px auto;
+	max-width: 900px;
+}
+.type-menu{
+	background: #1b3449;
+  text-align: center;
+  display: inline-block;
+  padding: 0 20px;
+  color: #99e5ff;
+  text-align: center;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'lato';
+  font-weight: 900;
+  font-size: 20px;
+  box-shadow:rgba(0,0,0,.1) 4px 8px 17px;;
+}
+.type-title {
+	margin:0;
+	font-size: 20px;
+}
+
+.examples-menu {
+	padding: 10px 50px;
+	color: black;
+
+}
+.examples {
+  padding: 10px 50px;
+	font-size: 18px;
+}
+
+/* drop down menu */
+.type-menu, .examples-menu {
+    list-style: none;
+    padding: 0;
+}
+    .inner {
+/*         padding-left: 1em; */
+        overflow: hidden;
+        display: none;
+}  
+  
+  
+    .type-title, .examples {
+        margin: .5em 0;
+}
+        a.toggle {
+            padding: 10px 50px;
+            display: block;
+            transition: .3s ease;
+}
+            a.toggle:hover {
+                background: #99e5ff;
+                color: #1b3449;
+               transition: 0.3s;
+            }
+
+
+
 .port-menus {
   margin-top: 30px;
 }
