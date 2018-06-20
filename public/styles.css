@@ -104,9 +104,8 @@ nav li {
   margin: 10px 5px 5px 5px;
   text-align: center;
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 15px;
   color: #99e5ff;
-  text-align: center;
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
@@ -278,23 +277,22 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 .linkedpdf {
   text-align: center;
   max-width:300px;
-  margin:auto;
+  margin:10px auto;
 }
 .resume-btn{
   background: #1b3449;
-    margin: 10px 5px 5px 5px;
-    text-align: center;
-    display: inline-block;
-    padding: 0 20px;
-    color: #fff;
-    text-align: center;
-    letter-spacing: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'lato';
-    font-weight: 900;
-    font-size: 20px;
-    box-shadow: rgba(0,0,0,.1) 4px 8px 17px;
+  margin: 10px 5px 5px 5px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'lato';
+  font-weight: 900;
+  font-size: 20px;
+  box-shadow: rgba(0,0,0,.1) 4px 8px 17px;
 }
 
 .resume-btn:hover {
@@ -423,7 +421,7 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 
 }
 .examples {
-  padding: 10px 50px;
+  margin: 40px 10%;
 	font-size: 18px;
 }
 
@@ -439,7 +437,7 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 }  
   
   
-    .type-title, .examples {
+    .type-title {
         margin: .5em 0;
 }
         a.toggle {
@@ -467,6 +465,7 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 
 .dev-menu .dev-port, .des-menu .des-port, .ill-menu .ill-port {
   display: none;
+  text-align:center;
 }
 
 .dev-menu a.dev-burger, .des-menu a.des-burger, .ill-menu a.ill-burger {
@@ -517,28 +516,53 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   text-align: left; 
 }
 
-.cap {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 5px;
+.site-list {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.ux-btn-container {
+  margin: 15px 0 25px 0;
+}
+
+.ux-btn {
+  background: #1b3449;
+  margin: 0 5px 10px 5px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #99e5ff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'lato';
+  font-weight: 900;
+  font-size: 20px;
+  box-shadow: rgba(0,0,0,.1) 4px 8px 17px;
 }
 
 
-.cap a:hover {
-  color: #99e5ff;
+.ux-btn:hover {
+  background: #99e5ff;
+  color: #1b3449;
   transition: 0.3s;
 }
 
-.speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
+.cap {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
   display: inline-block;
   vertical-align: top;
   padding: 10px;
   max-width: 300px;
-}
+} */
 
 .web-image {
-  width: 100%;
-  max-width: 300px;
+  max-width: 100%;
+  /* max-width: 300px; */
   box-shadow: 1px 1px 5px #888888;
   transition: 0.3s;
 }
@@ -548,6 +572,7 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 }
 
 .des-subhead {
+  text-align: center;
   margin-bottom: 0;
   text-transform: uppercase;
   font-weight: 400;
@@ -586,6 +611,251 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   color: #99e5ff;
   text-decoration: none;
 }
+
+
+/* lightbox2 */
+
+
+#photos img {
+  max-width: 100%;
+  box-shadow: 1px 1px 5px #888888;
+  transition: 0.3s;
+}
+
+#photos img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#photo-gallery {
+  list-style: none;
+  margin: 0px auto;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.port-image img {
+  margin: 10px auto;
+}
+
+.port-image a {
+  font-family: 'lato';
+}
+
+/* body: after {
+  content: url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/close.png) url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/loading.gif) url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/prev.png) url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/next.png);
+  display: none;
+} */
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  border-radius: 3px;
+}
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-container {
+  padding: 4px;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/loading.gif) no-repeat;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev,
+.lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/prev.png) left 48% no-repeat;
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/next.png) right 48% no-repeat;
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc;
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+  letter-spacing: 1;
+  font-size: 20px;
+  font-family: 'lato';
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-number {
+  font-family: 'lato';
+  display: block;
+  clear: left;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(https://raw.githubusercontent.com/lokesh/lightbox2/master/src/images/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
 
 /* LIGHTBOX */
 
@@ -761,7 +1031,42 @@ img.hover-shadow {
 /* Process Pages */
 
 .process-content {
-  padding: 5%;
+  padding: 25% 5% 0 5%;
+}
+
+.process-name {
+  font-family: 'futura';
+    font-weight: bold;
+    color: #1b3449;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.process-image {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.process-image img {
+  margin: 0;
+}
+
+.process-head {
+  font-size:22px;
+}
+.process-subhead {
+  font-size: 20px;
+  font-family: 'lato';
+  font-weight: 400;
+}
+
+.process-btn {
+  text-align: center;
+  margin: 20px 0 40px 0;
 }
 
 @media only screen and (min-width: 700px) {
@@ -860,7 +1165,7 @@ img.hover-shadow {
 
   .des-subhead {
     font-size: 24px;
-    text-align: left;
+    margin-bottom: 20px;
   }
 
   .prev {
@@ -883,15 +1188,28 @@ img.hover-shadow {
     background: #99e5ff;
   } */
   .process-content {
+    padding-top:157.203;
     background: #fff;
     width: 80%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
   }
 
-  .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
-    margin: 20px 40px;
+  .process-name {
+    font-size: 45px;
   }
+
+  .process-head {
+    font-size:27px;
+  }
+
+  .process-subhead {
+    font-size: 22px;
+  }
+
+  /* .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
+    margin: 20px 40px;
+  } */
 
   .column {
     margin: 20px 40px;
