@@ -1151,6 +1151,10 @@ img.hover-shadow {
     display:none;
   }
 
+  .desk-text-ani {
+    display:block;
+  }
+
   .dev-menu, .des-menu, .ill-menu {
     padding: 20px 50px;
   }
