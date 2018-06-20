@@ -239,6 +239,10 @@ nav li:hover {
   padding-bottom: 10px;
 }
 
+.desk-text-ani {
+  display:none;
+}
+
 #resume-container {
   /* color: #fff; */
   font-family: 'lato';
@@ -1143,6 +1147,10 @@ img.hover-shadow {
     width: 75px;
   }
   
+  .mob-text-ani {
+    display:none;
+  }
+
   .dev-menu, .des-menu, .ill-menu {
     padding: 20px 50px;
   }
