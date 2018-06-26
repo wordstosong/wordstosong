@@ -1201,7 +1201,8 @@ img.hover-shadow {
     background: #99e5ff;
   } */
   .process-content {
-    padding-top:157.203;
+    padding-top: 200px;
+    padding-bottom: 150px;
     background: #fff;
     width: 80%;
     max-width: 900px;
