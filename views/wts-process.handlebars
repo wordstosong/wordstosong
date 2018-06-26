@@ -1,88 +1,196 @@
 <a id="toTop" title="Go to top" class="smoothScroll" href="#top-anchor">&#94;</a>
 <div class='process-body'>
     <div class='process-content'>
-        <h1 class='name'>Words to Song</i> Process</h1>
-        <h2>(This page is currently being edited to provide a more thorough process.) </h2>
+        <h1 class='process-name'>Words to Song</h1>        
+        <p>
+            Every designer should have a portfolio–that’s a given. 
+            It might also seem like a given in how to decide the design of said portfolio: 
+            subscribe to WordPress or SquareSpace and pick one of their fancy templates. 
+            Super simple, easy-peasy. 
+        </p>
+        <p>
+            Perhaps that would be the method for some designers. 
+            For me, however, every aspect of the layout and design has been meticulously thought out in terms of look and functionality. 
+            Not only is this the case because I wanted a professional looking representation of my work and abilities, but also due to my decision to code the website from scratch. 
+            And as a user experience designer, I wanted complete control over how my website would be interacted with.
+        </p>
+        <p>
+            With that said, I knew there wasn’t a need to revolutionize the online portfolio. 
+            Practicality, intuitivity, and cleanliness were the important factors in the design.
 
-        <h3>The Prep</h3>
+        <h3 class='process-head'>Initial Research</h3>
         <p>
-           Every designer needs a portfolio! 
-           I had initially used WordPress before I decided to become more proficient in web development. 
-           While it fulfilled my needs to an extent, I felt building a portfolio site from scratch to incorporate my UX/UI and development skills would be beneficial. 
-           Incidentally, while it’s easier to be flashier with a WordPress (with animations), CMS templates have limitations that frustrate me as a designer which can cause confusing in the user experience.  
-        </p>
-        <h3>The Plan</h3>
-        <p>
-            Clean design is my mantra. I decided that a (pseudo) single-page design was most effective as a framework. 
-            To keep from having to send users to a new page to view the portfolio items, I incorporated a JavaScript menu to toggle the content depending on the category (UX/UI/development, design, or illustrations).
+            Naturally, one of the main sources of inspiration was the vast number of other online portfolios I explored. 
+            While many did, indeed, use CMS templates as a framework, there is certainly value to be taken from those designs. 
+            It shouldn’t be discounted that templates are used and work for a reason. 
+            However, I wanted to make sure my personality came through in the look and feel, so as to not fall victim into the ubiquitousness that can sometimes happen with template designs.
         </p>
         <p>
-            Additional process details would be best on external pages, if visitors felt inclined to know the inner-workings. 
-            The hope is to create a frustration-free design with intuitive user flow. 
-        <h3>The Progress</h3>
-        <p>
-            This site is fully functioning the way I had intended. 
-            The original color scheme(black and cyan) wasn't working for me, as it felt too cold, which goes against everything I want in a color scheme.
-            After serious consideration, and the testing of various color combinations, I went with colors that felt more representative of me (dark combo green-blue, sky blue, and cream).
+            A second source of inspiration came from designs of Software as a Service (SaaS) websites. 
+            While also following a broad formula in layout, many SaaS sites do an amazing job at succinctly giving information of the product, providing examples, and providing a call-to-action.
         </p>
-        <p>
-            In addition to a warmer colors, I decided to cut down on as many words, to make the experience friendlier and have more personality.  
-            As I produce more content, the examples of work will continue to be updated, as well as the addition to flashier interactivities in the future. 
-            Overall, though, I&#146;m satisfied with how it turned out.
-        </p>
-        <h3>The Presentation</h3>
-        <div class='wts-list'>
-            <div class="row">
-                <div class="column">
-                    <img src="/images/web-dev/process/wts-wireframe-prev.png" style="width:100%" onclick="openWTSModal();wtsCurrentSlide(1)" class="hover-shadow cursor">
-                    <p class='cap'>Wireframe of website</p>
-                </div>
-                <div class="column">
-                    <img src="/images/web-dev/process/wts-live-prev.png" style="width:100%" onclick="openWTSModal();wtsCurrentSlide(2)" class="hover-shadow cursor">
-                    <p class='cap'>Live screenshot of website</p>
-                </div>
-                <div class="column">
-                    <img src="/images/web-dev/process/wts-color-update-prev.png" style="width:100%" onclick="openWTSModal();wtsCurrentSlide(3)" class="hover-shadow cursor">
-                    <p class='cap'>Live screenshot with color update</p>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-wireframe.png" data-lightbox="wts-1" data-title="Words to Song Wireframe">
+                    <img src="/images/web-dev/process/wts/wts-wireframe-prev.png"></a>
+                     <p class='cap'>Words to Song Wireframe</p>
                 </div>
             </div>
-
-            <div id="myWTSModal" class="modal">
-                <span class="close cursor" onclick="closeWTSModal()">&times;</span>
-                <div class="modal-content">
-
-                    <div class="myWTSSlides">
-                        <img src="/images/web-dev/process/wts-wireframe.png" style="width:100%">
-                    </div>
-
-                    <div class="myWTSSlides">
-                        <img src="/images/web-dev/process/wts-live.png" style="width:100%">
-                    </div>
-                    <div class="myWTSSlides">
-                        <img src="/images/web-dev/process/wts-color-update.png" style="width:100%">
-                    </div>
-
-
-                    
-                    <a class="prev" onclick="wtsPlusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="wtsPlusSlides(1)">&#10095;</a>
-
-                    <div class="caption-container">
-                        <p id="wts-caption"></p>
-                    </div>
-
-
-                    <div class="column">
-                        <img class="wts-demo cursor" src="/images/web-dev/process/wts-wireframe-prev.png" style="width:100%" onclick="wtsCurrentSlide(1)" alt="Words to Song wireframe">
-                    </div>
-                    <div class="column">
-                        <img class="wts-demo cursor" src="/images/web-dev/process/wts-live-prev.png" style="width:100%" onclick="wtsCurrentSlide(2)" alt="Words to Song live screenshot">
-                    </div>
-                    <div class="column">
-                        <img class="wts-demo cursor" src="/images/web-dev/process/wts-color-update-prev.png" style="width:100%" onclick="wtsCurrentSlide(3)" alt="Words to Song color update">
-                    </div>
+        </div>
+        <h3 class='process-head'>Version 1</h3>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-v1.png" data-lightbox="wts-2" data-title="Words to Song Version 1">
+                    <img src="/images/web-dev/process/wts/wts-v2-prev.png"></a>
+                     <p class='cap'>Words to Song Version 1</p>
                 </div>
             </div>
+        </div>
+        <p>
+            One particular feature I wanted to adopt from a number of SaaS designs, was the single-page interface (meaning the site virtually exists on one page). 
+            The fewer pages users would need to navigate, the better chances I would have to keep them engaged with my content.
+            Another benefit of the single-page layout is that it is much easier to navigate on mobile.
+            With that in mind, I made sure to design the site responsive to mobile displays, as well.
+        </p>
+        <p>
+            Like many SaaS websites, I wanted to give a sense of who I am as a person and designer at the top. 
+            While some portfolios immediately dive into the examples of work, it’s part of my philosophy to let visitors (and by extension, future colleagues) know who the person is behind the work. 
+            Then, I tell my professional story naturally on the way down by going into my background and skills, then finally examples of work. 
+            Of course not everyone buys into that philosophy, so having quick anchor links to desired content (resume, portfolio, contact) was also a feature I wanted to implement.
+        </p>    
+         <p>
+            In the resume section, I felt that rehashing the content on my official resume was not the most effective or interesting way to represent the information for visitors. 
+            Therefore a quick look at my experience highlights and an overview of my hard skills would be the best hook. 
+            If they are compelled to review my official resume, I decided that also offering links to both the PDF version and my LinkedIn profile would give a comprehensive look at my experiences and skills.
+        </p> 
+         <p>
+            The portfolio section made most sense to be broken up into three parts: UX/UI/Web Development, Graphic Design, and Illustrations to give representation of my eclectic design background. 
+            With a desire to keep things clean and simple, I coded simple drop down menus with JavaScript. 
+        </p> 
+        
+        <h3 class='process-head'>Color Update</h3>
+        <p>
+            While often overlooked, color can have an important role in the experience of a portfolio. 
+            In my initial design, the black/gray/cyan combo was sleek, but gave off a colder vibe than what I wanted, and it especially didn’t fit into my personality.
+        </p> 
+        <p>
+            I knew a deep blue would be incorporated, not only as it is my favorite color, but it conveys trust, friendliness, and professionalism in color theory. 
+            Combined with a lighter blue and more neutral  cream color to provide better readability and balance, the palette brings out a more personal flavor and warmth (while still on the cool spectrum).
+        </p>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-color-update.png" data-lightbox="wts-3" data-title="Words to Song Color Update">
+                    <img src="/images/web-dev/process/wts/wts-color-update-prev.png"></a>
+                     <p class='cap'>Words to Song Color Update</p>
+                </div>
             </div>
+        </div>
+        <h3 class='process-head'>Mini Update</h3>
+        <p>
+            As important as letting visitors know a little about me, I noticed how wordy things were starting to get.
+            After running some unofficial interviews, it was clear that I needed to present the information in fewer words and in a more attractive package.
+            It was a great opportunity to include some icons and break up my content a little to let it breathe. 
+        </p>
+        <p>
+            I wasn't thrilled with how the ext wrapped around my photo, so I decided it was cleaner to separate the content with a border, as well.
+            This made the mobile responsiveness more seamless, as well.
+        </p>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/before-wts-mini.png" data-lightbox="wts-4" data-title="Words to Song About Section Update">
+                    <img src="/images/web-dev/process/wts/wts-color-update-prev.png"></a>
+                     <p class='cap'>Words to Song About Section Update</p>
+                </div>
+            </div>
+        </div>
+        <h3 class='process-head'>Version 2</h3>
+        <p>
+            After running with that design for a little while, though functional, it didn’t deliver the degree of sleekness I wanted. 
+            I felt that the balance of spacing could be improved, along with additional features to give it more style. 
+        </p>
+        <p>
+            Having used animated text effects and parallax effect (where the foreground and background move at different speeds when scrolling) I decided to spice things up by including them. 
+            Although something can be said for minimal effects and static design, I also wanted to demonstrate my abilities to incorporate them elegantly into my designs.
+        </p>
+        <p>
+            Giving the content even more opportunity to breathe, I designated a new section explicitly for navigation. 
+            In this section, I included the parallax effect, by creating a background design showing connected dots. 
+            This was a deliberate representation to show that I’m a problem-solver–I connect dots.
+        </p>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-home-v2.png" data-lightbox="wts-5" data-title="Home Navigation Section V2">
+                    <img src="/images/web-dev/process/wts/wts-home-v2.png"></a>
+                     <p class='cap'>Home Navigation Section V2</p>
+                </div>
+            </div>
+        </div>
+        <p>
+            As for text effects, there were two different types that I wanted to implement. 
+            In this main navigation section, I thought it would be great to give a sense of my general philosophy when it comes to User Experience Design. 
+            Using JQuery, I inserted an effect to simulate deleting and replacing text to indicate my desire to bring more humanity into my designs
+        </p>
+        <p>
+            The second text effect I decided to implement in the resume section
+            I wanted to give the impression of the constant growth and the building of skills. 
+            The fade-in effect is perfect for that visualization.
+            Along with this effect, I cleaned up the text of this section to showcase more of my top-level background.
+        </p>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-resume-v2.png" data-lightbox="wts-6" data-title="Resume Section V2">
+                    <img src="/images/web-dev/process/wts/wts-resume-prev.png"></a>
+                     <p class='cap'>Resume Section V2</p>
+                </div>
+            </div>
+        </div>
+        <p>
+            The last dramatic change I decided to add was a sleeker drop down menu for my portfolio. 
+            As mentioned, I initially coded a menu in JavaScript as a simple menu. 
+            Like most features in my first iteration, it was functional, but lacked any sort of flair. 
+            I had used JQuery on another project that required a drop down menu that would work perfectly for this function.
+        </p>
+        <p>
+            Along with the change in the menu, I decided to update the gallery display of the images, as well. 
+            I used a sharper, more professional looking display that allowed for keyboard navigation (arrows and escape key). 
+            From a user’s standpoint, the previous display was lacking in elegance–in both form and function. In the update, I also removed the captions, except when the image has been clicked. 
+            I wanted to bring as much focus on the images themselves, so I increased their size, as well as displayed them each on their own line (as opposed to two side by side).
+        </p>
+        <div id="photos">
+            <div id="photo-gallery">
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/before-port.png" data-lightbox="wts-1" data-title="Portfolio V1 UX/UI/Web Dev Menu Opened">
+                    <img src="/images/web-dev/process/wts/before-port-prev.png"></a>
+                     <p class='cap'>Portfolio V1 UX/UI/Web Dev Menu Opened</p>
+                </div>
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-port-v2.png" data-lightbox="wts-1" data-title="Portfolio V2 UX/UI/Web Dev Menu Opened">
+                    <img src="/images/web-dev/process/wts/wts-port-v2-prev.png"></a>
+                     <p class='cap'>Portfolio V2 UX/UI/Web Dev Menu Opened</p>
+                </div>
+                <div class='process-image'>
+                    <a href="/images/web-dev/process/wts/wts-ill-v2.png" data-lightbox="wts-1" data-title="Portfolio V2 Illustrations Menu Opened">
+                    <img src="/images/web-dev/process/wts/wts-ill-v2-prev.png"></a>
+                     <p class='cap'>Portfolio V2 Illustrations Menu Opened</p>
+                </div>
+            </div>
+        </div>
+        <h3 class='process-head'>Reflection</h3>
+        <p>
+            I am extremely happy with my updates to my portfolio site. 
+            In terms of overall experience, not only were improvements made on a functional level (e.g. the image gallery having a more intuitive navigation), adding extra content and rearranging sections made things cleaner and more complete. 
+            With the additional animations and features, the website is firing on all cylinders.
+        </p>
+        <p>
+            Naturally with any project, there are already features I’m thinking of adding to improve the site some more. 
+            While I like the cleanliness of less text in the portfolio section, adding hover captions over the images could prove beneficial. 
+            Additionally, as I work on more projects, I intend to stay on top of writing thorough process articles. 
+        </p>
     </div>
 </div>
