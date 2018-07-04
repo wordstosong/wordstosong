@@ -1049,6 +1049,10 @@ img.hover-shadow {
     margin: 0;
 }
 
+.editing {
+  font-size: 30px;
+}
+
 .process-image {
   display: inline-block;
   width: 100%;
