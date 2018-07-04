@@ -1050,7 +1050,7 @@ img.hover-shadow {
 }
 
 .editing {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .process-image {
@@ -1091,6 +1091,10 @@ img.hover-shadow {
   }
   h2 {
     font-size: 40px;
+  }
+
+  .editing {
+    font-size: 30px;
   }
   h3 {
     font-size: 27px;
