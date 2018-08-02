@@ -1125,7 +1125,7 @@ img.hover-shadow {
 }
 
 .grid figure figcaption {
-	padding: 2em 1em;
+	padding: 1.5em 1em;
 	color: #fff;
 	text-transform: uppercase;
 	-webkit-backface-visibility: hidden;
