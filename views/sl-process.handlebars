@@ -2,55 +2,108 @@
 <div class='process-body'>
     <div class='process-content'>
         <h1 class='name'>Speak Louder Process</h1>
+        <h2 class='name-sub'>Mobile-Responsive Webcomic</h2>
         <h2 class='editing'>(This page is currently being edited to provide a more thorough process.) </h2>
-        <h3>The Prep</h3>
         <p>
-            Webcomic site design is generally unintuitive. 
-            While some have made strides to incorporate a more modern aesthetic, many of them use CMS templates (WordPress has the popular ComicPress template), are largely not mobile-responsive, and very similar in overall look. 
+            Webcomics are a great medium for creative folks to express themselves in amazing, immersive ways—without needing anything more than an idea and some artistic abilities. 
+            There are thousands of different styles, genres, and layouts of webcomics available, and certainly something anyone can find enjoyment. 
+            CMS templates have made it incredibly easy to avoid the technological challenges of sharing comics online, with ComicPress arguably being the most popular of such templates. 
+            It really is quite simple to get one up and running without too much of a headache.
         </p>
+        <h3 class='process-head'>Initial Research</h3>
         <p>
-            My biggest issue of these, when it comes to user experience is how difficult the strips are to read on anything other than a desktop display. 
-            The best solutions have formatted their strips to allow horizontal scrolling. 
-            However, the majority of the webcomics I’ve come across (some of which are among the most popular), either don’t format for mobile at all, or shrink the entire page to respond to mobile devices, making the comic itself virtually unreadable.
+            As an avid follower of a handful of webcomics, the designs of the websites were always prominent aspect in my overall experience. 
+            On top of that, I have had a desire to create my own webcomic at some point, so I have kept tabs on what features work in webcomic design and what features don’t. 
+            In general, being heavily influenced by functionality of CMS templates (because, let’s face it, what cartoonist wants to learn to code?), overall design and elegance takes a back seat in most webcomics’ user experience. 
+            There are always some issues with spacing and an overwhelming temptation to include as many widgets as possible. 
+            But none of those are really a cause for alarm in experiencing the comic strips themselves, which leads to me to...
         </p>
-        <h3>The Plan</h3>
+        <h3 class='process-head'>The Problem</h3>
         <p>
-            I have been working to create an ongoing webcomic of my own. 
-            Originally, I went the ComicPress route as it was the most accessible to my novice abilities. 
-            However, the more I built out the design, the more frustrated I became with the template’s limitations.
+            The vast majority of webcomics follow the same basic template: four or five panels of similar dimensions that stretch horizontally across the webpage. 
+            Both sites that use a CMS and those that don’t follow this general pattern. Now that screen displays are no longer as consistent as the basic comic formula (due to heavy use of mobile displays), the problem became quite obvious: 
+            there was no elegant solution for responsive webcomic design. 
+            And as someone who has been in the process of conceptualizing a webcomic, myself, I knew I had to create a solution in order to satisfy my desire to make it readable on all device-types.
         </p>
-        <p>
-            Fast-forward a bit, I decided I wanted to become a more proficient web developer, and my webcomic website was the perfect project to practice my developing skills. 
-            Being critical of certain aspects of webcomic design, there were a handful of problems I wanted to solve in my user-centric design: 
-        </p>
+        <h3 class='process-head'>Pain Points</h3>
         <ul>
             <li>
-                Mobile-responsiveness with two break points so that comic panels will have optimal displays on desktop, tablet, and mobile devices
+                No effective solution to read on mobile devices (without the patented “zoom and scroll”) —strip images remain the same size, regardless of display-type
             </li>
             <li>
-                Clean, deliberate design of additional site elements, instead of tacked-on widgets
-            </li>
-            <li>
-                A clear, simple archive system that keeps track of read comic strips
-            </li>
-            <li>
-                A homepage that brings connectivity to the community (sure, having readers land on the the most recently released strip has its advantages, and readers that desire a limited connection will still have the archive page to visit)
+                Some comics that are mobile-responsive shrink down to an unreadable size on mobile (even those that use a vertical layout, instead of horizontal)
             </li>
         </ul>
+        <p>
+           When comic strips are uploaded to websites, they tend to be a single image. 
+           While it’s the simplest method, it limits any nuances for web page formatting, because the image likely takes up the majority of the page width real estate.  
+           The flip side is that it allows the opportunity for more variety within the image itself—creative panel formatting, different arrangements, etc. 
+           Generally, if readers are willing to make concessions (such as optimized reading on wide displays only), then it’s a relative non-issue. 
+           However, with web usage shifting in favor of mobile over desktop in 2018, it really isn’t something that can be ignored.
+        </p>
+        <h3 class='process-head'>True Mobile-Responsive Formatting</h3>
         <p> 
-            Originally, I had planned to include a sidebar that would include other ways of connecting with readers. 
-            However, I felt it cluttered up the cleanliness of the design with little justification. 
-            There are better ways to include these features without taking away from the key reasons people would visit: the comic itself.  
+           Creating a platform that can be optimized on mobile devices required designing and developing mobile-first. 
+           With that in mind, naturally, a vertical arrangement of the comic panels would be the layout. 
+           I also decided that a clean, uniform, four-panel layout would best serve my purposes. 
+           However, I also considered having the ability to scale it to five or six panels, if I desired (any more would require panels dimensions to be altered too much to work). 
         </p>
-        <h3>The Progress</h3>
+        <p> 
+           To optimize the reading experience depending on the device, it is important to implement responsive breakpoints. 
+           For the mid-breakpoint, stacking two panels on top of two panels makes the most sense for vertical tablet displays. 
+           When positioned horizontally, the final breakpoint will be displayed (just as it would on desktop). 
+           This way, the text in the panels will never be too small to read and the images will cover as much real webpage real estate as possible.
+        </p>
+        <h3 class='process-head'>Clean Design Update</h3>
         <p>
-            In terms of design and development of how the comic strip pages will function, it is virtually in working order. 
-            The only thing missing is the creation of content. 
-            There are also some content-related features that will need to be implemented, as well (e.g. social share buttons, comic navigation, comments). 
-            However, as a template of concept, I’m happy with how the progress is shaping up. 
+            Initially, I had designed the comic pages to include sidebars that would give readers the opportunity to connect more to me as a cartoonist—via social media or sharing some of my latest musical tastes. 
+            However, the more I experienced other webcomics (and blog sites), all that extraneous content felt like clutter and takes away from the focus of the actual content.
         </p>
         <p>
-           Also without content, my archive function will have to be delayed. I am in the process of making a concept. The same is true for my homepage, which was a solution I came up with more recently in order to tie the whole webcomic “ecosystem” together. Stay tuned for future developments (and the comic going live!).
+           Cleaning up the general visual design followed soon after. 
+           Having the logo slightly tilted proved to be much too difficult to implement, and ultimately not wasn’t worth the effort. 
+           I decided to focus only on the wordmark as the logo and simplified the rest.
+        </p>
+        <h3 class='process-head'>Intimate Homepage</h3>
+        <p>
+            Possibly the biggest challenge in tying everything together was creating an effective homepage to work for my intention of webcomic. 
+            Many webcomics are released in the classic “dailies” style, with a set schedule on a consistent basis. 
+            On my platform, I intend to release my content, when time permits, as complete storylines and all at once. 
+            This falls in line with the release schedules of online streaming television and binge culture.
+        </p>
+        <p>
+           The problem with this method is that a consistent schedule brings people back organically and helps build a community from reliability. 
+           Without that luxury in my vision, building my persona as a creator, and building a genuine and transparent connection with my readers will keep them engaged. 
+           I want dialogue through communication that could possibly inform and inspire where characters and stories can go.
+        </p>
+        <p>
+           With that said, establishing this persona and atmosphere on the homepage was the idea to create this type of experience from the start. 
+           Typically the homepage of webcomics tend to be the most recently released comic strip.  
+           Since that wouldn’t work for my purposes, I created a letter to the readers, along with a table of contents-type menu.
+        </p>
+        <h3 class='process-head'>Reader Interaction</h3>
+        <p>
+            While my intent is to build a relationship with my readers, this isn’t a revolutionary idea. 
+            Many webcomic creators do this to varying degrees, but what will set my platform apart is the extent of my engagement. 
+            Most webcomics still operate in the printed comic mentality—static strips without much room to break out creatively. 
+            I want to create a platform that utilizes the web medium in interesting ways. 
+            Besides encouraging dialogue and communication with my readers, I want to create an experience where they come to expect something different than other comics they consume.
+        </p>
+        <p>
+           On the first release, I will have the opportunity for comic panels to be clicked to offer something that would be impossible for a static experience. 
+           The origin of this ideas was that a click could reveal a character’s inner thoughts. 
+           However, it wouldn’t have to be limited to only that. 
+           This could potentially allow alternate visual angles of the scene, a strip could have additional beats, or there could be an alternate outcome. 
+           It completely opens up the experience to more creativity.
+        </p>
+        <h3 class='process-head'>Reflection</h3>
+        <p>
+            This platform is the project that got me fully invested in web design and development, because I had an ambitious idea that didn’t fit any of the templated models available to me. 
+            With it largely designed and programmed, I feel extremely proud of the outcome. 
+            Granted, there are some minor functionality tweaks I still have to iron out. 
+            The real challenge now, however, is actually producing a fun and engaging story for readers to keep coming back to and engage with me as a creator. 
+            Stay tuned!
+
         </p>
         <h3>The Presentation</h3>
         <div class='sl-list'>
