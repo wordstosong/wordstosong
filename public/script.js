@@ -40,11 +40,33 @@ $(window).scroll(function(e){
   parallax();
 });
 
-//PARALLAX FUNCTION
+//PARALLAX FUNCTION - HOME
 function parallax(){
   var scrolled = $(window).scrollTop();
+  var windowSize = $(window).width();
   $('.bg').css('top',-(scrolled*0.3)+'px');
+  if(windowSize>=700){
+  $('.bg-cbe').css('top',-(scrolled*0.3)+117+'px');
+  } else {
+    $('.bg-cbe').css('top',-(scrolled*0.3)+87+'px');
+  }
+  if(windowSize>=700){
+    $('.bg-wts').css('top',-(scrolled*0.3)+117+'px');
+    } else {
+      $('.bg-wts').css('top',-(scrolled*0.3)+87+'px');
+    }
+  if(windowSize>=700){
+    $('.bg-sl').css('top',-(scrolled*0.3)+117+'px');
+    } else {
+      $('.bg-sl').css('top',-(scrolled*0.3)+87+'px');
+    }
+  if(windowSize>=700){
+    $('.bg-werdzahn').css('top',-(scrolled*0.3)+117+'px');
+    } else {
+      $('.bg-werdzahn').css('top',-(scrolled*0.3)+87+'px');
+    }      
 }
+  
 
 //TEXT ANIMATION
 
