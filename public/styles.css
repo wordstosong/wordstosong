@@ -267,7 +267,7 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   visibility: hidden;
 }
 
-#resume-container h2, #resume-container h3, #resume-container h4, #resume-container ul, .resume-p {
+#resume-container h2, #resume-container h3, #resume-container h4, #resume-container ul, .resume-p, .background {
   color: #1b3449;
   text-align: center;
 }
