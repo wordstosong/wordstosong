@@ -4,10 +4,21 @@
 <div class='content'>
     <div id='home-container'>
       <div class='home-content'>
+          <div class='name-wrapper'>
+              <h3 class='name-sup'>
+                  <b>hey!</b> my name is
+              </h3>
             <h1 class='name'>Jacob Kim Johnson</h1>
-            <h3 class='name-sub'>Human –
-                <span class="txt-rotate" data-period="5000" 
-                data-rotate='[ "Computer", "Human"]'></span> Interaction</h3>
+            <h3 class='name-sub'>&amp; I'm a
+                <div class='job-titles'>
+                <div id="rotate"> 
+                    <div class='job'>ux/ui designer.</div> 
+                    <div class='job'>graphic designer.</div> 
+                    <div class='job'>web developer.</div>
+                </div>
+                </div>
+            </h3>
+          </div>
           <nav>
             <ul>
                 <a class="smoothScroll" href='#about-anchor'><li>about</li></a>
@@ -22,25 +33,56 @@
         <div class='about'>
           <a name='about-anchor'class='about-anchor1'></a>
           <h2>a little about me</h2>
-            <div class='bio'>
+            <div class='bio-wrapper'>
                 <div class='head-overview'>
-                    <img class='headshot' src='/images/headshot.png' alt='Jacob picture'>
+                    <img data-aos="zoom-in" class='headshot' src='/images/icons/headshot.png' alt='Jacob picture'>
+                    <div class='mob-text-ani'>
                     <p class='bio-overview'>
-                        I’m a UX/UI designer, graphic designer, and programmer with experience in industries including start-ups, nonprofits, and tech(SaaS), which has given me the distinct ability to examine situations and consider strategies from different perspectives.
+                        Being a designer and developer with experience in industries including start-ups, nonprofits, and tech, it has given me the distinct ability to examine situations and consider strategies from different perspectives. 
                         I have a deep passion for crafting elegant and engaging interfaces and designs, and my creativity, empathy, critical thinking, and collaborative nature have been beneficial in helping me understand user behaviors and motivations, as well as make thoughtful decisions. 
                         Those insights have allowed me be more open-minded as I figure out the details, while focusing on the big picture.
                     </p>
+                    </div>
+                    <div class='desk-text-ani'>
+                    <p data-aos="fade-left" class='bio-overview'>
+                        Being a designer and developer with experience in industries including start-ups, nonprofits, and tech, it has given me the distinct ability to examine situations and consider strategies from different perspectives. 
+                        I have a deep passion for crafting elegant and engaging interfaces and designs, and my creativity, empathy, critical thinking, and collaborative nature have been beneficial in helping me understand user behaviors and motivations, as well as make thoughtful decisions. 
+                        Those insights have allowed me be more open-minded as I figure out the details, while focusing on the big picture.
+                    </p>
+                    </div>
                 </div>
-                <h3 class='wts-title'>My Philosophy</h3>
+                <div class='phil-wrap'>
+                <div class='phil-overview'>
+                <div id='mob-phil'>
+                    <h3 class='phil-title'>My Philosophy</h3>
+                    <img data-aos="zoom-in" class='phil-icon' src='/images/icons/philosophy.png' alt='philosophy icon'>
+                    <p>  
+                    Technology gives us more convenience and efficiency in our everyday lives. However, as we are becoming more and more connected, we are losing intimacy, empathy, and compassion for each other.
+                    This mindset has also been bleeding into the products we use.
+                    </p>
+                    <p>
+                    As a user experience designer, I don’t just think of what I do as human–computer interaction, but rather as human–human interaction. We shouldn’t shortcut humanity behind our technological interactions.
+                    With that in mind, I strive to craft products uniquely effective—telling stories and solving problems specific to those using them.
+                    Nothing is more important than understanding the needs, wants, and expectations by both the client-side users and the end users—and then delivering a satisfying product.
+                    </p>
+                </div>
+                <div id='desk-phil'>
+                <div data-aos="fade-right">
+                <h3 class='phil-title'>My Philosophy</h3>
                 <p>  
-                    Technology is remarkable. It gives us more convenience and efficiency in our everyday lives. It allows us to do more activities with more immediacy. 
-                    It brings us together. However, as we are becoming more and more connected through technology, we are losing intimacy, empathy, and compassion for each other. 
-                    Our expectations for <i>more</i> and <i>faster</i> are vastly outweighing the considerations we should have for people. This mindset has also been bleeding into the products we use.
+                    Technology gives us more convenience and efficiency in our everyday lives. However, as we are becoming more and more connected, we are losing intimacy, empathy, and compassion for each other.
+                    This mindset has also been bleeding into the products we use.
                 </p>
                 <p>
-                    As a user experience designer, I don’t think of what I do as human–computer interaction, but rather as human–human interaction. Yes, we use technology to make some of those connections, but it doesn’t mean we should shortcut the humanity behind the interactions. 
-                    With that in mind, I strive to craft products uniquely effective—telling stories and solving problems specific to those using them. Nothing is more important than understandings the needs, wants, and expectations by both the client-side users and the end users.
+                    As a user experience designer, I don’t just think of what I do as human–computer interaction, but rather as human–human interaction. We shouldn’t shortcut humanity behind our technological interactions.
+                    With that in mind, I strive to craft products uniquely effective—telling stories and solving problems specific to those using them.
+                    Nothing is more important than understandings the needs, wants, and expectations by both the client-side users and the end users—and then delivering a satisfying product.
                 </p>
+                </div>
+                <img data-aos="zoom-in" class='phil-icon' src='/images/icons/philosophy.png' alt='philosophy icon'>
+                </div>
+                </div>
+                </div>
 
             {{!-- <h3 class='wts-title'>wait... why &#8220;words to song&#8221;?</h3>
                 <p>  
@@ -85,59 +127,138 @@
         <div class='resume'>
             <a name='resume-anchor'class='resume-anchor1'></a>
             <h2>experience &amp; knowledge: got ‘em</h2>
-            <div class='mob-text-ani' data-aos="fade-up">
-                <h3>Four years of UX/UI Design experience</h3>
-            </div>
-            <div class='mob-text-ani' data-aos="fade-up">
-                <h3>Over five years of Graphic Design experience</h3>
-            </div>
-            <div class='mob-text-ani' data-aos="fade-up">
-                <h3>Quantitative results to ensure confidence in my thoughtful decision-making</h3>
-            </div>
-            <div class='mob-text-ani' data-aos="fade-up">      
-                <h3>Along with design and web dev, I have a background in and experience with:</h3>
+            <div class='linkedpdf'>
+            <a href='/images/resume.pdf' target='_blank'><div class= 'resume-btn'>Resume PDF</div></a>
             </div>   
-            <div class='mob-text-ani' data-aos="fade-up">  
-                    <p class='background'>Psychology</p>
-            </div>
-            <div class='mob-text-ani' data-aos="fade-up">
-                    <p class='background'>Marketing</p>
-            </div>
-            <div class='mob-text-ani' data-aos="fade-up">
-                    <p class='background'>Communications</p>
-            </div>
-            <div class='mob-text-ani' data-aos="fade-up">
-                    <p class='background'>Management</p>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-right">
-                <h3>Four years of UX/UI Design experience</h3>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-left">
-                <h3>Over five years of Graphic Design experience</h3>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-right">
-                <h3>Quantitative results to ensure confidence in my thoughtful decision-making</h3>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-left">      
-                <h3>Along with design and web dev, I have a background in and experience with:</h3>
-            </div>   
-            <div class='desk-text-ani' data-aos="fade-up-right">  
-                    <p class='background'>Psychology</p>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-up-left">
-                    <p class='background'>Marketing</p>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-up-right">
-                    <p class='background'>Communications</p>
-            </div>
-            <div class='desk-text-ani' data-aos="fade-up-left">
-                    <p class='background'>Management</p>
-            </div>
-            <div data-aos="fade-up">
-                    <p class='background'>Research &amp; Analytics</p>
-            </div>
-            <div data-aos="fade-up">
-                <div class='skills'>
+            <div>
+                <div class='res-wrap'>
+                    <img data-aos="zoom-in" class='res-icon' src='/images/icons/resume.png' alt='resume icon'>
+                    <div class='mob-text-ani'>
+                    <div class='res-overview'>
+                        <p>Over 4 years of UX/UI Design experience</p>
+                        <p>Over 5 years of Graphic Design experience</p>
+                        <p>Quantitative results including:</p>
+	                        <p class='indent'>Yearly traffic increase of over 100%</p>
+	                        <p class='indent'>Facebook follower increase of over 70%</p>
+	                        <p class='indent'>Twitter follower increase of over 160%</p>
+                        <p>Additional background in and experience with:</p>
+	                        <p class='indent'>Psychology</p>
+	                        <p class='indent'>Marketing</p>
+	                        <p class='indent'>Communications</p>
+	                        <p class='indent'>Management</p>
+	                        <p class='indent'>Research &amp; Analytics</p>
+                    </div>
+                    </div>
+                    <div class='desk-text-ani'>
+                    <div data-aos="fade-left" class='res-overview'>
+                        <p>Over 4 years of UX/UI Design experience</p>
+                        <p>Over 5 years of Graphic Design experience</p>
+                        <p>Quantitative results including:</p>
+	                        <p class='indent'>Yearly traffic increase of over 100%</p>
+	                        <p class='indent'>Facebook follower increase of over 70%</p>
+	                        <p class='indent'>Twitter follower increase of over 160%</p>
+                        <p>Additional background in and experience with:</p>
+	                        <p class='indent'>Psychology</p>
+	                        <p class='indent'>Marketing</p>
+	                        <p class='indent'>Communications</p>
+	                        <p class='indent'>Management</p>
+	                        <p class='indent'>Research &amp; Analytics</p>
+                    </div>
+                    </div>
+                </div>
+                <div class='des-wrap'>
+                <div class='skill-overview'>
+                <div id='mob-skill'>
+                    <h3 class='skill-title'>skill highlights</h3>
+                    <img data-aos="zoom-in" class='des-icon' src='/images/icons/design.png' alt='design icon'>
+                    <div class='des-list'>
+                        <h3 class='skill-type'>UX/UI design &amp; graphic design</h3>
+                        <div class='skills-cat'>
+                       <h3 class='skills-head'>adobe creative suite</h3>
+                        <h4 class='skills-subhead'>Photoshop</h4>
+                        <h4 class='skills-subhead'>Illustrator</h4>
+                        <h4 class='skills-subhead'>InDesign</h4>
+                        </div>
+                         <div class='skills-cat'>
+                       <h3 class='skills-head'>wireframing &amp; prototyping</h3>
+                        <h4 class='skills-subhead'>Sketch</h4>
+                        <h4 class='skills-subhead'>Invision</h4>
+                        <h4 class='skills-subhead'>Figma</h4>
+                        <h4 class='skills-subhead'>Axure</h4>
+                        </div>
+                   </div> 
+                </div>
+                <div id='desk-skill'>
+                <div data-aos="fade-right">
+                <h3 class='skill-title'>skill highlights</h3>
+                   <div class='des-list'>
+                       <h3 class='skill-type'>UX/UI design &amp; graphic design</h3>
+                        <div class='skills-cat'>
+                       <h3 class='skills-head'>adobe creative suite</h3>
+                        <h4 class='skills-subhead'>Photoshop</h4>
+                        <h4 class='skills-subhead'>Illustrator</h4>
+                        <h4 class='skills-subhead'>InDesign</h4>
+                        </div>
+                         <div class='skills-cat'>
+                       <h3 class='skills-head'>wireframing &amp; prototyping</h3>
+                        <h4 class='skills-subhead'>Sketch</h4>
+                        <h4 class='skills-subhead'>Invision</h4>
+                        <h4 class='skills-subhead'>Figma</h4>
+                        <h4 class='skills-subhead'>Axure</h4>
+                        </div>
+                   </div> 
+                </div>
+                <img data-aos="zoom-in" class='des-icon' src='/images/icons/design.png' alt='design icon'>
+                </div>
+                </div>
+                </div>
+                <div class='dev-wrap'>
+                    <img data-aos="zoom-in" class='res-icon' src='/images/icons/development.png' alt='development icon'>
+                    <div class='mob-text-ani'>
+                    <div class='dev-list'>
+                        <h3 class='skill-type'> web development &amp; content management</h3>
+                        <div class='skills-cat'>
+                       <h3 class='skills-head'>html</h3>
+                       <h3 class='skills-head'>css</h3>
+                        <h4 class='skills-subhead'>Responsive Design</h4>
+                        <h3 class='skills-head'>javascript</h3>
+                        <h4 class='skills-subhead'>JQuery</h4>
+                        <h4 class='skills-subhead'>NodeJS</h4>
+                        <h3 class='skills-head'>git</h3>
+                        <h4 class='skills-subhead'>GitHub</h4>
+                        </div>
+                         <div class='skills-cat'>
+                       <h3 class='skills-head'>CMS</h3>
+                        <h4 class='skills-subhead'>Drupal</h4>
+                        <h4 class='skills-subhead'>WordPress</h4>
+                        <h3 class='skills-head'>google analytics</h3>
+                        </div>
+                    </div>
+                    </div>
+                    <div class='desk-text-ani'>
+                    <div data-aos="fade-left" class='dev-list'>
+                        <h3 class='skill-type'> web development &amp; content management</h3>
+                        <div class='skills-cat'>
+                       <h3 class='skills-head'>html</h3>
+                       <h3 class='skills-head'>css</h3>
+                        <h4 class='skills-subhead'>Responsive Design</h4>
+                        <h3 class='skills-head'>javascript</h3>
+                        <h4 class='skills-subhead'>JQuery</h4>
+                        <h4 class='skills-subhead'>NodeJS</h4>
+                        <h3 class='skills-head'>git</h3>
+                        <h4 class='skills-subhead'>GitHub</h4>
+                        </div>
+                         <div class='skills-cat'>
+                       <h3 class='skills-head'>CMS</h3>
+                        <h4 class='skills-subhead'>Drupal</h4>
+                        <h4 class='skills-subhead'>WordPress</h4>
+                        <h3 class='skills-head'>google analytics</h3>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+                {{!-- <div class='skills'>
                     <h3 class='skills-title'>skills</h3>
                     <div class='skills-cat'>
                         <h3 class='skills-head'>design / ux / ui</h3>
@@ -192,15 +313,7 @@
                         <h4 class='skills-subhead'>Social Media</h4>
                         <h4 class='skills-subhead'>Podcasting</h4>
                     </div>
-                </div>
-            </div>
-            <div data-aos="zoom-in">    
-                <div class='linkedpdf'>
-                    <a href='https://www.linkedin.com/in/jacobkimjohnson' target='_blank'><div class='resume-btn'>LinkedIn Profile</div></a>
-                
-                    <a href='/images/resume.pdf' target='_blank'><div class= 'resume-btn'>Resume PDF</div></a>
-                </div>
-            </div>
+                </div> --}}
         </div>    
     </div>
     <div id='portfolio-container'>
@@ -908,8 +1021,24 @@
     <div id='contact-container'>
         <div class='contact'>
             <a name='contact-anchor'><h2>let&#146;s connect</h2></a>
-            <p class='contact-text'>Email: <a class='contact-link' href='mailto:jacob.kim.johnson@gmail.com'>jacob.kim.johnson@gmail.com</a></p>
-            <p class='contact-text'>Phone: <a class='contact-link' href='tel:608-790-7675'>(608) 790-7675</a></p>
-        </div>
+            <div class='contact-wrap'>
+                <a class='contact-link' href="mailto:jacob.kim.johnson@gmail.com">
+                    <img class='contact-icon' src="/images/icons/email.png" alt="email icon"/>
+                    </a>
+                    <p class='contact-text'>jacob.kim.johnson@gmail.com</p>
+            </div>
+    <div class='contact-wrap'>
+    <a class='contact-link' href="tel:608-790-7675">	
+					<img class='contact-icon' src="/images/icons/phone.png" alt="phone icon"/>
+          </a>
+    <p class='contact-text'>(608) 790-7675</a></p>
     </div>
+    <div class='contact-wrap'>
+    <a class='contact-link' href="https://www.linkedin.com/in/jacobkimjohnson/" target='_blank'>	
+						<img class='contact-icon' src="/images/icons/linkedin.png" alt="linkedin icon"/>
+          </a>
+      </div>
+  </div>
+  
+</div>
 </div>

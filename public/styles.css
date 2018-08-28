@@ -150,6 +150,12 @@ nav li:hover {
   max-width: 900px;
 }
 
+.name-wrapper{
+  max-width: 580px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 
 .name {
   font-family: 'futura';
@@ -158,34 +164,65 @@ nav li:hover {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 45px;
+  font-size: 40px;
   margin: 0;
 }
 
-.name-sub{
+.name-sup, .name-sub {
+  max-width: 500px;
   line-height: 1.75;
-  text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-family: 'lato';
   font-weight: 400;
-  margin: 0;
-  padding: 20px;
-
-}
-
-
-.headshot {
-  display: block;
-  width: 100%;
-  max-width: 300px;
   margin: auto;
-  /* float: left; */
-  /* margin: 20px 20px 20px 0; */
+  font-size: 20px;
+  display: block;
+  text-align: center;
 }
 
-.bio-overview {
+/* rotating text*/
+.job-titles {
+  color: #1b3449;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+}
+#rotate {
+  display: inline;
+}
+.job {
+  display: inline;
+}
+
+.headshot, .phil-icon, .res-icon, .des-icon {
+  display: block;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.phil-icon, .des-icon {
+  margin-bottom: 40px;
+}
+
+#desk-phil, #desk-skill {
+  display: none;
+}
+
+.bio-overview, .res-overview, .dev-list {
   margin-top: 40px;
+}
+
+.res-overview p, .des-list p {
+  margin: 0;
+  color: #1b3449;
+}
+
+.indent {
+  text-indent: 2em;
 }
 
 .wts-title, .act-title {
@@ -193,6 +230,14 @@ nav li:hover {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.phil-title, .skill-title{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
 }
 
 #about-container {
@@ -269,7 +314,7 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 
 #resume-container h2, #resume-container h3, #resume-container h4, #resume-container ul, .resume-p, .background {
   color: #1b3449;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .resume-p {
@@ -282,8 +327,9 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 }
 .linkedpdf {
   text-align: center;
-  max-width:300px;
-  margin:10px auto;
+  margin-bottom: 40px;
+  /* max-width:300px;
+  margin:10px auto; */
 }
 .resume-btn{
   background: #1b3449;
@@ -346,8 +392,16 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   text-align: center;
 }
 
+.skill-type {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .skills-cat {
-  width:200px;
+  width:49%;
   letter-spacing: 2px;
   margin-bottom: 20px;
   display: inline-block;
@@ -357,14 +411,14 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 
 .skills-head {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .skills-subhead {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 
 }
 
@@ -619,6 +673,11 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
 }
 .contact h2 {
   color: #ffebd2;
+  padding-bottom: 40px;
+}
+
+.contact-wrap{
+  margin-bottom: 20px;
 }
 
 .contact-text {
@@ -627,11 +686,16 @@ a.about-anchor1, a.resume-anchor1, a.portfolio-anchor1 {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
+  margin:0;
 }
 
 .contact-link {
-  color: #99e5ff;
+  color: #ffebd2;
   text-decoration: none;
+}
+
+.contact-icon {
+  margin-bottom: 10px;
 }
 
 
@@ -1330,7 +1394,6 @@ figure.effect-jazz:hover p {
   }
 
   p, li {
-    font-size: 20px;
     line-height: 2;
   }
 
@@ -1349,26 +1412,60 @@ figure.effect-jazz:hover p {
     top: -155.75px;
   }
 
-  /* .name {
+  .name {
     font-size: 45px;
-  } */
+  }
+  .name-sup, .name-sub {
+    display: inline;
+  }
 
-  .head-overview {
+  .name-sub {
+    text-align: right;
+    margin-left: 136px;
+  }
+  .job-titles {
+    display: inline;
+    font-size: 30px;
+  }
+
+  .head-overview, .phil-wrap, .res-wrap, .des-wrap, .dev-wrap {
     position: relative;
   }
 
-  .headshot {
+  .headshot, .phil-icon, .res-icon, .des-icon {
     position: absolute;
-    width: 300px;
     top: 50%;
     margin-top: -150px;
   }
 
-  .bio-overview {
-    margin-left: 330px;
+  .phil-icon, .des-icon {
+    right: 0;
+  }
+
+  #mob-phil, #mob-skill{
+    display: none;
+  }
+
+  #desk-phil, #desk-skill {
+    display: block;
+  }
+
+  .bio-overview, .res-overview, .dev-list {
+    margin-left: 270px;
     padding-left: 30px;
     padding-top:0;
-    border-left: 3px solid #1b3449;
+  }
+
+  .phil-overview, .des-list {
+    margin-right: 270px;
+    padding-right: 30px;
+    padding-top:0;
+  }
+
+  .phil-title, .skill-title {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 25px;
   }
   
   .wts-title {
@@ -1412,9 +1509,9 @@ figure.effect-jazz:hover p {
     font-size: 25px;
   }
 
-  .skills-cat {
+  /* .skills-cat {
     margin: 0 10px 20px 10px;
-  }
+  } */
 
   .des-subhead {
     clear: left;
@@ -1441,6 +1538,7 @@ figure.effect-jazz:hover p {
 
   .contact-text {
     font-size: 20px;
+    margin: 0;
   }
   /* Process Pages */
 
@@ -1488,6 +1586,29 @@ figure.effect-jazz:hover p {
   }
   .header-spacer {
     height: 117px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  li, p {
+    font-size: 20px;
+  }
+  .bio-overview, .res-overview, .dev-list {
+    margin-left: 330px;
+  }
+  .phil-overview, .des-list {
+    margin-right: 330px;
+  }
+  .headshot, .phil-icon, .res-icon, .des-icon {
+    width: 300px;
+  }
+
+  .des-wrap {
+    margin: 50px 0px 100px 0;
+  }
+
+  .dev-wrap {
+    margin: 100px 0 50px 0;
   }
 }
 
