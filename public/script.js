@@ -4,15 +4,15 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("toTop").style.display = "block";
-  } else {
-    document.getElementById("toTop").style.display = "none";
-  }
   if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
     document.getElementById("headContact").style.display = "block";
   } else {
     document.getElementById("headContact").style.display = "none";
+  }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("toTop").style.display = "block";
+  } else {
+    document.getElementById("toTop").style.display = "none";
   }
 }
 

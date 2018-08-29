@@ -660,7 +660,7 @@ a.toggle:hover {
 
 .ux-btn {
   background: #1b3449;
-  margin: 0 5px 10px 5px;
+  margin: 20px 0;
   text-align: center;
   display: inline-block;
   padding: 5px 10px;
@@ -1243,6 +1243,37 @@ img.hover-shadow {
   background: #fff;
 }
 
+.process-overview {
+  color: #1b3449;
+  background: #ffebd2;
+  margin-bottom: 40px;
+  padding: 20px 40px;
+}
+
+.process-overview-section:nth-child(1) {
+  padding-right: 20px;
+}
+
+.process-overview-section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.process-overview h4, .process-overview p {
+  font-family: lato;
+}
+
+.process-overview h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.process-overview p, .process-overview ul, .process-overview li{
+  font-size: 16px;
+  list-style: none;
+}
+
 .process-content {
   padding: 20px 5% 0 5%;
 }
@@ -1299,7 +1330,6 @@ img.hover-shadow {
 
 .process-btn {
   text-align: center;
-  margin: 20px 0 40px 0;
 }
 
 /* portfolio fade/zoom animation */
@@ -1487,6 +1517,14 @@ figure.effect-jazz:hover p {
   h2 {
     font-size: 40px;
   }
+
+  .process-overview {
+    padding: 20px 10%;
+  }
+  .process-overview-section {
+    width: 40%;
+  }
+
   .process-name-sub,
   .editing {
     font-size: 20px;
