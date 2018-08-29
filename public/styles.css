@@ -1274,6 +1274,10 @@ img.hover-shadow {
   list-style: none;
 }
 
+.po-ul {
+  padding: 0;
+}
+
 .process-content {
   padding: 20px 5% 0 5%;
 }
@@ -1522,7 +1526,7 @@ figure.effect-jazz:hover p {
     padding: 20px 10%;
   }
   .process-overview-section {
-    width: 40%;
+    width: 49%;
   }
 
   .process-name-sub,
