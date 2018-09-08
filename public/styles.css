@@ -645,10 +645,15 @@ a.toggle:hover {
   text-align: left;
 }
 
-/* .site-list {
-  margin: 40px auto;
+.site-list {
+  list-style: none;
+  margin: 0px auto;
+  padding: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
   text-align: center;
-} */
+}
 
 .ux-btn-container {
   margin: 15px 0 25px 0;
@@ -674,10 +679,28 @@ a.toggle:hover {
   box-shadow: rgba(0, 0, 0, .1) 4px 8px 17px;
 }
 
-.ux-btn:hover {
+.ux-btn-w-note {background: #1b3449;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #99e5ff;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'lato';
+  font-weight: 900;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, .1) 4px 8px 17px;}
+
+.ux-btn:hover, .ux-btn-w-note:hover {
   background: #99e5ff;
   color: #1b3449;
   transition: 0.3s;
+}
+
+.ux-btn-note {
+  margin-top: 0;
 }
 
 .cap {
@@ -685,12 +708,11 @@ a.toggle:hover {
   margin: 0;
 }
 
-/* .speak-louder-container, .toons-for-days-container, .werdzahn-container, .words-to-song-container, .cbe-container {
+.sl-container, .tfd-container, .werdzahn-container, .wts-container, .cbe-container, .cd-container {
   display: inline-block;
-  vertical-align: top;
-  padding: 10px;
-  max-width: 300px;
-} */
+  width: 100%;
+  max-width: 447px;
+}
 
 .web-image {
   max-width: 100%;
@@ -795,6 +817,12 @@ a.toggle:hover {
   text-align: center;
 }
 
+.port-image {
+  display: inline-block;
+  width: 100%;
+  max-width: 447px;
+  /* padding: 10px; */
+}
 .port-image img {
   margin: 10px auto;
 }
@@ -1307,6 +1335,7 @@ img.hover-shadow {
 }
 
 .editing {
+  margin-bottom: 20px;
   letter-spacing: 2px !important;
   color: #000;
 }
@@ -1340,12 +1369,12 @@ img.hover-shadow {
 
 .grid figure {
   position: relative;
-  float: left;
+  /* float: left; */
   overflow: hidden;
   margin: 10px 1%;
   max-width: 583px;
   max-height: 600px;
-  width: 97.5%;
+  /* width: 97.5%; */
   height: auto;
   background: #3085a3;
   text-align: center;
@@ -1709,12 +1738,12 @@ figure.effect-jazz:hover p {
   .column {
     margin: 20px 40px;
   }
-  .grid figure {
+  /* .grid figure {
     display: inline-block;
-    /* float: left; */
+    float: left;
     margin: 2% 1%;
     width: 48%;
-  }
+  } */
   /* .grid figure figcaption {
     font-size: 35px;
   } */
