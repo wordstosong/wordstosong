@@ -35,6 +35,10 @@ app.get('/cbe-process', function (req, res) {
     res.render('cbe-process', { title: title + ' | CBE Process' });
 });
 
+app.get('/tfd-process', function (req, res) {
+    res.render('tfd-process', { title: title + ' | Toons for Days Process' });
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;

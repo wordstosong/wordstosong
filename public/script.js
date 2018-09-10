@@ -48,6 +48,20 @@ $(window).scroll(function (e) {
   parallax();
 });
 
+// HEADSHOT SWAP
+
+$(function(){
+  $("#headshot").on({
+   mouseenter: function(){
+    $(this).attr('src', '/images/icons/headshot-drawing.png');
+  },
+  mouseleave: function(){
+    $(this).attr('src','/images/icons/headshot.png');
+  }
+  });
+  
+});
+
 //PARALLAX FUNCTION - HOME
 function parallax() {
   var scrolled = $(window).scrollTop();

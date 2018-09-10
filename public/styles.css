@@ -1809,7 +1809,8 @@ BACKGROUND
 .bg-cbe,
 .bg-wts,
 .bg-sl,
-.bg-werdzahn {
+.bg-werdzahn,
+.bg-tfd {
   position: fixed;
   background-position-x: center !important;
   background-repeat: no-repeat !important;
@@ -1834,4 +1835,8 @@ BACKGROUND
 
 .bg-werdzahn {
   background: url(images/web-dev/process/werdzahn/werdzahn-header.png);
+}
+
+.bg-tfd {
+  background: url(images/web-dev/process/tfd/tfd-header.png);
 }
