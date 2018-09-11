@@ -708,7 +708,7 @@ a.toggle:hover {
   margin: 0;
 }
 
-.sl-container, .tfd-container, .werdzahn-container, .wts-container, .cbe-container, .cd-container {
+.sl-container, .tfd-container, .werdzahn-container, .wts-container, .cbe-container, .cd-container, .sm-container {
   display: inline-block;
   width: 100%;
   max-width: 447px;
