@@ -87,6 +87,11 @@ function parallax() {
   } else {
     $('.bg-werdzahn').css('top', -(scrolled * 0.3) + 87 + 'px');
   }
+  if (windowSize >= 700) {
+    $('.bg-tfd').css('top', -(scrolled * 0.3) + 117 + 'px');
+  } else {
+    $('.bg-tfd').css('top', -(scrolled * 0.3) + 87 + 'px');
+  }
 }
 
 
