@@ -17,7 +17,8 @@
         "express-handlebars": "^3.0.0",
         "hoek": "^6.0.1",
         "merge": "^1.2.1",
-        "opn": "^5.1.0"
+        "opn": "^5.1.0",
+        "randomatic": "^3.1.1"
     },
     "repository": "ssh://git@github.com:wordstosong/wordstosong.git",
     "devDependencies": {
