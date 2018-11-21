@@ -92,6 +92,16 @@ function parallax() {
   } else {
     $('.bg-tfd').css('top', -(scrolled * 0.3) + 87 + 'px');
   }
+  if (windowSize >= 700) {
+    $('.bg-cd').css('top', -(scrolled * 0.3) + 117 + 'px');
+  } else {
+    $('.bg-cd').css('top', -(scrolled * 0.3) + 87 + 'px');
+  }
+  if (windowSize >= 700) {
+    $('.bg-sm').css('top', -(scrolled * 0.3) + 117 + 'px');
+  } else {
+    $('.bg-sm').css('top', -(scrolled * 0.3) + 87 + 'px');
+  }
 }
 
 

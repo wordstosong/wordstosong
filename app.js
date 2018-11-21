@@ -39,6 +39,14 @@ app.get('/tfd-process', function (req, res) {
     res.render('tfd-process', { title: title + ' | Toons for Days Process' });
 });
 
+app.get('/cd-process', function (req, res) {
+    res.render('cd-process', { title: title + ' | Cheat Day Process' });
+});
+
+app.get('/sm-process', function (req, res) {
+    res.render('sm-process', { title: title + ' | Show Me Process' });
+});
+
 app.use(expressServer.static('public'));
 
 var defaultPort = 8081;
