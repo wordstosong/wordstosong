@@ -111,6 +111,10 @@ blockquote {
   color: #1b3449;
 }
 
+sup {
+  font-size: 60%;
+}
+
 #last {
   margin-bottom: 0;
 }
@@ -263,7 +267,7 @@ nav li:hover {
 }
 
 .indent {
-  text-indent: 2em;
+  text-indent: 0.8em;
 }
 
 .wts-title,
@@ -1631,6 +1635,11 @@ figure.effect-jazz:hover p {
   #desk-skill {
     display: block;
   }
+
+  .indent {
+    text-indent: 2em;
+  }
+  
   .bio-overview,
   .res-overview,
   .dev-list {
@@ -1839,4 +1848,12 @@ BACKGROUND
 
 .bg-tfd {
   background: url(images/web-dev/process/tfd/tfd-header.png);
+}
+
+.bg-cd {
+  background: url(images/web-dev/process/cd/cd-header.png);
+}
+
+.bg-sm {
+  background: url(images/web-dev/process/sm/sm-header.png);
 }
