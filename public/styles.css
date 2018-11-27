@@ -1639,7 +1639,7 @@ figure.effect-jazz:hover p {
   .indent {
     text-indent: 2em;
   }
-  
+
   .bio-overview,
   .res-overview,
   .dev-list {
@@ -1819,7 +1819,9 @@ BACKGROUND
 .bg-wts,
 .bg-sl,
 .bg-werdzahn,
-.bg-tfd {
+.bg-tfd,
+.bg-cd,
+.bg-sm {
   position: fixed;
   background-position-x: center !important;
   background-repeat: no-repeat !important;
