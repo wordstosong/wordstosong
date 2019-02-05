@@ -1,10 +1,15 @@
-<div class="bg"></div>
+{{!-- <div class="bg"></div> --}}
 <a id="toTop" title="Go to top" class="smoothScroll" href="#top-anchor">&#94;</a>
-
 <div class='content'>
+    <div class="top-section">
+<canvas class="container" id="container" role="main"></canvas>
+
     <div id='home-container'>
         <div class='home-content'>
-            <div class='name-wrapper'>
+            {{!-- <h1 class="title">Hey! My name is Jacob.</h1> --}}
+            <p class="desc">Hey! My name is Jacob. </br> I'm a User Experience Designer.</p>
+            {{!-- <p class='desc2'>Well, actually I'm more than a User Experience Designer. </br> But for the intents and purposes of this portfolio, let's just run with that.</p> --}}
+            {{!-- <div class='name-wrapper'>
                 <h3 class='name-sup'>
                     <b>hey!</b> my name is
                 </h3>
@@ -18,9 +23,16 @@
                         </div>
                     </div>
                 </h3>
-            </div>
-            <nav>
-                <ul>
+            </div> --}}
+            {{!-- <nav> --}}
+                <ul class="nav">
+        <li>
+          <a class="smoothScroll" href="#about-anchor">About</a></li>
+        <li>
+          <a class="smoothScroll" href="#resume-anchor">Resume</a></li>
+        <li><a class="smoothScroll" href="#portfolio-anchor">Portfolio</a></li>
+      </ul>
+                {{!-- <ul>
                     <a class="smoothScroll" href='#about-anchor'>
                         <li>about</li>
                     </a>
@@ -33,10 +45,16 @@
                     <a class="smoothScroll" href='#contact-anchor'>
                         <li>contact</li>
                     </a>
-                </ul>
-            </nav>
+                </ul> --}}
+            {{!-- </nav> --}}
         </div>
+        
     </div>
+      <div class="blur blurTop"><canvas class="canvas"id="blurCanvasTop"></canvas></div>
+<div class="blur blurBottom"><canvas  class="canvas" id="blurCanvasBottom"></canvas>
+</div>
+</div>
+<div class="bottom-section">
     <div id='about-container'>
         <div class='about'>
             <a name='about-anchor' class='about-anchor1'></a>
@@ -1069,8 +1087,9 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
+    </div>
+  
     <div id='contact-container'>
         <div class='contact'>
             <a name='contact-anchor'>
@@ -1097,4 +1116,6 @@
         </div>
 
     </div>
-</div>
+
+    
+{{!-- </div> --}}
