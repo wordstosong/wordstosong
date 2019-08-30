@@ -49,6 +49,7 @@ body {
 #headContact {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
+  letter-spacing: 1;
 }
 
 #headContact:hover {
@@ -65,7 +66,7 @@ body {
   /* letter-spacing: 4px; */
   text-decoration: none;
   /* text-transform: uppercase; */
-  font-family: 'lato';
+  font-family: 'avenir';
   /* font-weight: 900; */
   font-size: 17px;
   /* border: .1px solid #94e6fc */
@@ -83,7 +84,7 @@ h2 {
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 400;
   margin: 0;
   padding-bottom: 20px;
@@ -92,13 +93,13 @@ h2 {
 h3 {
   margin-top: 40px;
   font-size: 20px;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 400;
 }
 
 p,
 li {
-  font-family: 'lato';
+  font-family: 'avenir';
   font-size: 18px;
   line-height: 1.75;
 }
@@ -112,7 +113,7 @@ a {
 }
 
 blockquote {
-  font-family: 'lato';
+  font-family: 'avenir';
   line-height: 1.5;
   color: #1b3449;
 }
@@ -220,7 +221,7 @@ nav li {
   position:absolute;
 }
 h1.title {
-  font-family: Lato;
+  font-family: avenir;
   color:white;
   font-size: 4vw;
   display:inline;
@@ -231,8 +232,9 @@ p.desc{
   width:100%;
   font-size:25px;
   color:rgba(255,255,255,1);
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom:40px;
+  letter-spacing: 2;
 }
 .nav {
   position:relative;
@@ -250,6 +252,8 @@ p.desc{
   font-size:17px;
 }
 .nav li a {
+  font-family: 'avenir';
+  letter-spacing: 1;
   text-decoration:none;
   color: rgba(255,255,255,0.8);
 }
@@ -257,7 +261,7 @@ p.desc{
   color:rgba(255,255,255,1);
 }
 .nav li~li {
-  margin-left:1vw; 
+  margin-left:2vw; 
 }
 .blur {
   display:none;
@@ -303,7 +307,7 @@ p.desc{
   line-height: 1.75;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 400;
   margin: auto;
   font-size: 20px;
@@ -385,7 +389,7 @@ p.desc{
 
 #about-container {
   background: #ffebd2;
-  font-family: 'lato';
+  font-family: 'avenir';
   padding: 20px;
   clear: left;
   line-height: 1.5;
@@ -402,7 +406,7 @@ p.desc{
 }
 
 .freetime-activities {
-  font-family: 'lato';
+  font-family: 'avenir';
   text-align: center;
 }
 
@@ -435,7 +439,7 @@ p.desc{
 
 #resume-container {
   /* color: #fff; */
-  font-family: 'lato';
+  font-family: 'avenir';
   padding: 20px;
   clear: left;
   background: #99e5ff;
@@ -494,7 +498,7 @@ a.portfolio-anchor1 {
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 900;
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, .1) 4px 8px 17px;
@@ -541,7 +545,7 @@ a.portfolio-anchor1 {
 }
 
 .skills {
-  font-family: 'lato';
+  font-family: 'avenir';
   text-align: center;
 }
 
@@ -619,7 +623,7 @@ a.portfolio-anchor1 {
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 900;
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, .1) 4px 8px 17px;
@@ -677,7 +681,7 @@ a.toggle:hover {
 .des-menu,
 .ill-menu {
   text-align: center;
-  font-family: 'lato';
+  font-family: 'avenir';
   padding: 16px 8px;
 }
 
@@ -773,7 +777,7 @@ a.toggle:hover {
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 900;
   font-size: 14px;
   box-shadow: rgba(0, 0, 0, .1) 4px 8px 17px;
@@ -788,7 +792,7 @@ a.toggle:hover {
   letter-spacing: 4px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 900;
   font-size: 14px;
   box-shadow: rgba(0, 0, 0, .1) 4px 8px 17px;}
@@ -879,7 +883,7 @@ a.toggle:hover {
 
 .contact-text {
   color: #fff;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -928,7 +932,7 @@ a.toggle:hover {
 }
 
 .port-image a {
-  font-family: 'lato';
+  font-family: 'avenir';
 }
 
 /* body: after {
@@ -1105,13 +1109,13 @@ body.lb-disable-scrolling {
 .lb-data .lb-caption {
   letter-spacing: 1;
   font-size: 20px;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: bold;
   line-height: 1em;
 }
 
 .lb-data .lb-number {
-  font-family: 'lato';
+  font-family: 'avenir';
   display: block;
   clear: left;
   padding-top: 0.5em;
@@ -1393,7 +1397,7 @@ img.hover-shadow {
 }
 
 .process-overview h4, .process-overview p {
-  font-family: lato;
+  font-family: avenir;
 }
 
 .process-overview h4 {
@@ -1433,7 +1437,7 @@ img.hover-shadow {
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 400;
   margin: 0;
   color: #fff;
@@ -1462,7 +1466,7 @@ img.hover-shadow {
 
 .process-subhead {
   font-size: 20px;
-  font-family: 'lato';
+  font-family: 'avenir';
   font-weight: 400;
 }
 
