@@ -1669,9 +1669,9 @@ figure.effect-jazz:hover p {
   .process-overview {
     padding: 20px 10%;
   }
-  .process-overview-section {
+  /* .process-overview-section {
     width: 49%;
-  }
+  } */
 
   .process-name-sub,
   .editing {
