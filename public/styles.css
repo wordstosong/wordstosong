@@ -236,6 +236,10 @@ p.desc{
   margin-bottom:40px;
   letter-spacing: 2;
 }
+p.construction{
+  font-size:10px;
+  color:rgba(255,255,255,0.3);
+}
 .nav {
   position:relative;
   right:0%;
@@ -1699,6 +1703,10 @@ figure.effect-jazz:hover p {
     font-size:40px;  
   }
 
+  p.construction {
+    font-size:15px;
+  }
+
   .nav li {
     font-size: 20px;
   }
@@ -1896,6 +1904,9 @@ figure.effect-jazz:hover p {
   }
   p.desc{
     font-size:50px;  
+  }
+  p.construction{
+    font-size:18px;
   }
   .bio-overview,
   .res-overview,

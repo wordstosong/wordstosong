@@ -27,6 +27,7 @@
     "url": "git+ssh://git@github.com/wordstosong/wordstosong.git"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "browser-sync": "^2.26.7",
     "faker": "^4.1.0",
     "jest": "^23.6.0",
