@@ -144,6 +144,7 @@ sup {
   position: relative;
 }
 
+
 nav ul {
   margin: 0;
   padding: 0 20px;
@@ -295,7 +296,7 @@ p.construction{
 }
 
 .name {
-  font-family: 'futura';
+  font-family: 'avenir';
   font-weight: bold;
   color: #1b3449;
   text-transform: uppercase;
@@ -1345,12 +1346,9 @@ img.hover-shadow {
 .img-prev {
   margin: 0 !important;
 }
-/* .footer {
-  z-index:3;
-  position:fixed;
-  width: 100%;
-  bottom: 0px;
-} */
+.footer {
+  position: relative;
+}
 .footer p {
   color: #fff;
   background: #1b3449;
@@ -1363,23 +1361,29 @@ img.hover-shadow {
 
 /* Process Pages */
 
-#process-header-container {
-  top: 120;
-  height: 300px;
+#process-hero-container {
+  background: #1B3449;
+  height: 500px;
   width: 100%;
   /*   min-height: 70%; */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: fixed;
+  z-index: -1;
 }
 
-.process-header-content {
+.process-hero-content {
   top: 120;
   margin: auto;
   width: 90%;
   max-width: 900px;
 }
 
+.process-content-container {
+  top:500px;
+  position:relative;
+  display:block;
+  z-index:1;
+}
 .process-body {
   background: #fff;
 }
@@ -1424,7 +1428,7 @@ img.hover-shadow {
 }
 
 .process-name {
-  font-family: 'futura';
+  font-family: 'avenir';
   font-weight: bold;
   font-size: 6vw;
   color: #fff;
@@ -1963,29 +1967,29 @@ BACKGROUND
 }
 
 .bg-cbe {
-  background: url(images/web-dev/process/cbe/cbe-header.png);
+  background: url(images/web-dev/process/process-hero.png);
 }
 
 .bg-wts {
-  background: url(images/web-dev/process/wts/wts-header.png);
+  background: url(images/web-dev/process/process-hero.png);
 }
 
 .bg-sl {
-  background: url(images/web-dev/process/sl/sl-header-blue.png);
+  background: url(images/web-dev/process/process-hero.png);
 }
 
 .bg-werdzahn {
-  background: url(images/web-dev/process/werdzahn/werdzahn-header.png);
+  background: url(images/web-dev/process/process-hero.png);
 }
 
 .bg-tfd {
-  background: url(images/web-dev/process/tfd/tfd-header.png);
+  background: url(images/web-dev/process/process-hero.png);
 }
 
 .bg-cd {
-  background: url(images/web-dev/process/cd/cd-header.png);
+  background: url(images/web-dev/process/process-hero.png);
 }
 
-.bg-sm {
-  background: url(images/web-dev/process/sm/sm-header.png);
-}
+/* .bg-sm {
+  background: url(images/web-dev/process/process-hero.png);
+} */

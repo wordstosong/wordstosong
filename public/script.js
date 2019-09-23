@@ -71,6 +71,7 @@ $(window).scroll(function(){
 
 
 
+
 // HEADSHOT SWAP
 
 $(function(){
@@ -346,6 +347,8 @@ function velocityInt(min,max)
 {
     return Math.random()*(max-min+1)+min;
 };
+
+
 
 // LOGO LIGHTBOX
 
