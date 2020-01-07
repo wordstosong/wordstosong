@@ -29,12 +29,12 @@
     "url": "git+ssh://git@github.com/wordstosong/wordstosong.git"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "browser-sync": "^2.26.7",
     "faker": "^4.1.0",
     "jest": "^23.6.0",
-    "nodemon": "^1.19.1",
-    "puppeteer": "^1.19.0"
+    "nodemon": "^1.19.4",
+    "puppeteer": "^1.20.0"
   },
   "bugs": {
     "url": "https://github.com/wordstosong/wordstosong/issues"
