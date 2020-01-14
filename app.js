@@ -13,7 +13,7 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-var title = 'Words To Song - Jacob Kim Johnson\'s Porfolio';
+var title = 'Jacob Kim Johnson\'s Porfolio';
 
 app.get('/', function (req, res) {
     res.render('home', { title: title });
