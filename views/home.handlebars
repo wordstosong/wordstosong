@@ -1,55 +1,23 @@
-{{!-- <div class="bg"></div> --}}
 <a id="toTop" title="Go to top" class="smoothScroll" href="#top-anchor">&#94;</a>
 <div class='content'>
     <div class="top-section">
 <canvas class="container" id="container" role="main"></canvas>
 
     <div id='home-container'>
-        <div class='home-content'>
-            {{!-- <h1 class="title">Hey! My name is Jacob.</h1> --}}
-            <p class="desc">Hey! My name is Jacob. </br> I'm a User Experience Designer.</p>
-            <p class='construction'> (I'm also updating my website. Bear with me. <i class="fas fa-grin-beam-sweat"></i> )</p>
-            {{!-- <p class='desc2'>Well, actually I'm more than a User Experience Designer. </br> But for the intents and purposes of this portfolio, let's just run with that.</p> --}}
-            {{!-- <div class='name-wrapper'>
-                <h3 class='name-sup'>
-                    <b>hey!</b> my name is
-                </h3>
-                <h1 class='name'>Jacob Kim Johnson</h1>
-                <h3 class='name-sub'>&amp; I'm a
-                    <div class='job-titles'>
-                        <div id="rotate">
-                            <div class='job'>ux/ui designer.</div>
-                            <div class='job'>graphic designer.</div>
-                            <div class='job'>web developer.</div>
-                        </div>
-                    </div>
-                </h3>
-            </div> --}}
-            {{!-- <nav> --}}
+        <span class='home-box'>
+            <div class='home-content'>
+                <p class="desc">Hey! I&#8217;m Jacob,</br>&amp; I&#8217;m a User Experience Designer.</p>
+                <p class='construction'> (I&#8217;m also updating my website. Bear with me. <i class="fas fa-grin-beam-sweat"></i> )</p>
                 <ul class="nav">
-        <li>
-          <a class="smoothScroll" href="#about-anchor">About</a></li>
-        <li>
-          <a class="smoothScroll" href="#resume-anchor">Resume</a></li>
-        <li><a class="smoothScroll" href="#portfolio-anchor">Portfolio</a></li>
-      </ul>
-                {{!-- <ul>
-                    <a class="smoothScroll" href='#about-anchor'>
-                        <li>about</li>
-                    </a>
-                    <a class="smoothScroll" href='#resume-anchor'>
-                        <li>resume</li>
-                    </a>
-                    <a class="smoothScroll" href='#portfolio-anchor'>
-                        <li>portfolio</li>
-                    </a>
-                    <a class="smoothScroll" href='#contact-anchor'>
-                        <li>contact</li>
-                    </a>
-                </ul> --}}
-            {{!-- </nav> --}}
-        </div>
-        
+                    <li>
+                        <a class="smoothScroll" href="#about-anchor">About</a></li>
+                    <li>
+                        <a class="smoothScroll" href="#resume-anchor">Resume</a></li>
+                    <li>
+                        <a class="smoothScroll" href="#portfolio-anchor">Portfolio</a></li>
+                </ul>
+            </div>
+        </span>    
     </div>
       <div class="blur blurTop"><canvas class="canvas"id="blurCanvasTop"></canvas></div>
 <div class="blur blurBottom"><canvas  class="canvas" id="blurCanvasBottom"></canvas>
@@ -59,691 +27,485 @@
     <div id='about-container'>
         <div class='about'>
             <a name='about-anchor' class='about-anchor1'></a>
-            <h2>a little about me</h2>
+            
+            <h2>A Little About Me</h2>
             <div class='bio-wrapper'>
                 <div class='head-overview'>
-                    <img data-aos="zoom-in" class='headshot' id='headshot' src='/images/icons/headshot.png' alt='Jacob picture'>
-                    <div class='mob-text-ani'>
-                         <p class='cap'>Hover your mouse over my picture (or tap on mobile) to see a cartoonify me! <br> (Because why not?) </p>
+                    <img class='headshot' id='headshot' src='/images/icons/hs.png' alt='Jacob picture'>
+                    
+                        <h3 class='sum-title'>Quick Summary</h3>
                         <p class='bio-overview'>
-                            Being a user experience designer means understanding the users as holistically as I possibly can.
-                            With experience in industries including start-ups, tech, and nonprofits, it has given me a 
-                            unique ability to examine situations and consider strategies from different perspectives. I
-                            have a passion for crafting elegant and engaging interfaces and designs, and my
-                            empathy, critical thinking, and collaborative nature have been beneficial in helping me understand
-                            user behaviors and motivations, as well as make thoughtful decisions. Those insights have allowed
-                            me be more open-minded as I figure out the details, while focusing on the big picture.
+                            As a user experience designer, I have a desire to understand users as holistically as I can. 
+                            With over 6 years of experience in industries including start-ups, tech, and nonprofits, 
+                            I have been given unique opportunities to examine situations and consider strategies from all sorts of perspectives with different intentions. 
+                            I have a passion for crafting elegant and engaging interfaces and designs, and my empathy, critical thinking, and collaborative nature 
+                            have been beneficial in helping me understand user behaviors and motivations, as well as make thoughtful decisions. All of that has shaped me 
+                            to be more open-minded as I figure out the details, while also focusing on the big picture.
                         </p>
-                    </div>
-                    <div class='desk-text-ani'>
-                        <p data-aos="fade-leftzz" class='bio-overview'>
-                            Being a user experience designer means understanding the users as holistically as I possibly can.
-                            With experience in industries including start-ups, tech, and nonprofits, it has given me a 
-                            unique ability to examine situations and consider strategies from different perspectives. I
-                            have a passion for crafting elegant and engaging interfaces and designs, and my
-                            empathy, critical thinking, and collaborative nature have been beneficial in helping me understand
-                            user behaviors and motivations, as well as make thoughtful decisions. Those insights have allowed
-                            me be more open-minded as I figure out the details, while focusing on the big picture.
-                            <div data-aos="zoom-inzz" class='cap'>Hover your mouse over my picture to cartoonify me! <br> (Because why not?) </div>
-                        </p>
-                    </div>
+                    
                 </div>
                 <div class='phil-wrap'>
                     <div class='phil-overview'>
-                        <div id='mob-phil'>
+                        {{!-- <div id='mob-phil'> --}}
+                            <img class='phil-icon' src='/images/icons/phil.png' alt='philosophy icon'>
                             <h3 class='phil-title'>My Philosophy</h3>
-                            <img data-aos="zoom-in" class='phil-icon' src='/images/icons/philosophy.png' alt='philosophy icon'>
+                            
                             <p>
-                                Technology gives us more convenience and efficiency in our everyday lives. However, as we are becoming more and more connected,
-                                we are losing intimacy, empathy, and compassion for each other. This mindset has not only been bleeding into the products we use, but also how we conduct our everyday behaviors.
-                            </p>
-                            <p>
-                                As a user experience designer, I don’t just think of what I do as human–computer interaction, but rather as human–human interaction.
-                                We shouldn’t shortcut the humanity in our behaviors. Instead, we should be more mindful, because there is a living, feeling person somewhere at the other end of that interaction.
-                                To reflect that, I strive to craft products uniquely effective—telling stories and solving problems specific to those using them. 
-                                Nothing is more important than understanding the needs, wants, and expectations by both the client-side users and the end users—and then delivering a satisfying product.
-                            </p>
-                        </div>
-                        <div id='desk-phil'>
-                            <div data-aos="fade-rightzz">
-                                <h3 class='phil-title'>My Philosophy</h3>
-                                <p>
-                                Technology gives us more convenience and efficiency in our everyday lives. However, as we are becoming more and more connected,
-                                we are losing intimacy, empathy, and compassion for each other. This mindset has not only been bleeding into the products we use, but also how we conduct our everyday behaviors.
+                                Broadly stated, my goal is as simple as this:
                             </p>
                             <p>
-                                As a user experience designer, I don’t just think of what I do as human–computer interaction, but rather as human–human interaction.
-                                We shouldn’t shortcut the humanity in our behaviors. Instead, we should be more mindful, because there is a living, feeling person somewhere at the other end of that interaction.
-                                To reflect that, I strive to craft products uniquely effective—telling stories and solving problems specific to those using them. 
-                                Nothing is more important than understanding the needs, wants, and expectations by both the client-side users and the end users—and then delivering a satisfying product.
+                                <strong>I want to do my part in helping others.</strong>
                             </p>
-                            </div>
-                            <img data-aos="zoom-in" class='phil-icon' src='/images/icons/philosophy.png' alt='philosophy icon'>
-                        </div>
+                            <p>
+                                While we are becoming more and more connected as technology gets better, we are losing intimacy, empathy, and compassion for each other.
+                            </p>
+                            <p>
+                                We need to be more mindful in designing for human beings.
+                            </p>
+                            <p>
+                                To reflect that, I strive to craft products uniquely effective—finding out what works and what doesn&#8217;t, and solving the problems specific to the individuals using those products.
+                            </p>
                     </div>
                 </div>
-
-                {{!--
-                <h3 class='wts-title'>wait... why &#8220;words to song&#8221;?</h3>
-                <p>
-                    This may come as a surprise, but my name isn’t particularly unique. I felt it necessary to come up with an internet handle
-                    to distinguish myself a bit and happened upon a song titled “Jacob” that included those lyrics, which
-                    resonated with me. To me, it’s poetic by holding a couple meanings: being in the process of creating
-                    (the words to a song), as well as the transition from process to completion of something created (having
-                    words and creating a song out of them). What can I say? I enjoy layered meanings.
-                </p>
-                <h3 class='act-title'>what i&#146;m likely doing when i&#146;m not designing</h3>
-                <div class='freetime-activities'>
-                    <div class='activity'>
-                        <img class='act-icon' src='/images/icons/headphones.svg' alt='headphones icon'>
-                        <h3 class='act-name'>Podcast Binging</h3>
-                        <h3 class='act-name'>Music Exploring</h3>
-                    </div>
-                    <div class='activity'>
-                        <img class='act-icon' src='/images/icons/film.svg' alt='film icon'>
-                        <h3 class='act-name'>Film Indulging &amp; Discussing</h3>
-                    </div>
-                    <div class='activity'>
-                        <img class='act-icon' src='/images/icons/workout.svg' alt='workout icon'>
-                        <h3 class='act-name'>Dog Jogging</h3>
-                        <h3 class='act-name'>Moderately-Heavy-Things Lifting</h3>
-                    </div>
-                    <div class='activity'>
-                        <img class='act-icon' src='/images/icons/guitar.svg' alt='guitar icon'>
-                        <h3 class='act-name'>Guitar Strumming</h3>
-                        <h3 class='act-name'>Karaoke Partaking</h3>
-                    </div>
-                    <div class='activity'>
-                        <img class='act-icon' src='/images/icons/book.svg' alt='book icon'>
-                        <h3 class='act-name'>Book Diving</h3>
-                        <h3 class='act-name'>Board Games (Not Named Monopoly) Experiencing</h3>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </div>
     <div id='resume-container'>
         <div class='resume'>
             <a name='resume-anchor' class='resume-anchor1'></a>
-            <h2>experience &amp; knowledge: got ‘em</h2>
+            
+
+            <h2>Got That Experience</h2>
             <div class='linkedpdf'>
-                <a href='/images/resume.pdf' target='_blank'>
-                    <div class='resume-btn'>Resume PDF</div>
+                <a class='resume-btn' href='/images/resume/resume.pdf' target='_blank'>
+                    Resume
                 </a>
+                <a class='text-only' href='/images/resume/resume-text.pdf' target='_blank'>Text-Only Resume</a>
             </div>
-            <div>
-                <div class='res-wrap'>
-                    <img data-aos="zoom-in" class='res-icon' src='/images/icons/resume.png' alt='resume icon'>
-                    <div class='mob-text-ani'>
+                
+            <div class='res-wrap'>
+                <img class='res-icon' src='/images/icons/shirt.png' alt='resume icon'>
+                
+                        <h3 class='gig'>Current Gig: UX/UI Designer at TiM/Media Services</h3>
+                            <p class='gig-sub'>(A Subsidiary of Cast &amp; Crew) </p>
                         <div class='res-overview'>
-                            <h3 class='phil-title'>Current gig: UX/UI Designer at TiM/Media Services</h3>
+                            
+                            
 
-                                <h3 class='skill-type'>What is TiM?</h3>
-
-                                <p>
-                                TiM (Time is Money) is a SaaS application, revolutionizing the digital onboarding process for production crews and studios in the entertainment industry. 
-                                By streamlining and centralizing all required tasks, and tracking and approving Startwork, TiM makes the entire process easier, more intuitive and secure by decreasing human error and enabling electronic approval from any device.
-                                </p>
-
-                                <h3 class='skill-type'>What am I doing?</h3>
-
-                                <p>
-                                As the senior product designer, I collaborate with engineers, project managers, stakeholders, and customer support to craft designs to improve and expand the experience of the TiM application. 
-                                From fine-tuning minor features to conceptualizing major interface overhauls to providing guidelines for consistency in application content, I make thoughtful, user-centric decisions to help make the process more efficient and friendly. 
-                                </p>
-                            {{!-- <p>Over 5 years of UX/UI design experience</p>
-                            <p>Over 6 years of visual design experience</p>
-                            <p>Quantitative results including:</p>
-                            <p class='indent'>Yearly traffic increase of over 100%<sup>†</sup></p>
-                            <p class='indent'>Facebook follower increase of over 70%<sup>†</sup></p>
-                            <p class='indent'>Twitter follower increase of over 160%<sup>†</sup></p>
-                            <p>Additional background in and experience with:</p>
-                            <p class='indent'>Psychology</p>
-                            <p class='indent'>Marketing</p>
-                            <p class='indent'>Communications</p>
-                            <p class='indent'>Management</p>
-                            <p class='indent'>Research &amp; Analytics</p>
-                            <p class='cap'><sup>†</sup>With CBE International</p> --}}
-                        </div>
-                    </div>
-                    <div class='desk-text-ani'>
-                        <h3 class='phil-title'>Current gig: UX/UI Designer at TiM/Media Services</h3>
-                        <div data-aos="fade-leftzz" class='res-overview'>
-                             
-
-                                <h3 class='skill-type'>What is TiM?</h3>
+                                <h3 class='gig-head'>What is TiM?</h3>
 
                                 <p>
                                 TiM (Time is Money) is a SaaS application, revolutionizing the digital onboarding process for production crews and studios in the entertainment industry. 
                                 By streamlining and centralizing all required tasks, and tracking and approving Startwork, TiM makes the entire process easier, more intuitive and secure by decreasing human error and enabling electronic approval from any device.
                                 </p>
 
-                                <h3 class='skill-type'>What am I doing?</h3>
+                                <h3 class='gig-head'>What am I doing?</h3>
 
                                 <p>
                                 As the senior product designer, I collaborate with engineers, project managers, stakeholders, and customer support to craft designs to improve and expand the experience of the TiM application. 
-                                From fine-tuning minor features to conceptualizing major interface overhauls to providing guidelines for consistency in application content, I make thoughtful, user-centric decisions to help make the process more efficient and friendly. 
+                                From fine-tuning minor features to conceptualizing major interface overhauls to providing guidelines for consistency in application content, I make thoughtful, user-centric decisions to help users engaged with the process more efficiently and friendly. 
                                 </p>
-                            {{!-- <p>Over 5 years of UX/UI design experience</p>
-                            <p>Over 6 years of visual design experience</p>
-                            <p>Quantitative results including:</p>
-                            <p class='indent'>Yearly traffic increase of over 100%<sup>†</sup></p>
-                            <p class='indent'>Facebook follower increase of over 70%<sup>†</sup></p>
-                            <p class='indent'>Twitter follower increase of over 160%<sup>†</sup></p>
-                            <p>Additional background in and experience with:</p>
-                            <p class='indent'>Psychology</p>
-                            <p class='indent'>Marketing</p>
-                            <p class='indent'>Communications</p>
-                            <p class='indent'>Management</p>
-                            <p class='indent'>Research &amp; Analytics</p>
-                            <p class='cap'><sup>†</sup>With CBE International</p> --}}
                         </div>
-                    </div>
                 </div>
                 <div class='des-wrap'>
                     <div class='skill-overview'>
-                        <div id='mob-skill'>
-                            <h3 class='skill-title'>some good-to-knows</h3>
-                            <img data-aos="zoom-in" class='des-icon' src='/images/icons/design.png' alt='design icon'>
+                    
+                            <img class='des-icon' src='/images/icons/dd.png' alt='design icon'>
+                            <h3 class='gtk-title'>Some Good-to-Knows</h3>
+                            <h4 class='parenthetical'>(Or is it &#8220;Goods-to-Know&#8221;?)</h4>
+                            
                             <div class='des-list'>
-                                <h3 class='skill-type'>I have...</h3>
+                                <h3 class='gtk-head'>I have...</h3>
                                     <ul>
                                         <li>Over 6 years of UX/UI design experience</li>
                                         <li>Over 7 years of visual design experience</li>
                                         <li>A background and deep interest in human social psychology</li>
+                                        <li>A background in business and marketing</li>
                                     </ul>
-                                <h3 class='skill-type'>I use...</h3>
+                                <h3 class='gtk-head'>I use...</h3>
                                         <ul>
                                             <li>Sketch</li>
+                                            <li>Figma</li>
                                             <li>Invision</li>
                                             <li>Adobe CC</li>
                                             <li>Zeplin</li>
                                             <li>HTML/CSS/JavaScript</li>
                                         </ul>
-                                {{!-- <div class='skills-cat'>
-                                    <h3 class='skills-head'>adobe creative suite</h3>
-                                    <h4 class='skills-subhead'>Photoshop</h4>
-                                    <h4 class='skills-subhead'>Illustrator</h4>
-                                    <h4 class='skills-subhead'>InDesign</h4>
-                                </div>
-                                <div class='skills-cat'>
-                                    <h3 class='skills-head'>wireframing &amp; prototyping</h3>
-                                    <h4 class='skills-subhead'>Sketch</h4>
-                                    <h4 class='skills-subhead'>Invision</h4>
-                                    <h4 class='skills-subhead'>Figma</h4>
-                                    <h4 class='skills-subhead'>Axure</h4>
-                                </div> --}}
                             </div>
-                        </div>
-                        <div id='desk-skill'>
-                            <div data-aos="fade-rightzz">
-                                <h3 class='skill-title'>some good-to-knows</h3>
-                                <div class='des-list'>
-                                    <h3 class='skill-type'>I have...</h3>
-                                        <ul>
-                                            <li>Over 6 years of UX/UI design experience</li>
-                                            <li>Over 7 years of visual design experience</li>
-                                            <li>A background and deep interest in human social psychology</li>
-                                        </ul>
-                                    <h3 class='skill-type'>I use...</h3>
-                                        <ul>
-                                            <li>Sketch</li>
-                                            <li>Invision</li>
-                                            <li>Adobe CC</li>
-                                            <li>Zeplin</li>
-                                            <li>HTML/CSS/JavaScript</li>
-                                        </ul>
-                                    {{!-- <div class='skills-cat'>
-                                        <h3 class='skills-head'>adobe creative suite</h3>
-                                        <h4 class='skills-subhead'>Photoshop</h4>
-                                        <h4 class='skills-subhead'>Illustrator</h4>
-                                        <h4 class='skills-subhead'>InDesign</h4>
-                                    </div>
-                                    <div class='skills-cat'>
-                                        <h3 class='skills-head'>wireframing &amp; prototyping</h3>
-                                        <h4 class='skills-subhead'>Sketch</h4>
-                                        <h4 class='skills-subhead'>Invision</h4>
-                                        <h4 class='skills-subhead'>Figma</h4>
-                                        <h4 class='skills-subhead'>Axure</h4>
-                                    </div> --}}
-                                </div>
-                            </div>
-                            <img data-aos="zoom-in" class='des-icon' src='/images/icons/design.png' alt='design icon'>
-                        </div>
+           
                     </div>
                 </div>
-                {{!-- <div class='dev-wrap'>
-                    <img data-aos="zoom-in" class='res-icon' src='/images/icons/development.png' alt='development icon'>
-                    <div class='mob-text-ani'>
-                        <div class='dev-list'>
-                            <h3 class='skill-type'> web development &amp; content management</h3>
-                            <div class='skills-cat'>
-                                <h3 class='skills-head'>html</h3>
-                                <h3 class='skills-head'>css</h3>
-                                <h4 class='skills-subhead'>Responsive Design</h4>
-                                <h3 class='skills-head'>javascript</h3>
-                                <h4 class='skills-subhead'>JQuery</h4>
-                                <h4 class='skills-subhead'>NodeJS</h4>
-                                <h3 class='skills-head'>git</h3>
-                                <h4 class='skills-subhead'>GitHub</h4>
-                            </div>
-                            <div class='skills-cat'>
-                                <h3 class='skills-head'>CMS</h3>
-                                <h4 class='skills-subhead'>Drupal</h4>
-                                <h4 class='skills-subhead'>WordPress</h4>
-                                <h3 class='skills-head'>google analytics</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='desk-text-ani'>
-                        <div data-aos="fade-leftzz" class='dev-list'>
-                            <h3 class='skill-type'> web development &amp; content management</h3>
-                            <div class='skills-cat'>
-                                <h3 class='skills-head'>html</h3>
-                                <h3 class='skills-head'>css</h3>
-                                <h4 class='skills-subhead'>Responsive Design</h4>
-                                <h3 class='skills-head'>javascript</h3>
-                                <h4 class='skills-subhead'>JQuery</h4>
-                                <h4 class='skills-subhead'>NodeJS</h4>
-                                <h3 class='skills-head'>git</h3>
-                                <h4 class='skills-subhead'>GitHub</h4>
-                            </div>
-                            <div class='skills-cat'>
-                                <h3 class='skills-head'>CMS</h3>
-                                <h4 class='skills-subhead'>Drupal</h4>
-                                <h4 class='skills-subhead'>WordPress</h4>
-                                <h3 class='skills-head'>google analytics</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
-            {{!--
-            <div class='skills'>
-                <h3 class='skills-title'>skills</h3>
-                <div class='skills-cat'>
-                    <h3 class='skills-head'>design / ux / ui</h3>
-                    <h4 class='skills-subhead'>Photoshop</h4>
-                    <p class='skills-details'>Graphic Creating</p>
-                    <p class='skills-details'>Illustration</p>
-                    <h4 class='skills-subhead'>Illustrator</h4>
-                    <p class='skills-details'>Vector Creating</p>
-                    <p class='skills-details'>Graphic Creating</p>
-                    <p class='skills-details'>Web Mockups</p>
-                    <p class='skills-details'>Wireframing</p>
-                    <h4 class='skills-subhead'>InDesign</h4>
-                    <p class='skills-details'>Book/Journal Layout</p>
-                    <p class='skills-details'>Printed Marketing</p>
-                    <h4 class='skills-subhead'>Axure/Sketch/InVision</h4>
-                    <p class='skills-details'>Web Mockups</p>
-                    <p class='skills-details'>Wireframing</p>
-                    <p class='skills-details'>Prototyping</p>
-                </div>
-                <div class='skills-cat'>
-                    <h3 class='skills-head'>web development</h3>
-                    <h4 class='skills-subhead'>HTML</h4>
-                    <h4 class='skills-subhead'>CSS</h4>
-                    <p class='skills-details'>Responsive Design</p>
-                    <h4 class='skills-subhead'>JavaScript</h4>
-                    <p class='skills-details'>JQuery</p>
-                    <p class='skills-details'>Node.js</p>
-                    <h4 class='skills-subhead'>Git</h4>
-                    <p class='skills-details'>GitHub</p>
 
-                </div>
-                <div class='skills-cat'>
-                    <h3 class='skills-head'>web content</h3>
-                    <h4 class='skills-subhead'>CMS</h4>
-                    <p class='skills-details'>WordPress</p>
-                    <p class='skills-details'>Drupal</p>
-                    <h4 class='skills-subhead'>Email</h4>
-                    <p class='skills-details'>MailChimp</p>
-                    <p class='skills-details'>Constant Contact</p>
-                    <h4 class='skills-subhead'>Google Analytics</h4>
-                </div>
-                <div class='skills-cat' id='last'>
-                    <h3 class='skills-head'>Other</h3>
-                    <h4 class='skills-subhead'>Photography</h4>
-                    <h4 class='skills-subhead'>Video Recording</h4>
-                    <p class='skills-details'>Premier Pro</p>
-                    <p class='skills-details'>YouTube</p>
-                    <h4 class='skills-subhead'>Audio Recording</h4>
-                    <p class='skills-details'>Audition</p>
-                    <p class='skills-details'>Audacity</p>
-                    <p class='skills-details'>SoundCloud</p>
-                    <h4 class='skills-subhead'>Social Media</h4>
-                    <h4 class='skills-subhead'>Podcasting</h4>
-                </div>
-            </div> --}}
         </div>
     </div>
     <div id='portfolio-container'>
         <div class='portfolio'>
             <a name='portfolio-anchor' class='portfolio-anchor1'></a>
-            <h2>here&#146;s some proof</h2>
+            <h2>Concept of Proof</h2>
             <p class='port-sub'>Click on any of the following categories for examples of work</p>
             <div class="port-menu">
                 <div class='type-title'>
-                    <a class="type-menu toggle" href="javascript:void(0);">UX / UI / Web Dev</a>
+                    <a class="type-menu toggle" id='dev-drop' href="javascript:void(0);">UX / UI</a>
                     <div class="inner examples-menu">
                         <div class='examples'>
                             <div class="dev-port">
-                                {{!--
-                                <p class='overview'>
-                                    I have designed these websites from scratch which are in concept stages of development, so they contain either limited or
-                                    dummy content (excluding my portfolio site). The exception is CBE International, which
-                                    only demonstrates my UX/UI process of the website.
-                                </p> --}}
-                                <div class='content'>
-                                    <div class='site-list'>
-                                        <div class='cbe-container'>
-                                            <a class='hover-link' href="cbe-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/cbe-ux-prev.png" alt="cbe ux preview" />
-                                                        <figcaption>
-                                                            <p>CBE International
-                                                                <br> Nonprofit</p>
-                                                            <p class='cap-sub'>UX/UI + Social Media</p>
-                                                        </figcaption>
-                                                    </figure>
-                                            </a>
-                                            </div>
-                                            {{!--
-                                            <div class='ux-btn-container'>
-                                                <a href='cbe-process' target='_blank'>
-                                                    <div class='ux-btn'>The Process</div>
-                                                </a>
-                                                <a href='http://www.cbeinternational.org' target='_blank'>
-                                                    <div class='ux-btn'>Live Website</div>
-                                                </a>
-                                            </div> --}}
+                                <div class='site-list'>
+                                    <div class='dev-container'>
+                                     <a class='hover-link' href="cbe-process" target='_blank'>
+                                    <div class="img-wrap">
+                                    <img src="/images/web-dev/cbe-ux-prev.png" alt="" />
+                                    
+                                        <div class='captext'><p class="captitle">CBE International</p>
+                                        <p class='capsub'>UX/UI</p>
                                         </div>
-
-                                        <div class='wts-container'>
-                                            <a class='hover-link' href="wts-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/wts-ux-prev.png" alt="words to song ux preview" />
-                                                        <figcaption>
-                                                            <p>Portfolio Site</p>
-                                                            <p class='cap-sub'>UX/UI + Web Dev</p>
-                                                        </figcaption>
-                                                    </figure>
-                                                </div>
-                                                {{!--
-                                                <div class='ux-btn-container'>
-                                                    <a href='wts-process' target='_blank'>
-                                                        <div class='ux-btn'>The Process</div>
-                                                    </a>
-                                                    <a href='www.wordstosong.me' target='_blank'>
-                                                        <div class='ux-btn'>Live Website</div>
-                                                    </a>
-                                                </div> --}}
-                                        </div>
-                                        <div class='sl-container'>
-                                            <a class='hover-link' href="sl-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/sl-ux-3-prev.png" alt="speak louder ux preview" />
-                                                        <figcaption>
-                                                            <p>Mobile-Responsive Webcomic</p>
-                                                            <p class='cap-sub'>UX/UI + Web Dev</p>
-                                                        </figcaption>
-                                                    </figure>
-                                                </div>
-                                        </div>
-                                        <div class='werdzahn-container'>
-                                            <a class='hover-link' href="werdzahn-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/werdzahn-ux-prev.png" alt="werdzahn ux preview" />
-                                                        <figcaption>
-                                                            <p>Entertainment + Culture Blog</p>
-                                                            <p class='cap-sub'>UX/UI + Web Dev</p>
-                                                        </figcaption>
-                                                    </figure>
-                                                </div>
-                                        </div>
-                                        <div class='tfd-container'>
-                                            <a class='hover-link' href="tfd-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/tfd-ux-prev.png" alt="toons for days ux preview" />
-                                                        <figcaption>
-                                                            <p>Cartoon Social Media App</p>
-                                                            <p class='cap-sub'>UX/UI</p>
-                                                        </figcaption>
-                                                    </figure>
-                                                </div>
-                                        </div>
-                                        {{!-- <div class='cd-container'>
-                                            <a class='hover-link' href="cd-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/cd-ux-prev.png" alt="cheat day ux preview" />
-                                                        <figcaption>
-                                                            <p>Accountability App</p>
-                                                            <p class='cap-sub'>UX/UI</p>
-                                                        </figcaption>
-                                                    </figure>
-                                                </div>
-                                        </div> --}}
-                                        <div class='sm-container'>
-                                            <a class='hover-link' href="sm-process" target='_blank'>
-                                                <div class="grid">
-                                                    <figure class="effect-jazz">
-                                                        <img src="/images/web-dev/sm-ux-prev.png" alt="show me ux preview" />
-                                                        <figcaption>
-                                                            <p>Live Events Suggestion App</p>
-                                                            <p class='cap-sub'>UX/UI</p>
-                                                        </figcaption>
-                                                    </figure>
-                                                </div>
-                                        </div>
+                                        <div class='caption-bg'></div>
+                                    <div class="overlay"></div>
+                                    </div></a>
                                     </div>
-                                </div>
+                                    <div class='dev-container'>
+                                     <a class='hover-link' href="wts-process" target='_blank'>
+                                    <div class="img-wrap">
+                                    <img src="/images/web-dev/wts-ux-prev.png" alt="" />
+                                    <div class="captext">
+                                        <p class='captitle'>Professional Portfolio</p>
+                                        <p class='capsub'>UX/UI + Development</p>
+                                        </div>
+                                        <div class='caption-bg'></div>
+                                    <div class="overlay"></div>
+                                    </div></a>
+                                    </div><div class='dev-container'>
+                                     <a class='hover-link' href="sl-process" target='_blank'>
+                                    <div class="img-wrap">
+                                    <img src="/images/web-dev/sl-ux-3-prev.png" alt="speak louder ux preview" alt="" />
+                                    <div class='captext'><p class="captitle">Webcomic</p>
+                                        <p class='capsub'>UX/UI + Development</p>
+                                        </div>
+                                        <div class='caption-bg'></div>
+                                    <div class="overlay"></div>
+                                    </div></a>
+                                    </div>
+                                    <div class='dev-container'>
+                                    <a class='hover-link' href="werdzahn-process" target='_blank'>
+                                    <div class="img-wrap">
+                                    <img src="/images/web-dev/werdzahn-ux-prev.png" alt="" />
+                                    
+                                        <div class='captext'><p class="captitle">Entertainment Blog</p>
+                                        <p class='capsub'>UX/UI</p>
+                                        </div>
+                                        <div class='caption-bg'></div>
+                                    <div class="overlay"></div>
+                                    </div></a>
+                                    </div>
+                                    {{!-- <div class='dev-container'>
+                                     <a class='hover-link' href="tfd-process" target='_blank'>
+                                    <div class="img-wrap">
+                                    <img src="/images/web-dev/tfd-ux-prev.png" alt="" />
+                                    
+                                        <div class='captext'><p class="captitle">Webcomic Social Media App</p>
+                                        <p class='capsub'>UX/UI</p>
+                                        </div>
+                                        <div class='caption-bg'></div>
+                                    <div class="overlay"></div>
+                                    </div></a>
+                                    </div> --}}
+                                    <div class='dev-container'>
+                                     <a class='hover-link' href="sm-process" target='_blank'>
+                                    <div class="img-wrap">
+                                    <img src="/images/web-dev/sm-ux-prev.png" alt="" />
+                                    
+                                        <div class='captext'><p class="captitle">Live Event Suggestion App</p>
+                                        <p class='capsub'>UX/UI</p>
+                                        </div>
+                                        <div class='caption-bg'></div>
+                                    <div class="overlay"></div>
+                                    </div></a>
+                                    </div>
+                                    </div>
+
+                                
                             </div>
                         </div>
+                        </div>
                     </div>
-                    <div class='type-title'>
-                        <a class="type-menu toggle" href="javascript:void(0);">Visual Design</a>
+                <div class='type-title'>
+                        <a class="type-menu toggle" id='vis-drop' href="javascript:void(0);">Visual Design</a>
                         <div class="inner examples-menu">
                             <div class='examples'>
                                 <div class='des-port'>
-                                    {{!--
-                                    <p class='overview'>
-                                        These designs are primarily examples of work I have done on professional projects. I have sprinkled in some designs for personal
-                                        projects I have been working on, as well.
-                                    </p> --}}
                                     <div class='logo-designs'>
-                                        <h3 class='des-subhead-logo'>logo designs</h3>
+                                        <h3 class='des-subhead'>Logo Designs</h3>
                                         <div class='logo-port'>
-                                            {{!--
-                                            <p class='overview'>
-                                                Drawing is a passion of mine, and I am continually trying to improve my craft while exploring different styles using graphic
-                                                tools. It also serves as a driving force in expanding my skills in graphic
-                                                design and web development.
-                                            </p> --}}
-                                            <div id="photos">
-                                                <div id="photo-gallery">
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/sl-logo.png" data-lightbox="image-1" data-title="Speak Louder Comic">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/sl-logo-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Speak Louder Comic</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                            <div class='site-list'>
+                                            <div class='des-container'>
+                                    
+                                                <a href="/images/graph-des/logos/sl-logo.png" data-effect="mfp-zoom-in" title="Speak Louder">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/sl-logo-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Speak Louder</p>
+                                                    <p class='capsub'>Webcomic</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/werdzahn-logo.png" data-lightbox="image-1" data-title="Werdzahn Website">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/werdzahn-logo.png" />
-                                                                    <figcaption>
-                                                                        <p>Werdzahn Website</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                     
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/werdzahn-logo.png" data-effect="mfp-zoom-in" title="Werdzahn">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/werdzahn-logo.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Werdzahn</p>
+                                                    <p class='capsub'>Entertainment Blog</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/wts-logo-update.png" data-lightbox="image-1" data-title="Words to Song Portfolio">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/wts-logo-update.png" />
-                                                                    <figcaption>
-                                                                        <p>Words to Song Portfolio</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/wts-logo-update.png" data-effect="mfp-zoom-in" title="Words to Song">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/wts-logo-update.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Words to Song</p>
+                                                    <p class='capsub'>Portfolio</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/dofp-logo.png" data-lightbox="image-1" data-title="Days of Feature Past Podcast">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/dofp-logo-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Days of Feature Past Podcast</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/dofp-logo.png" data-effect="mfp-zoom-in" title="Days of Feature Past">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/dofp-logo-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Days of Feature Past</p>
+                                                    <p class='capsub'>Podcast</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/tbr-update.png" data-lightbox="image-1" data-title="To Be Rebooted Podcast">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/tbr-update-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>To Be Rebooted Podcast</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/tbr-update.png" data-effect="mfp-zoom-in" title="To Be Rebooted">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/tbr-update-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">To Be Rebooted</p>
+                                                    <p class='capsub'>Podcast</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/tfd-logo.png" data-lightbox="image-1" data-title="Toons for Days App">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/tfd-logo.png" />
-                                                                    <figcaption>
-                                                                        <p>Toons for Days App</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/tfd-logo.png" data-effect="mfp-zoom-in" title="Toons for Days">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src='/images/graph-des/logos/tfd-logo.png' />
+                                                
+                                                    <div class='captext'><p class="captitle">Toons for Days</p>
+                                                    <p class='capsub'>Website</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/cd-logo.png" data-lightbox="image-1" data-title="Cheat Day App">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/cd-logo-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Cheat Day App</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/cd-logo.png" data-effect="mfp-zoom-in" title="Cheat Day App">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/cd-logo-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Cheat Day</p>
+                                                    <p class='capsub'>App</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/sm-logo.png" data-lightbox="image-1" data-title="Show Me App">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/sm-logo-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Show Me App</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/sm-logo.png" data-effect="mfp-zoom-in" title="Show Me App">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/sm-logo-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Show Me</p>
+                                                    <p class='capsub'>App</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/cbe-logo1.png" data-lightbox="image-1" data-title="Main Logo Concept #1 (CBE)">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/cbe-logo1-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Main Logo Concept #1</p>
-                                                                        <p class='cap-sub'>CBE International</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/cbe-logo1.png" data-effect="mfp-zoom-in" title="CBE International (Concept 1)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/cbe-logo1-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">CBE International (Concept 1)</p>
+                                                    <p class='capsub'>Non-Profit</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/cbe-logo2.png" data-lightbox="image-1" data-title="Main Logo Concept #2 (CBE)">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/cbe-logo2-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Main Logo Concept #2</p>
-                                                                        <p class='cap-sub'>CBE International</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/cbe-logo2.png" data-effect="mfp-zoom-in" title="CBE International (Concept 2)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/cbe-logo2-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">CBE International (Concept 2)</p>
+                                                    <p class='capsub'>Non-Profit</p>
                                                     </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/arise-logo1.png" data-lightbox="image-1" data-title="Arise Blog Logo Concept #1 (CBE)">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/arise-logo1-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Arise Blog Concept #1</p>
-                                                                        <p class='cap-sub'>CBE International</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/arise-logo1.png" data-effect="mfp-zoom-in" title="Arise Blog (Concept 1)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/arise-logo1-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Arise (Concept 1)</p>
+                                                    <p class='capsub'>Blog</p>
                                                     </div>
-                                                    {{!--
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/arise-logo2.png" data-lightbox="image-1" data-title="Arise Blog Logo Concept #2 (CBE)">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/arise-logo2-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Arise Blog Concept #2 (CBE)</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
-                                                    </div> --}}
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/logos/arise-logo3.png" data-lightbox="image-1" data-title="Arise Blog Logo Concept #2 (CBE)">
-                                                            <div class="grid">
-                                                                <figure class="effect-jazz">
-                                                                    <img class='img-prev' src="/images/graph-des/logos/arise-logo3-prev.png" />
-                                                                    <figcaption>
-                                                                        <p>Arise Blog Concept #2</p>
-                                                                        <p class='cap-sub'>CBE International</p>
-                                                                    </figcaption>
-                                                                </figure>
-                                                            </div>
-                                                        </a>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/logos/arise-logo3.png" data-effect="mfp-zoom-in" title="Arise Blog (Concept 2)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/logos/arise-logo3-prev.png" />
+                                                
+                                                    <div class='captext'><p class="captitle">Arise (Concept 2)</p>
+                                                    <p class='capsub'>Blog</p>
                                                     </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                </div>
+                                            
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class='digital-designs'>
-                                        <h3 class='des-subhead'>designs for digital</h3>
+                                        <h3 class='des-subhead'>Designs for Digital Use</h3>
                                         <div class='dig-port'>
-                                            {{!--
-                                            <p class='overview'>
-                                                Drawing is a passion of mine, and I am continually trying to improve my craft while exploring different styles using graphic
-                                                tools. It also serves as a driving force in expanding my skills in graphic
-                                                design and web development.
-                                            </p> --}}
-                                            <div id="photos">
-                                                <div id="photo-gallery">
-                                                    <div class='port-image'>
+                                            <div class='site-list'>
+                                            <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-30.png" data-effect="mfp-zoom-in" title="Conference Graphic: 30 Days (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-30-prev-alt.png" />
+                                                    <div class='captext'><p class="captitle">Conference Graphic: 30 Days </p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-con-quote.png" data-effect="mfp-zoom-in" title="Conference Graphic: Quote (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-con-quote-prev.png" />
+                                                    <div class='captext'><p class="captitle">Conference Graphic: Quote </p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-fl.png" data-effect="mfp-zoom-in" title="Conference Promo (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-fl-prev.png" />
+                                                    <div class='captext'><p class="captitle">Conference Promo</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-founder.png" data-effect="mfp-zoom-in" title="Founder Memorial Graphic (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-founder-prev.png" />
+                                                    <div class='captext'><p class="captitle">Founder Memorial Graphic</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-gtmd.png" data-effect="mfp-zoom-in" title="Fundraiser Graphic (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-gtmd-prev.png" />
+                                                    <div class='captext'><p class="captitle">Fundraiser Graphic</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                 <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-sale.png" data-effect="mfp-zoom-in" title="Bookstore Sale Ad (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-sale-prev-alt.png" />
+                                                    <div class='captext'><p class="captitle">Bookstore Sale Ad</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-twit.png" data-effect="mfp-zoom-in" title="Quote Graphic (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-twit-prev.png" />
+                                                    <div class='captext'><p class="captitle">Quote Graphic</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/newsletter-pie.png" data-effect="mfp-zoom-in" title="Newsletter Graphic (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/newsletter-pie-prev.png" />
+                                                    <div class='captext'><p class="captitle">Newsletter Graphic</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/cbe-finland-ad.png" data-effect="mfp-zoom-in" title="Conference Ad (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/cbe-finland-ad-prev.png" />
+                                                    <div class='captext'><p class="captitle">Conference Ad</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/digital/infographic-icons.png" data-effect="mfp-zoom-in" title="Infographic Icons (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/digital/infographic-icons-prev.png" />
+                                                    <div class='captext'><p class="captitle">Infographic Icons</p>
+                                                    <p class='capsub'>CATS Software</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                </div>
+                                            {{!-- <div id="photos">
+                                                <div id="photo-gallery"> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-30.png" data-lightbox="image-2" data-title="Social Media 2015 Conference Graphic: 30 Days (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -755,9 +517,9 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
-                                                        <a href="/images/graph-des/digital/cbe-con-quote.png" data-lightbox="image-2" data-title="Social Media 2015 Conference Graphic: Theme (CBE)">
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
+                                                        <a href="/images/graph-des/digital/cbe-con-quote.png" data-lightbox="image-2" data-title="Conference Graphic: Theme (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
                                                                     <img class='img-prev' src="/images/graph-des/digital/cbe-con-quote-prev.png" />
@@ -768,8 +530,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-fl.png" data-lightbox="image-2" data-title="Promo for 2017 Conference: Greetings From (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -781,8 +543,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-founder.png" data-lightbox="image-2" data-title="Founder Memorial Graphic (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -794,8 +556,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-gtmd.png" data-lightbox="image-2" data-title="GTMD 2015 Graphic (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -807,8 +569,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-sale.png" data-lightbox="image-2" data-title="BHM Book Sale (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -820,8 +582,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-twit.png" data-lightbox="image-2" data-title="Social Media Quote Graphic (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -833,8 +595,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/newsletter-pie.png" data-lightbox="image-2" data-title="Email Newsletter Graphic (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -846,8 +608,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/digital/cbe-finland-ad.png" data-lightbox="image-2" data-title="Save the Date 2018 Finland Conference (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -872,21 +634,105 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                         
                                     <div class='print-designs'>
-                                        <h3 class='des-subhead'>designs for print</h3>
+                                        <h3 class='des-subhead'>Designs for Print Use</h3>
                                         <div class='print-port'>
-                                            {{!--
-                                            <p class='overview'>
-                                                Drawing is a passion of mine, and I am continually trying to improve my craft while exploring different styles using graphic
-                                                tools. It also serves as a driving force in expanding my skills in graphic
-                                                design and web development.
-                                            </p> --}}
-                                            <div id="photos">
+                                           
+                                            <div class='site-list'>
+                                            <div class='des-container'>
+                                                <a href="/images/graph-des/print/cbe-book-cover-spread.png" data-effect="mfp-zoom-in" title="Book Cover & Spread (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/cbe-book-cover-spread-prev.png" />
+                                                    <div class='captext'><p class="captitle">Book Cover &amp; Spread</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                 <div class='des-container'>
+                                                <a href="/images/graph-des/print/cbe-con-booklet.png" data-effect="mfp-zoom-in" title="Conference Booklet (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/cbe-con-booklet-prev.png" />
+                                                    <div class='captext'><p class="captitle">Conference Booklet</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/print/cbe-con-full.png" data-effect="mfp-zoom-in" title="Conference Poster (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/cbe-con-full-prev.png" />
+                                                    <div class='captext'><p class="captitle">Conference Poster</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/print/cbe-orlando-brochure.png" data-effect="mfp-zoom-in" title="Conference Brochure (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/cbe-orlando-brochure-prev.png" />
+                                                    <div class='captext'><p class="captitle">Conference Brochure</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/print/cbe-dvd-ad.png" data-effect="mfp-zoom-in" title="DVD Series Ad (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/cbe-dvd-ad-prev.png" />
+                                                    <div class='captext'><p class="captitle">DVD Series Ad</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/print/cbe-xmas-sale.png" data-effect="mfp-zoom-in" title="Christmas Sale Ad (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/cbe-xmas-sale-prev.png" />
+                                                    <div class='captext'><p class="captitle"> Christmas Ad Sale</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/print/ollymoss-poster.png" data-effect="mfp-zoom-in" title="Olly Moss Poster">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/ollymoss-poster-prev.png" />
+                                                    <div class='captext'><p class="captitle"> Olly Moss Poster</p>
+                                                    <p class='capsub'>MCTC Project</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/graph-des/print/mbd-cover.png" data-effect="mfp-zoom-in" title="Book Cover (CBE International)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="/images/graph-des/print/mbd-cover-prev.png" />
+                                                    <div class='captext'><p class="captitle"> Book Cover</p>
+                                                    <p class='capsub'>CBE International</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                </div>
+                                            {{!-- <div id="photos">
                                                 <div id="photo-gallery">
                                                     <div class='port-image'>
                                                         <a href="/images/graph-des/print/cbe-book-cover-spread.png" data-lightbox="image-3" data-title="Still Side By Side Covers/Spread (CBE)">
@@ -900,8 +746,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/print/cbe-con-booklet.png" data-lightbox="image-3" data-title="Becoming New 2015 Conference Booklet (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -913,8 +759,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/print/cbe-con-full.png" data-lightbox="image-3" data-title="Mutual By Design 2017 Conference Poster (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -926,14 +772,14 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
+                                                    </div> --}}
                                                     {{!--
                                                     <div class='port-image'>
                                                         <a href="/images/graph-des/print/cbe-con-spread.png" data-lightbox="image-3" data-title="Mutual By Design 2017 Conference Ad (CBE)">
                                                             <img src="/images/graph-des/print/cbe-con-spread-prev.png">
                                                         </a>
                                                     </div> --}}
-                                                    <div class='port-image'>
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/print/cbe-orlando-brochure.png" data-lightbox="image-3" data-title="Mutual By Design 2017 Conference Brochure (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -945,8 +791,8 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
-                                                    <div class='port-image'>
+                                                    </div> --}}
+                                                    {{!-- <div class='port-image'>
                                                         <a href="/images/graph-des/print/cbe-dvd-ad.png" data-lightbox="image-3" data-title="DVD Series Ad (CBE)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
@@ -985,7 +831,7 @@
                                                         </a>
                                                     </div>
                                                     <div class='port-image'>
-                                                        <a href="/images/graph-des/print/mbd-cover.png" data-lightbox="image-3" data-title="Mutual By Design Book Cover (CBE)">
+                                                        <a href="/images/graph-des/print/mbd-cover.png" data-lightbox="image-3" data-title="Mutual By Design Book Cover & Spread (CBE International)">
                                                             <div class="grid">
                                                                 <figure class="effect-jazz">
                                                                     <img class='img-prev' src="/images/graph-des/print/mbd-cover-prev.png" />
@@ -996,27 +842,131 @@
                                                                 </figure>
                                                             </div>
                                                         </a>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                
                             </div>
-                        </div>
-                    </div>
-                    <div class='type-title'>
-                        <a class="type-menu toggle" href="javascript:void(0);">Illustrations</a>
+                            <div class='type-title'>
+                        <a class="type-menu toggle" id='ill-drop' href="javascript:void(0);">Illustrations</a>
                         <div class="inner examples-menu">
                             <div class='examples'>
                                 <div class='ill-port'>
-                                    {{!--
-                                    <p class='overview'>
-                                        Drawing is a passion of mine, and I am continually trying to improve my craft while exploring different styles using graphic
-                                        tools. It also serves as a driving force in expanding my skills in graphic design
-                                        and web development.
-                                    </p> --}}
-                                    <div id="photos">
+                                    <div class='site-list'>
+                                            <div class='des-container'>
+                                                <a href="/images/ill/game.png" data-effect="mfp-zoom-in" title="Friends Playing Game">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/game-prev.png" />
+                                                    <div class='captext'><p class="captitle">Friends Playing Game</p>
+                                                    <p class='capsub'>Digital Cartoon</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/last-resistance.png" data-effect="mfp-zoom-in" title="The Last Game Session">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/last-resistance-prev.png" />
+                                                    <div class='captext'><p class="captitle">The Last Game Session</p>
+                                                    <p class='capsub'>Digital Cartoon</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/sufjan.png" data-effect="mfp-zoom-in" title="Sufjan Stevens">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/sufjan-prev.png" />
+                                                    <div class='captext'><p class="captitle">Sufjan Stevens</p>
+                                                    <p class='capsub'>Digital Cartoon</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/bb.png" data-effect="mfp-zoom-in" title="Breaking Bad">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/bb-prev.png" />
+                                                    <div class='captext'><p class="captitle">Breaking Bad</p>
+                                                    <p class='capsub'>Digital Cartoon</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/catgs.png" data-effect="mfp-zoom-in" title="Blog Comic #1 (CATS Software)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/cats-prev.png" />
+                                                    <div class='captext'><p class="captitle">Blog Comic #1</p>
+                                                    <p class='capsub'>CATS Software</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/cats-two.png" data-effect="mfp-zoom-in" title="Blog Comic #2 (CATS Software)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/cats-two-prev.png" />
+                                                    <div class='captext'><p class="captitle">Blog Comic #2</p>
+                                                    <p class='capsub'>CATS Software</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/scrabble.png" data-effect="mfp-zoom-in" title="Scrabble Happenstance">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/scrabble-prev.png" />
+                                                    <div class='captext'><p class="captitle">Scrabble Happenstance</p>
+                                                    <p class='capsub'>MCTC Project</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/iver.png" data-effect="mfp-zoom-in" title="Justin Vernon (Bon Iver)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/iver-prev.png" />
+                                                    <div class='captext'><p class="captitle">Justin Vernon (Bon Iver)</p>
+                                                    <p class='capsub'>Digital Drawing</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/coldplay.png" data-effect="mfp-zoom-in" title="Chris Martin (Coldplay)">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/coldplay-prev.png" />
+                                                    <div class='captext'><p class="captitle">Chris Martin (Coldplay)</p>
+                                                    <p class='capsub'>Digital Drawing</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class='des-container'>
+                                                <a href="/images/ill/simon-garfunk.png" data-effect="mfp-zoom-in" title="Simon & Garfunkel">
+                                                <div class="img-wrap">
+                                                <img class='img-prev' src="images/ill/simon-garfunk-prev.png" />
+                                                    <div class='captext'><p class="captitle">Simon &amp; Garfunkel</p>
+                                                    <p class='capsub'>Digital Drawing</p>
+                                                    </div>
+                                                    <div class='caption-bg'></div>
+                                                <div class="overlay"></div>
+                                                </div></a>
+                                                </div>
+                                                </div>
+                                    {{!-- <div id="photos">
                                         <div id="photo-gallery">
                                             <div class='port-image'>
                                                 <a href="/images/ill/game.png" data-lightbox="image-4" data-title="Playing Cranium">
@@ -1029,8 +979,8 @@
                                                         </figure>
                                                     </div>
                                                 </a>
-                                            </div>
-                                            <div class='port-image'>
+                                            </div> --}}
+                                            {{!-- <div class='port-image'>
                                                 <a href="/images/ill/last-resistance.png" data-lightbox="image-4" data-title="The Last Resistance">
                                                     <div class="grid">
                                                         <figure class="effect-jazz">
@@ -1065,8 +1015,8 @@
                                                         </figure>
                                                     </div>
                                                 </a>
-                                            </div>
-                                            <div class='port-image'>
+                                            </div> --}}
+                                            {{!-- <div class='port-image'>
                                                 <a href="/images/ill/cats.png" data-lightbox="image-4" data-title="CATS Comic #1">
                                                     <div class="grid">
                                                         <figure class="effect-jazz">
@@ -1138,44 +1088,14 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                        </div>
-                                    </div>
+                                        </div> --}}
+                                  
                                 </div>
 
                             </div>
                         </div>
                     </div>
+                        </div>
+                    </div>
+                
                 </div>
-            </div>
-    </div>
-    </div>
-  
-    {{!-- <div id='contact-container'>
-        <div class='contact'>
-            <a name='contact-anchor'>
-                <h2>let&#146;s connect</h2>
-            </a>
-            <div class='contact-wrap'>
-                <a class='contact-link' href="mailto:jacob.kim.johnson@gmail.com">
-                    <img class='contact-icon' src="/images/icons/email.png" alt="email icon" />
-                </a>
-                <p class='contact-text'>jacob.kim.johnson@gmail.com</p>
-            </div>
-            <div class='contact-wrap'>
-                <a class='contact-link' href="tel:608-790-7675">
-                    <img class='contact-icon' src="/images/icons/phone.png" alt="phone icon" />
-                </a>
-                <p class='contact-text'>(608) 790-7675</a>
-                </p>
-            </div>
-            <div class='contact-wrap'>
-                <a class='contact-link' href="https://www.linkedin.com/in/jacobkimjohnson/" target='_blank'>
-                    <img class='contact-icon' src="/images/icons/linkedin.png" alt="linkedin icon" />
-                </a>
-            </div>
-        </div>
-
-    </div> --}}
-
-    
-{{!-- </div> --}}
