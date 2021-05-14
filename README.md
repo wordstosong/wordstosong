@@ -1,4 +1,4 @@
-# Words to Song
+# Jacob Kim Johnson Portfolio
 
 This is the repository for the portfolio site [**Words to Song**][1] 
 
